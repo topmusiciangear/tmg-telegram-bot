@@ -319,17 +319,18 @@
         "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-    {
-      "nombre": "Roland TR-8S",
-      "categoria": "bateria",
-      "precio_base": 699,
+{
+      "nombre": "Yamaha DXR12 mkII",
+      "categoria": "pa",
+      "precio_base": 799,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Roland-TR-8S/art-SYN0006408-000?sv1=affiliate&sv_campaign_id=2891111",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-DXR12mkII-12-LF-1-75-VC-HF-1100W/art-PAH0021280-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DXR12mkII-12-Active-PA-Speaker/2XUJ?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     },
     {
       "nombre": "Fender Blues Junior IV",
@@ -340,20 +341,21 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Blues-Junior-IV-Black-/art-GIT0044445-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-1x12-15W-Valve-Combo/28KX?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-    {
-      "nombre": "Boss Katana 100 Gen 3",
+{
+      "nombre": "Boss DD-8 Digital Delay",
       "categoria": "guitarras",
-      "precio_base": 349,
+      "precio_base": 149,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-Katana-100-Gen-3-Combo/art-GIT0061744-000?sv1=affiliate&sv_campaign_id=2891111",
+        "amazon": "https://www.amazon.co.uk/dp/B07YDG7RLC?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-DD-8-Digital-Delay/art-GIT0051369-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/34Y8?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     },
 {
       "nombre": "Sony MDR-7506",
@@ -377,20 +379,21 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Marshall-DSL40CR-2-Channel-Valve-Combo-40W-Black-/art-GIT0043112-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40W-1x12-Valve-Combo-w--Reverb/26GY?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-    {
-      "nombre": "Ampeg SVT-410 HLF",
+{
+      "nombre": "Vox AC30",
       "categoria": "guitarras",
       "precio_base": 699,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Ampeg-SVT-410-HLF-Cabinet-400-Watt-4-Ohm/art-BAS0001030-000?sv1=affiliate&sv_campaign_id=2891111",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/VOX-AC30S1/art-GIT0046620-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-AC30C2/CE8?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     },
     {
       "nombre": "Fender Rumble 500 V3",
@@ -401,7 +404,7 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Rumble-500-V3-Combo/art-BAS0007196-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-2x10-Bass-Combo/X0R?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -465,10 +468,23 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Voice-EV-ZLX-12P-G2-mit-Stativ/art-PAH463?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ZLX-12P-G2-12-Active-PA-Speaker/66EZ?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-    {
+{
+      "nombre": "QSC K12.2",
+      "categoria": "pa",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B06Y477LND?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/QSC-K12-2/art-PAH0019051-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/QSC-K122-12-Active-PA-Speaker/1XWB?sv1=affiliate&sv_campaign_id=2891111"
+      }
+    }
+    },
+{
       "nombre": "JBL PRX ONE",
       "categoria": "pa",
       "precio_base": 1599,
@@ -477,20 +493,9 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/JBL-PRX-ONE/art-PAH0022538-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/3ZPI?sv1=affiliate&sv_campaign_id=2891111"
       }
-    },
-    {
-      "nombre": "Yamaha DXR12 mkII",
-      "categoria": "pa",
-      "precio_base": 799,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-DXR12mkII-12-LF-1-75-VC-HF-1100W/art-PAH0021280-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
-        "gear4music": ""
-      }
+    }
     },
     {
       "nombre": "Ibanez TS9 Tubescreamer",
@@ -501,7 +506,7 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Ibanez-TS9-Classic-Tubescreamer/art-GIT0000149-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-TS9-Tube-Screamer/6RI?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -576,6 +581,69 @@
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5?sv1=affiliate&sv_campaign_id=2891111",
         "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Soundtoys 5",
+      "categoria": "plugins",
+      "precio_base": 299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S?sv1=affiliate&sv_campaign_id=2891111",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Melodyne 5 Essential",
+      "categoria": "plugins",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Celemony-Melodyne-5-Essential/3NGH?sv1=affiliate&sv_campaign_id=2891111",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Komplete 26 Ultimate",
+      "categoria": "plugins",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Komplete-26-Ultimate/82LX?sv1=affiliate&sv_campaign_id=2891111",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Boss Katana 50 MKII",
+      "categoria": "guitarras",
+      "precio_base": 229,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/G4M/Boss-Katana-50-MKII-1x12-Combo/6OAD?sv1=affiliate&sv_campaign_id=2891111"
+      }
+    },
+    {
+      "nombre": "Boss TU-3 Chromatic Tuner",
+      "categoria": "guitarras",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Pedal-Chromatic-Tuner/C7M?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
