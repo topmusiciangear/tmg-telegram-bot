@@ -152,13 +152,13 @@ TIENDA_NOMBRES = {
     "pluginboutique": "🔌 Plugin Boutique",
 }
 
-def enviar_telegram(mensaje):
+def enviar_telegram(mensaje, canal_id=CANAL_ID):
     if not TELEGRAM_TOKEN:
         print("No TELEGRAM_TOKEN")
         return
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
-        "chat_id": CANAL_ID,
+        "chat_id": canal_id,
         "text": mensaje,
         "parse_mode": "HTML",
         "disable_web_page_preview": False,
@@ -191,9 +191,6 @@ def main():
     config = data.get("config", {})
     descuento_min = config.get("descuento_minimo", DESCUENTO_MINIMO)
     canal = config.get("canal_id", CANAL_ID)
-
-    global CANAL_ID
-    CANAL_ID = canal
 
     cambios = []
 
@@ -235,7 +232,7 @@ def main():
             c["producto"], c["tienda"],
             c["precio_viejo"], c["precio_nuevo"], c["url"]
         )
-        enviar_telegram(msg)
+        enviar_telegram(msg, canal_id=canal)
         print(f"Oferta: {c['producto']['nombre']} - {c['tienda']} - {c['precio_viejo']}->{c['precio_nuevo']}")
 
     if not cambios:
