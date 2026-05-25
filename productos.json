@@ -4,228 +4,309 @@
       "nombre": "Focusrite Scarlett 2i2 4th Gen",
       "categoria": "interfaces",
       "precio_base": 199,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0C5JRTS3Y?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/focusrite-scarlett-2i2-4th-gen/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/focusrite-scarlett-2i2-4th-gen-usb-c-audio-interface?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-USB-C-Audio-Interface/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B0C5JRTS3Y?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Focusrite-Scarlett-2i2-4th-Gen/art-PCM0017719-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "Shure SM7B",
       "categoria": "microfonos",
       "precio_base": 399,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0002E4Z8M?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/shure-sm7b/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/shure-sm7b-dynamic-microphone?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Microphone/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B0002E4Z8M?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-SM7B/art-REC0000211-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
-    {
-      "nombre": "Beyerdynamic DT 770 Pro",
-      "categoria": "auriculares",
-      "precio_base": 159,
-      "moneda": "$",
-      "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0006NLAMS?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/beyerdynamic-dt-770-pro/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/beyerdynamic-dt-770-pro-250-ohm-closed-studio-headphones?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Beyerdynamic-DT-770-Pro-250-Ohm-Closed-Studio-Headphones/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
-      }
-    },
-    {
-      "nombre": "Sennheiser HD 600",
-      "categoria": "auriculares",
-      "precio_base": 399,
-      "moneda": "$",
-      "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B00004SY4H?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/sennheiser-hd-600/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/sennheiser-hd-600-open-back-headphones?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sennheiser-HD-600-Open-Back-Headphones/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
-      }
-    },
-    {
+{
       "nombre": "Audio-Technica ATH-M50x",
       "categoria": "auriculares",
       "precio_base": 169,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B00HVLUR86?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/audio-technica-ath-m50x/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/audio-technica-ath-m50x-professional-monitor-headphones?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audio-Technica-ATH-M50x-Professional-Monitor-Headphones/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B00HVLUR86?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M50X/art-REC0011129-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
+    }
+    },
+{
+      "nombre": "Genelec 8040B",
+      "categoria": "monitores",
+      "precio_base": 799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B00HUOKDSI?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Genelec-8040-BMM/art-REC0016882-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    }
+    },
+{
+      "nombre": "Yamaha HS8",
+      "categoria": "monitores",
+      "precio_base": 349,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B00CHZG75S?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-HS-8/art-REC0010559-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    }
     },
     {
       "nombre": "Sony MDR-7506",
       "categoria": "auriculares",
       "precio_base": 99,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B000AJIF4E?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/sony-mdr-7506/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/sony-mdr-7506-studio-monitor-headphones?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-Studio-Headphones/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Sony-MDR-7506/art-REC0000388-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "Shure SM57",
       "categoria": "microfonos",
       "precio_base": 99,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0000AEY2G?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/shure-sm57/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/shure-sm57-instrument-microphone?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B0000AQRST?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-SM-57-LCE-dynamic-Microphone/art-PAH0000162-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "Shure SM58",
       "categoria": "microfonos",
       "precio_base": 99,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0000AEY2G?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/shure-sm58/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/shure-sm58-vocal-microphone?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM58-Vocal-Microphone/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B000CZ0R42?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-SM-58-SE-with-Switch-dynamic-Microphone/art-PAH0000164-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "Rode NT1-A",
       "categoria": "microfonos",
       "precio_base": 269,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0002E4Z8M?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/rode-nt1-a/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/rode-nt1-a-large-diaphragm-condenser-microphone?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Rode-NT1-A-Large-Diaphragm-Condenser-Microphone/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B0CKVD62NX?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Rode-NT1-AI1-Complete-Studio-Kit/art-REC0013538-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
-    {
-      "nombre": "Yamaha HS8",
+{
+      "nombre": "Kali Audio LP-6 V2",
       "categoria": "monitores",
-      "precio_base": 349,
-      "moneda": "$",
+      "precio_base": 199,
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B00G7WF6UU?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/yamaha-hs8/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/yamaha-hs8-studio-monitor?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-8-Inch-Studio-Monitor/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B07KMKWMMV?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Kali-Audio-LP-6-2nd-Wave/art-REC0015716-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
+    }
     },
     {
       "nombre": "KRK Rokit 7 G5",
       "categoria": "monitores",
       "precio_base": 249,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B09D3S9X3R?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/krk-rokit-7-g5/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/krk-rokit-7-g5-studio-monitor?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-Rokit-7-G5-Studio-Monitor/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B09D3S9X3R?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/KRK-Rokit-RP7-G5/art-REC0016600-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "SSL 2+ MKII",
       "categoria": "interfaces",
       "precio_base": 299,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0C5JRTS3Y?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/ssl-2-plus-mkii/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/ssl-2-plus-mkii-usb-c-audio-interface?irgwc=1&irpid=7292297",
-        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/66-Multi-FX/14794-ssl-2-mkii?a_aid=6a01e859cbe1a"
+        "amazon": "https://www.amazon.co.uk/dp/B0C5JRTS3Y?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/SSL-Solid-State-Logic-SSL2-MKII/art-PCM0018224-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
       }
     },
     {
       "nombre": "Universal Audio Apollo Twin X",
       "categoria": "interfaces",
       "precio_base": 899,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B07R9L1Z5Q?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/universal-audio-apollo-twin-x/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/universal-audio-apollo-twin-x-duo-thunderbolt-3-audio-interface?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-Twin-X-Duo-Thunderbolt-3-Audio-Interface/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-Twin-X-DUO-Gen2-Essential-/art-PCM0018199-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "RME Babyface Pro FS",
       "categoria": "interfaces",
       "precio_base": 949,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B07R9L1Z5Q?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/rme-babyface-pro-fs/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/rme-babyface-pro-fs-usb-audio-interface?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS-USB-Audio-Interface/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B00XU0DYLE?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/RME-Babyface-Pro-FS/art-PCM0016147-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "AKG C414 XLII",
       "categoria": "microfonos",
       "precio_base": 1100,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0002E4Z8M?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/akg-c414-xlii/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/akg-c414-xlii-large-diaphragm-condenser-microphone?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/AKG-C414-XLII-Large-Diaphragm-Condenser-Microphone/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B006VSM8WS?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/AKG-C-414-XL-II/art-REC0007446-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "Neumann U 87 Ai",
       "categoria": "microfonos",
       "precio_base": 3599,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0002E4Z8M?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/neumann-u-87-ai/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/neumann-u-87-ai-studio-condenser-microphone?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-U-87-Ai-Studio-Condenser-Microphone/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B0C1TLLLDT?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-U87-Ai-Studio-Set/art-REC0009533-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
-    {
-      "nombre": "Adam A7V",
+{
+      "nombre": "JBL 305P MkII",
       "categoria": "monitores",
-      "precio_base": 799,
-      "moneda": "$",
+      "precio_base": 199,
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0C5JRTS3Y?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/adam-a7v/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/adam-a7v-studio-monitor?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Adam-A7V-7-Inch-Studio-Monitor/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B088VSBV65?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/JBL-305P-MKII/art-REC0013911-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
+    }
     },
     {
       "nombre": "Universal Audio Volt 2",
       "categoria": "interfaces",
       "precio_base": 189,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0C5JRTS3Y?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/universal-audio-volt-2/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/universal-audio-volt-2-usb-c-audio-interface?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Volt-2-USB-C-Audio-Interface/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B09J1W1TYN?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-VOLT-2/art-PCM0017063-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
       }
     },
     {
       "nombre": "Electro-Voice RE20",
       "categoria": "microfonos",
       "precio_base": 449,
-      "moneda": "$",
+      "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.com/dp/B0002E4Z8M?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.de/en_GB/EUR/electro-voice-re20/art-DKT0026895-000",
-        "andertons": "https://www.andertons.co.uk/electro-voice-re20-dynamic-microphone?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Electro-Voice-RE20-Dynamic-Microphone/3A1F?sv1=affiliate&sv_campaign_id=2891111&awc=1117_1779728636_5c875bd629e3ed91ad5ab5f2f5878ae1"
+        "amazon": "https://www.amazon.co.uk/dp/B08P7QTZM5?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Voice-RE-20-Black/art-REC0016738-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Fender Player Jazz Bass",
+      "categoria": "guitarras",
+      "precio_base": 899,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B07CTVBN3M?tag=topmusicg-20",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Squier Affinity Precision Bass",
+      "categoria": "guitarras",
+      "precio_base": 299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B091BGTWQ1?tag=topmusicg-20",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Audient iD14 MKII",
+      "categoria": "interfaces",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B08SJD466P?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Audient-iD14-MkII-Mixing-Set/art-REC231?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "MOTU M2",
+      "categoria": "interfaces",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/MOTU-M2/art-PCM0016100-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Sennheiser HD 490 Pro",
+      "categoria": "auriculares",
+      "precio_base": 299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-490-Pro/art-REC0016604-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Fender Player Jazzmaster",
+      "categoria": "guitarras",
+      "precio_base": 899,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B0D2LNZ9F7?tag=topmusicg-20",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
       }
     }
   ],
