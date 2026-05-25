@@ -1,10 +1,13 @@
 import json
 import os
 import re
+import socket
 import sys
 import time
 import requests
 from datetime import datetime
+
+socket.setdefaulttimeout(15)
 
 def log(msg):
     print(msg, flush=True)
