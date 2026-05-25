@@ -9,7 +9,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B0C5JRTS3Y?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Focusrite-Scarlett-2i2-4th-Gen/art-PCM0017719-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -25,16 +25,17 @@
       }
     },
 {
-      "nombre": "QSC K12.2",
-      "categoria": "pa",
-      "precio_base": 999,
+      "nombre": "Sennheiser HD 600",
+      "categoria": "auriculares",
+      "precio_base": 399,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B06Y477LND?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/QSC-K12-2/art-PAH0019051-000?sv1=affiliate&sv_campaign_id=2891111",
+        "amazon": "https://www.amazon.co.uk/dp/B00004SY4H?tag=topmusicg-20",
+        "musicstore": "",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-HD-600-Avantgarde-Headphones/4TH?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     }
     }
     }
@@ -49,7 +50,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B00HUOKDSI?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Genelec-8040-BMM/art-REC0016882-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L?sv1=affiliate&sv_campaign_id=2891111"
       }
     }
     },
@@ -62,21 +63,23 @@
         "amazon": "https://www.amazon.co.uk/dp/B00CHZG75S?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-HS-8/art-REC0010559-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J?sv1=affiliate&sv_campaign_id=2891111"
       }
     }
     },
-    {
-      "nombre": "Sony MDR-7506",
+{
+      "nombre": "AKG K371",
       "categoria": "auriculares",
-      "precio_base": 99,
+      "precio_base": 149,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Sony-MDR-7506/art-REC0000388-000?sv1=affiliate&sv_campaign_id=2891111",
+        "amazon": "https://www.amazon.co.uk/dp/B07T78PX8X?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/AKG-K361/art-REC0014405-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-K371-Closed-Back-Headphones/3277?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
+    }
     },
     {
       "nombre": "Shure SM57",
@@ -123,7 +126,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B07KMKWMMV?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Kali-Audio-LP-6-2nd-Wave/art-REC0015716-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-LP-6-2nd-Wave-Studio-Monitor-Single/434C?sv1=affiliate&sv_campaign_id=2891111"
       }
     }
     },
@@ -136,7 +139,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B09D3S9X3R?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/KRK-Rokit-RP7-G5/art-REC0016600-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -148,7 +151,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B0C5JRTS3Y?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/SSL-Solid-State-Logic-SSL2-MKII/art-PCM0018224-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": "",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA?sv1=affiliate&sv_campaign_id=2891111",
         "pluginboutique": ""
       }
     },
@@ -161,7 +164,7 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-Twin-X-DUO-Gen2-Essential-/art-PCM0018199-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-Twin-X-DUO-USB-HE-Desktop-WIN/5X6U?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -173,7 +176,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B00XU0DYLE?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/RME-Babyface-Pro-FS/art-PCM0016147-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -209,7 +212,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B088VSBV65?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/JBL-305P-MKII/art-REC0013911-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/JBL-305P-MKII-Studio-Monitor-Pair/3CFL?sv1=affiliate&sv_campaign_id=2891111"
       }
     }
     },
@@ -222,7 +225,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B09J1W1TYN?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-VOLT-2/art-PCM0017063-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Volt-2-USB-Audio-Interface/43TH?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -238,16 +241,18 @@
       }
     },
 {
-      "nombre": "TC Electronic Hall of Fame 2",
-      "categoria": "guitarras",
-      "precio_base": 149,
+      "nombre": "Beyerdynamic DT 990 Pro",
+      "categoria": "auriculares",
+      "precio_base": 169,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07NP75923?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/TC-Electronic-Hall-of-Fame-2-Reverb/art-GIT0042338-000?sv1=affiliate&sv_campaign_id=2891111",
+        "amazon": "https://www.amazon.co.uk/dp/B0011UB9CQ?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/beyerdynamic-DT-990-Pro-X/art-REC0016961-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/7AE?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
+    }
     }
     }
     },
@@ -274,7 +279,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B08SJD466P?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Audient-iD14-MkII-Mixing-Set/art-REC231?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audient-iD14-10in-6out-Audio-Interface/3PJV?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -286,7 +291,7 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/MOTU-M2/art-PCM0016100-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/MOTU-M2-2-Channel-Audio-Interface/3N7M?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
 {
@@ -311,7 +316,7 @@
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Clavia-Nord-Stage-4-88/art-KEY0005756-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -350,17 +355,18 @@
         "gear4music": ""
       }
     },
-    {
-      "nombre": "Vox AC30S1",
-      "categoria": "guitarras",
-      "precio_base": 699,
+{
+      "nombre": "Sony MDR-7506",
+      "categoria": "auriculares",
+      "precio_base": 99,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/VOX-AC30S1/art-GIT0046620-000?sv1=affiliate&sv_campaign_id=2891111",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Sony-MDR-7506/art-REC0000388-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     },
     {
       "nombre": "Marshall DSL40CR",
@@ -532,6 +538,44 @@
         "musicstore": "",
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-MN-Black/2H6E?sv1=affiliate&sv_campaign_id=2891111"
+      }
+    },
+    {
+      "nombre": "Adam Audio A7V",
+      "categoria": "monitores",
+      "precio_base": 799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ?sv1=affiliate&sv_campaign_id=2891111"
+      }
+    },
+    {
+      "nombre": "FabFilter Total Bundle",
+      "categoria": "plugins",
+      "precio_base": 1199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP?sv1=affiliate&sv_campaign_id=2891111",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "iZotope Ozone 12 Advanced",
+      "categoria": "plugins",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5?sv1=affiliate&sv_campaign_id=2891111",
+        "pluginboutique": ""
       }
     },
     {
