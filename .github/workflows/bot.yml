@@ -19,10 +19,3 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         run: python bot.py
-      - name: Commit updated prices
-        run: |
-          git config --local user.email "bot@topmusiciangear.com"
-          git config --local user.name "TMG Price Bot"
-          git add precios.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update prices $(date +'%Y-%m-%d %H:%M')"
-          git push
