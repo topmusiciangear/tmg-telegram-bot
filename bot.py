@@ -165,10 +165,17 @@ def precio_es_realista(precio, base):
     return 0.4 <= ratio <= 2.0
 
 def main():
+    import os as _os
+    log(f"CWD: {_os.getcwd()}")
+    log(f"productos.json exists: {_os.path.exists('productos.json')}")
+    log(f"Files in CWD: {[f for f in _os.listdir('.') if f.endswith('.json')]}")
+
     data = load_json("productos.json")
     productos = data.get("productos", [])
     config = data.get("config", {})
     descuento_min = config.get("descuento_minimo", 5)
+
+    log(f"Loaded {len(productos)} products, min discount: {descuento_min}%")
 
     cambios = []
 
