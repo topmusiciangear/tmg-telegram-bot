@@ -24,7 +24,7 @@
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "Dunlop GCB95 Crybaby Wah",
       "categoria": "guitarras",
       "precio_base": 99,
@@ -35,16 +35,8 @@
         "andertons": "https://www.andertons.co.uk/jim-dunlop-original-gcb95-cry-baby-wah-pedal/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Dunlop-GCB95-CryBaby-Wah-Pedal/2UV?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
-    }
-    }
-    }
-    }
-    }
-    }
-    }
     },
-{
+    {
       "nombre": "Genelec 8040B",
       "categoria": "monitores",
       "precio_base": 799,
@@ -55,9 +47,8 @@
         "andertons": "https://www.andertons.co.uk/genelec-8040b-two-way-active-studio-monitor-single-unit/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
-{
+    {
       "nombre": "Yamaha HS8",
       "categoria": "monitores",
       "precio_base": 349,
@@ -68,9 +59,8 @@
         "andertons": "https://www.andertons.co.uk/yamaha-hs8-monitor-bundle-with-vibro-pads-and-cables/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
-{
+    {
       "nombre": "Audio-Technica ATH-M50x",
       "categoria": "auriculares",
       "precio_base": 169,
@@ -81,9 +71,6 @@
         "andertons": "https://www.andertons.co.uk/audio-technica-ath-m50x-studio-monitor-professional-headphones/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
-    }
-    }
     },
     {
       "nombre": "Shure SM57",
@@ -121,7 +108,7 @@
         "gear4music": "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "Kali Audio LP-6 V2",
       "categoria": "monitores",
       "precio_base": 199,
@@ -132,7 +119,6 @@
         "andertons": "https://www.andertons.co.uk/kali-audio-lp-6-v2-studio-monitor-bundle-w-foam-pads-and-cables/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-LP-6-2nd-Wave-Studio-Monitor-Single/434C?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
     {
       "nombre": "KRK Rokit 7 G5",
@@ -207,7 +193,7 @@
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "JBL 305P MkII",
       "categoria": "monitores",
       "precio_base": 199,
@@ -218,7 +204,6 @@
         "andertons": "https://www.andertons.co.uk/jbl-305p-mkii-5-studio-monitor/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/JBL-305P-MKII-Studio-Monitor-Pair/3CFL?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
     {
       "nombre": "Universal Audio Volt 2",
@@ -244,7 +229,7 @@
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-RE20-Dynamic-Cardioid-Microphone-Black/3NIC?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "Beyerdynamic DT 990 Pro",
       "categoria": "auriculares",
       "precio_base": 169,
@@ -255,14 +240,8 @@
         "andertons": "https://www.andertons.co.uk/beyerdynamic-dt-990-pro-x-openback-studio-headphones-48-ohm/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/7AE?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
-    }
-    }
-    }
-    }
-    }
     },
-{
+    {
       "nombre": "FL Studio Producer Edition",
       "categoria": "plugins",
       "precio_base": 199,
@@ -274,7 +253,6 @@
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Image-Line-FL-Studio-Producer-Edition/3NL2?sv1=affiliate&sv_campaign_id=2891111",
         "pluginboutique": ""
       }
-    }
     },
     {
       "nombre": "Audient iD14 MKII",
@@ -300,7 +278,7 @@
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/MOTU-M2-2-Channel-Audio-Interface/3N7M?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "Sennheiser MD 421-II",
       "categoria": "microfonos",
       "precio_base": 349,
@@ -311,9 +289,8 @@
         "andertons": "https://www.andertons.co.uk/sennheiser-md421-kompakt--drum-clamp/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-MD-421-Kompakt-Dynamic-Instrument-Microphone/6LA6?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
-{
+    {
       "nombre": "EHX Small Stone Nano",
       "categoria": "guitarras",
       "precio_base": 79,
@@ -324,9 +301,8 @@
         "andertons": "https://www.andertons.co.uk/electro-harmonix-nano-small-stone-phaser-pedal/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Analog-Phase-Shifter/8WV?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
-{
+    {
       "nombre": "Yamaha DXR12 mkII",
       "categoria": "pa",
       "precio_base": 799,
@@ -337,7 +313,6 @@
         "andertons": "",
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DXR12mkII-12-Active-PA-Speaker/2XUJ?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
     {
       "nombre": "Fender Blues Junior IV",
@@ -351,7 +326,7 @@
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-1x12-15W-Valve-Combo/28KX?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "Boss DD-8 Digital Delay",
       "categoria": "guitarras",
       "precio_base": 149,
@@ -362,9 +337,8 @@
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/34Y8?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
-{
+    {
       "nombre": "Sony MDR-7506",
       "categoria": "auriculares",
       "precio_base": 99,
@@ -375,9 +349,8 @@
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
-{
+    {
       "nombre": "Marshall DSL40CR",
       "categoria": "guitarras",
       "precio_base": 899,
@@ -388,10 +361,8 @@
         "andertons": "https://www.andertons.co.uk/marshall-dsl40cr-40w-valve-combo/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40W-1x12-Valve-Combo-w--Reverb/26GY?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
-    }
     },
-{
+    {
       "nombre": "Vox AC30",
       "categoria": "guitarras",
       "precio_base": 699,
@@ -402,9 +373,6 @@
         "andertons": "https://www.andertons.co.uk/vox-ac30-custom-with-celestion-greenback-speakers/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-AC30C2/CE8?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
-    }
-    }
     },
     {
       "nombre": "Fender Rumble 500 V3",
@@ -482,7 +450,7 @@
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ZLX-12P-G2-12-Active-PA-Speaker/66EZ?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "QSC K12.2",
       "categoria": "pa",
       "precio_base": 999,
@@ -493,9 +461,8 @@
         "andertons": "",
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/QSC-K122-12-Active-PA-Speaker/1XWB?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
-{
+    {
       "nombre": "JBL PRX ONE",
       "categoria": "pa",
       "precio_base": 1599,
@@ -506,7 +473,6 @@
         "andertons": "https://www.andertons.co.uk/jbl-prx-one-column-pa-system-with-7-channel-digital-mixer-dsp-fx-bluetooth-2kw-peak/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/3ZPI?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
     {
       "nombre": "Ibanez TS9 Tubescreamer",
@@ -520,7 +486,7 @@
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-TS9-Tube-Screamer/6RI?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
-{
+    {
       "nombre": "TC Electronic Hall of Fame 2",
       "categoria": "guitarras",
       "precio_base": 149,
@@ -531,7 +497,6 @@
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Hall-Of-Fame-2-Reverb-Pedal/1ZGY?sv1=affiliate&sv_campaign_id=2891111"
       }
-    }
     },
     {
       "nombre": "Fender Player Stratocaster HSS",
@@ -694,7 +659,6 @@
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-PF-3-Tone-Sunburst/2H6X?sv1=affiliate&sv_campaign_id=2891111",
         "pluginboutique": ""
       }
-    }
     }
   ],
   "config": {
