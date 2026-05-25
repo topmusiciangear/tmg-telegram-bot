@@ -70,16 +70,17 @@
     }
     },
 {
-      "nombre": "AKG K371",
+      "nombre": "Audio-Technica ATH-M50x",
       "categoria": "auriculares",
-      "precio_base": 149,
+      "precio_base": 169,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07T78PX8X?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/AKG-K361/art-REC0014405-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-K371-Closed-Back-Headphones/3277?sv1=affiliate&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.co.uk/dp/B00HVLUR86?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M50X/art-REC0011129-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "https://www.andertons.co.uk/audio-technica-ath-m50x-studio-monitor-professional-headphones/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     }
     }
     },
@@ -250,9 +251,11 @@
       "tiendas": {
         "amazon": "https://www.amazon.co.uk/dp/B0011UB9CQ?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/beyerdynamic-DT-990-Pro-X/art-REC0016961-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/beyerdynamic-dt-990-pro-x-openback-studio-headphones-48-ohm/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/7AE?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
+    }
     }
     }
     }
@@ -342,7 +345,7 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Blues-Junior-IV-Black-/art-GIT0044445-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/fender-blues-junior-iv-blk/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-1x12-15W-Valve-Combo/28KX?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
@@ -373,29 +376,31 @@
     }
     },
 {
-      "nombre": "EHX Small Stone Nano",
+      "nombre": "Marshall DSL40CR",
       "categoria": "guitarras",
-      "precio_base": 79,
+      "precio_base": 899,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Harmonix-Small-Stone-Nano-Chassis/art-GIT0009646-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Analog-Phase-Shifter/8WV?sv1=affiliate&sv_campaign_id=2891111"
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Marshall-DSL40CR-2-Channel-Valve-Combo-40W-Black-/art-GIT0043112-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "https://www.andertons.co.uk/marshall-dsl40cr-40w-valve-combo/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40W-1x12-Valve-Combo-w--Reverb/26GY?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     }
     },
 {
-      "nombre": "Roland TR-8S",
-      "categoria": "bateria",
+      "nombre": "Vox AC30",
+      "categoria": "guitarras",
       "precio_base": 699,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Roland-TR-8S/art-SYN0006408-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82?sv1=affiliate&sv_campaign_id=2891111"
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/VOX-AC30S1/art-GIT0046620-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "https://www.andertons.co.uk/vox-ac30-custom-with-celestion-greenback-speakers/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-AC30C2/CE8?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     }
     }
     },
@@ -407,7 +412,7 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Rumble-500-V3-Combo/art-BAS0007196-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/fender-rumble-500-v3-bass-amp/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-2x10-Bass-Combo/X0R?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
@@ -471,7 +476,7 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Voice-EV-ZLX-12P-G2-mit-Stativ/art-PAH463?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/Electro-Voice-ZLX12PG2-Powered-Active-Loudspeaker/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ZLX-12P-G2-12-Active-PA-Speaker/66EZ?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
@@ -496,7 +501,7 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/JBL-PRX-ONE/art-PAH0022538-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/jbl-prx-one-column-pa-system-with-7-channel-digital-mixer-dsp-fx-bluetooth-2kw-peak/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/3ZPI?sv1=affiliate&sv_campaign_id=2891111"
       }
     }
@@ -509,7 +514,7 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Ibanez-TS9-Classic-Tubescreamer/art-GIT0000149-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/ibanez-ts9-tube-screamer-overdrive-pedal/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-TS9-Tube-Screamer/6RI?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
@@ -628,14 +633,14 @@
       }
     },
     {
-      "nombre": "Boss Katana 50 MKII",
+      "nombre": "Boss Katana 50 Gen 3",
       "categoria": "guitarras",
       "precio_base": 229,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
         "musicstore": "",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/boss-katana-50-gen-3-50w-guitar-amp-combo/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/G4M/Boss-Katana-50-MKII-1x12-Combo/6OAD?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
@@ -647,8 +652,32 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "",
-        "andertons": "",
+        "andertons": "https://www.andertons.co.uk/boss-tu-3-compact-chromatic-tuner/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Pedal-Chromatic-Tuner/C7M?sv1=affiliate&sv_campaign_id=2891111"
+      }
+    },
+    {
+      "nombre": "QSC KW152",
+      "categoria": "pa",
+      "precio_base": 1199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "https://www.andertons.co.uk/qsc-kw152-15-active-pa-loudspeaker/?irgwc=1&irpid=7292297",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Boss DD-3T Digital Delay",
+      "categoria": "guitarras",
+      "precio_base": 129,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "https://www.andertons.co.uk/boss-dd-3t-digital-delay-pedal-tap-tempo/?irgwc=1&irpid=7292297",
+        "gear4music": ""
       }
     },
     {
