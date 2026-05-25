@@ -9,6 +9,12 @@ from datetime import datetime
 
 socket.setdefaulttimeout(15)
 
+try:
+    from curl_cffi import requests as curl_requests
+    HAS_CURL = True
+except ImportError:
+    HAS_CURL = False
+
 def log(msg):
     print(msg, flush=True)
 
@@ -19,6 +25,8 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
 }
+
+BLOCKED_STORES = ["amazon", "musicstore", "andertons"]
 
 PRICE_CATEGORIES = {
     "auriculares": "🎧",
@@ -54,7 +62,9 @@ def find_price_in_html(html, patterns):
         if m:
             val = m.group(1).replace(",", ".").replace(" ", "").replace("€", "").replace("$", "").replace("£", "")
             try:
-                return float(val)
+                f = float(val)
+                if f > 0:
+                    return f
             except:
                 continue
     return None
@@ -63,26 +73,34 @@ def extract_price_amazon(html):
     patterns = [
         r'"price":\s*"(\d+\.?\d*)"',
         r'"displayAmount":\s*"(\d+\.?\d*)"',
-        r'a-price-whole[^>]*>(\d+)<',
-        r'<span class="a-price"[^>]*>.*?\$(\d+\.?\d*)',
+        r'corePrice_desktop.*?a-offscreen[^>]*>[^<]*[£$]\s*(\d+\.?\d*)',
+        r'data-a-size="xl"[^>]*>.*?a-offscreen[^>]*>[^<]*[£$]\s*(\d+\.?\d*)',
+        r'a-offscreen[^>]*>[^<]*[£$]\s*(\d+\.?\d*)',
     ]
     return find_price_in_html(html, patterns)
 
 def extract_price_musicstore(html):
     patterns = [
+        r'meta\.setAttribute\(.*?content.*?[€€]\s*(\d+[.,]?\d*)',
+        r'<[^>]*class="[^"]*price[^"]*"[^>]*>[^<]*[€€]\s*(\d+[.,]?\d*)',
         r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
         r'"price":\s*"(\d+\.?\d*)"',
         r'our-price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
         r'<span[^>]*price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
+        r'topbar-price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
+        r'data-price[=]["\'](\d+\.?\d*)["\']',
     ]
     return find_price_in_html(html, patterns)
 
 def extract_price_andertons(html):
     patterns = [
+        r'price:amount"\s*content="(\d+\.?\d*)"',
+        r'data-testid="pdp-price"[^>]*>[^<]*£\s*(\d+[.,]?\d*)',
         r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
         r'"price":\s*"(\d+\.?\d*)"',
         r'<span[^>]*price[^>]*>[^<]*£\s*(\d+[.,]?\d*)',
         r'class="[^"]*price[^"]*"[^>]*>£\s*(\d+[.,]?\d*)',
+        r'data-price[=]["\'](\d+\.?\d*)["\']',
     ]
     return find_price_in_html(html, patterns)
 
@@ -105,12 +123,31 @@ def extract_price_pluginboutique(html):
     ]
     return find_price_in_html(html, patterns)
 
+def fetch_page(url):
+    for store in BLOCKED_STORES:
+        if store in url and HAS_CURL:
+            try:
+                resp = curl_requests.get(url, headers=HEADERS, timeout=15, impersonate="chrome124")
+                log(f"  [{store}] curl_cffi: HTTP {resp.status_code}, {len(resp.content)} bytes")
+                return resp.text
+            except Exception as e:
+                log(f"  [{store}] curl_cffi failed: {e}, falling back to requests")
+                break
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        log(f"  [requests] HTTP {resp.status_code}, {len(resp.content)} bytes")
+        return resp.text
+    except Exception as e:
+        log(f"  [requests] failed: {e}")
+        return None
+
 def extract_price(url):
     if not url:
         return None
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        html = resp.text
+        html = fetch_page(url)
+        if html is None:
+            return None
         if "amazon" in url:
             return extract_price_amazon(html)
         elif "musicstore" in url:
