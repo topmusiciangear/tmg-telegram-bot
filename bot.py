@@ -41,27 +41,79 @@ def load_json(path):
     except:
         return {}
 
+def find_price_in_html(html, patterns):
+    for p in patterns:
+        m = re.search(p, html, re.DOTALL)
+        if m:
+            val = m.group(1).replace(",", ".").replace(" ", "").replace("€", "").replace("$", "").replace("£", "")
+            try:
+                return float(val)
+            except:
+                continue
+    return None
+
+def extract_price_amazon(html):
+    patterns = [
+        r'"price":\s*"(\d+\.?\d*)"',
+        r'"displayAmount":\s*"(\d+\.?\d*)"',
+        r'a-price-whole[^>]*>(\d+)<',
+        r'<span class="a-price"[^>]*>.*?\$(\d+\.?\d*)',
+    ]
+    return find_price_in_html(html, patterns)
+
+def extract_price_musicstore(html):
+    patterns = [
+        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
+        r'"price":\s*"(\d+\.?\d*)"',
+        r'our-price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
+        r'<span[^>]*price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
+    ]
+    return find_price_in_html(html, patterns)
+
+def extract_price_andertons(html):
+    patterns = [
+        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
+        r'"price":\s*"(\d+\.?\d*)"',
+        r'<span[^>]*price[^>]*>[^<]*£\s*(\d+[.,]?\d*)',
+        r'class="[^"]*price[^"]*"[^>]*>£\s*(\d+[.,]?\d*)',
+    ]
+    return find_price_in_html(html, patterns)
+
+def extract_price_gear4music(html):
+    patterns = [
+        r'"price":\s*"(\d+\.?\d*)"',
+        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
+        r'<span[^>]*class="[^"]*price[^"]*"[^>]*>.*?[€$£]\s*(\d+[.,]?\d*)',
+        r'class="[^"]*price[^"]*"[^>]*>.*?[€$£]\s*(\d+[.,]?\d*)',
+        r'data-price[=]["\'](\d+\.?\d*)["\']',
+    ]
+    return find_price_in_html(html, patterns)
+
+def extract_price_pluginboutique(html):
+    patterns = [
+        r'"price":\s*"(\d+\.?\d*)"',
+        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
+        r'class="price"[^>]*>.*?\$(\d+\.?\d*)',
+        r'\$(\d+\.?\d*)\s*</span>',
+    ]
+    return find_price_in_html(html, patterns)
+
 def extract_price(url):
     if not url:
         return None
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         html = resp.text
-        patterns = [
-            r'"price":\s*"(\d+\.?\d*)"',
-            r'"displayAmount":\s*"(\d+\.?\d*)"',
-            r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
-            r'a-price-whole[^>]*>(\d+)<',
-            r'\$?€?£?(\d+\.?\d*)\s*</span>\s*<span[^>]*class="[^"]*price',
-            r'class="price"[^>]*>.*?\$?€?£?(\d+\.?\d*)',
-            r'data-price="(\d+\.?\d*)"',
-            r'our-price[^>]*>.*?\$?€?£?(\d+\.?\d*)',
-        ]
-        for p in patterns:
-            m = re.search(p, html, re.DOTALL)
-            if m:
-                val = m.group(1).replace(",", ".").replace(" ", "")
-                return float(val)
+        if "amazon" in url:
+            return extract_price_amazon(html)
+        elif "musicstore" in url:
+            return extract_price_musicstore(html)
+        elif "andertons" in url:
+            return extract_price_andertons(html)
+        elif "gear4music" in url:
+            return extract_price_gear4music(html)
+        elif "pluginboutique" in url:
+            return extract_price_pluginboutique(html)
         return None
     except:
         return None
@@ -102,6 +154,12 @@ def formatear_oferta(prod, tienda_key, precio_base, precio_actual, url):
     msg += f"🔍 topmusiciangear.com"
     return msg
 
+def precio_es_realista(precio, base):
+    if precio <= 0:
+        return False
+    ratio = precio / base
+    return 0.4 <= ratio <= 2.0
+
 def main():
     data = load_json("productos.json")
     productos = data.get("productos", [])
@@ -124,10 +182,14 @@ def main():
                 print(f"  Could not get price")
                 continue
 
+            if not precio_es_realista(precio_actual, precio_base):
+                print(f"  Unrealistic price: {precio_actual} (base: {precio_base}) - skipped")
+                continue
+
             diff_pct = round((1 - precio_actual / precio_base) * 100)
             print(f"  Base: {precio_base} Current: {precio_actual} Diff: {diff_pct}%")
 
-            if diff_pct >= descuento_min and precio_actual > precio_base * 0.3:
+            if diff_pct >= descuento_min:
                 cambios.append({
                     "producto": prod,
                     "tienda": tienda_key,
