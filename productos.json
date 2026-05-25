@@ -25,16 +25,17 @@
       }
     },
 {
-      "nombre": "AKG K371",
-      "categoria": "auriculares",
-      "precio_base": 149,
+      "nombre": "QSC K12.2",
+      "categoria": "pa",
+      "precio_base": 999,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07T78PX8X?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/AKG-K361/art-REC0014405-000?sv1=affiliate&sv_campaign_id=2891111",
+        "amazon": "https://www.amazon.co.uk/dp/B06Y477LND?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/QSC-K12-2/art-PAH0019051-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
         "gear4music": ""
       }
+    }
     }
     }
     }
@@ -236,31 +237,33 @@
         "gear4music": ""
       }
     },
-    {
-      "nombre": "Fender Player Jazz Bass",
+{
+      "nombre": "TC Electronic Hall of Fame 2",
       "categoria": "guitarras",
-      "precio_base": 899,
+      "precio_base": 149,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07CTVBN3M?tag=topmusicg-20",
-        "musicstore": "",
+        "amazon": "https://www.amazon.co.uk/dp/B07NP75923?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/TC-Electronic-Hall-of-Fame-2-Reverb/art-GIT0042338-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": "",
-        "pluginboutique": ""
+        "gear4music": ""
       }
+    }
+    }
     },
-    {
-      "nombre": "Squier Affinity Precision Bass",
-      "categoria": "guitarras",
-      "precio_base": 299,
+{
+      "nombre": "FL Studio Producer Edition",
+      "categoria": "plugins",
+      "precio_base": 199,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B091BGTWQ1?tag=topmusicg-20",
-        "musicstore": "",
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Imageline-FL-Studio-20-Producer-Edition-Licence-/art-PCM0015006-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
         "gear4music": "",
         "pluginboutique": ""
       }
+    }
     },
     {
       "nombre": "Audient iD14 MKII",
@@ -378,6 +381,130 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Ampeg-SVT-410-HLF-Cabinet-400-Watt-4-Ohm/art-BAS0001030-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Fender Rumble 500 V3",
+      "categoria": "guitarras",
+      "precio_base": 649,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Rumble-500-V3-Combo/art-BAS0007196-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Ableton Live 12 Suite",
+      "categoria": "plugins",
+      "precio_base": 599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Ableton-Live-12-Suite-License-Code/art-PCM0018000-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Pro Tools Studio Perpetual",
+      "categoria": "plugins",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Avid-Pro-Tools-Studio-Perpetual-License-Code/art-PCM0015649-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Steinberg Cubase Pro 15",
+      "categoria": "plugins",
+      "precio_base": 599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Steinberg-Cubase-Pro-15-License-Code/art-PCM0018659-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "Reason 13",
+      "categoria": "plugins",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Reason-Studios-Reason-13-License-Code/art-PCM0018102-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": "",
+        "pluginboutique": ""
+      }
+    },
+    {
+      "nombre": "EV ZLX-12P G2",
+      "categoria": "pa",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Voice-EV-ZLX-12P-G2-mit-Stativ/art-PAH463?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "JBL PRX ONE",
+      "categoria": "pa",
+      "precio_base": 1599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/JBL-PRX-ONE/art-PAH0022538-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Yamaha DXR12 mkII",
+      "categoria": "pa",
+      "precio_base": 799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-DXR12mkII-12-LF-1-75-VC-HF-1100W/art-PAH0021280-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Ibanez TS9 Tubescreamer",
+      "categoria": "guitarras",
+      "precio_base": 149,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Ibanez-TS9-Classic-Tubescreamer/art-GIT0000149-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "EHX Small Stone Nano",
+      "categoria": "guitarras",
+      "precio_base": 79,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Harmonix-Small-Stone-Nano-Chassis/art-GIT0009646-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
         "gear4music": ""
       }
