@@ -1,9 +1,13 @@
 import json
 import os
 import re
+import sys
 import time
 import requests
 from datetime import datetime
+
+def log(msg):
+    print(msg, flush=True)
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 
@@ -120,7 +124,7 @@ def extract_price(url):
 
 def enviar_telegram(mensaje):
     if not TELEGRAM_TOKEN:
-        print("No TELEGRAM_TOKEN set")
+        log("No TELEGRAM_TOKEN set")
         return
     data = load_json("productos.json")
     canal = data.get("config", {}).get("canal_id", "@topmusiciangear")
@@ -133,11 +137,11 @@ def enviar_telegram(mensaje):
     }
     try:
         resp = requests.post(url, json=payload, timeout=15)
-        print(f"Telegram status: {resp.status_code}")
+        log(f"Telegram status: {resp.status_code}")
         if resp.status_code != 200:
-            print(f"Telegram response: {resp.text[:200]}")
+            log(f"Telegram response: {resp.text[:200]}")
     except Exception as e:
-        print(f"Telegram error: {e}")
+        log(f"Telegram error: {e}")
 
 def formatear_oferta(prod, tienda_key, precio_base, precio_actual, url):
     icono = PRICE_CATEGORIES.get(prod.get("categoria", ""), "🛒")
@@ -176,18 +180,18 @@ def main():
         for tienda_key, url in tiendas.items():
             if not url or precio_base <= 0:
                 continue
-            print(f"Checking {nombre} @ {tienda_key}...")
+            log(f"Checking {nombre} @ {tienda_key}...")
             precio_actual = extract_price(url)
             if precio_actual is None:
-                print(f"  Could not get price")
+                log(f"  Could not get price")
                 continue
 
             if not precio_es_realista(precio_actual, precio_base):
-                print(f"  Unrealistic price: {precio_actual} (base: {precio_base}) - skipped")
+                log(f"  Unrealistic price: {precio_actual} (base: {precio_base}) - skipped")
                 continue
 
             diff_pct = round((1 - precio_actual / precio_base) * 100)
-            print(f"  Base: {precio_base} Current: {precio_actual} Diff: {diff_pct}%")
+            log(f"  Base: {precio_base} Current: {precio_actual} Diff: {diff_pct}%")
 
             if diff_pct >= descuento_min:
                 cambios.append({
@@ -205,11 +209,11 @@ def main():
             c["producto"], c["tienda"],
             c["precio_base"], c["precio_actual"], c["url"]
         )
-        print(f"DEAL: {c['producto']['nombre']} @ {c['tienda']} - {c['precio_base']} -> {c['precio_actual']}")
+        log(f"DEAL: {c['producto']['nombre']} @ {c['tienda']} - {c['precio_base']} -> {c['precio_actual']}")
         enviar_telegram(msg)
 
     if not cambios:
-        print(f"No deals found. ({datetime.now().isoformat()})")
+        log(f"No deals found. ({datetime.now().isoformat()})")
 
 if __name__ == "__main__":
     main()
