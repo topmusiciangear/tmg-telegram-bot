@@ -123,44 +123,26 @@ def extract_price_pluginboutique(html):
     ]
     return find_price_in_html(html, patterns)
 
-IMPERSONATES = ["chrome124", "chrome110", "safari17_0", "edge99"]
+IMPERSONATES = ["chrome124", "safari17_0"]
 
-def fetch_page(url, nombre_producto=""):
+def fetch_page(url):
     for store in BLOCKED_STORES:
         if store not in url:
             continue
         if not HAS_CURL:
             break
-        if store == "musicstore":
-            try:
-                resp = requests.get(url, headers=HEADERS, timeout=15)
-                log(f"  [musicstore] requests: HTTP {resp.status_code}, {len(resp.content)} bytes")
-                if resp.status_code == 200 and len(resp.content) > 10000:
-                    return resp.text
-            except:
-                pass
         for imp in IMPERSONATES:
             try:
-                resp = curl_requests.get(url, headers=HEADERS, timeout=15, impersonate=imp)
+                resp = curl_requests.get(url, headers=HEADERS, timeout=10, impersonate=imp)
                 log(f"  [{store}] curl_cffi/{imp}: HTTP {resp.status_code}, {len(resp.content)} bytes")
                 if resp.status_code == 200 and len(resp.content) > 10000:
                     return resp.text
             except Exception as e:
                 log(f"  [{store}] curl_cffi/{imp} error: {e}")
                 continue
-        if store == "musicstore" and nombre_producto:
-            try:
-                q = f"{nombre_producto} site:musicstore.com buy".replace(" ", "+")
-                gurl = f"https://www.google.com/search?q={q}&tbm=shop"
-                resp = curl_requests.get(gurl, headers=HEADERS, timeout=15, impersonate="chrome124")
-                log(f"  [musicstore] google shopping: HTTP {resp.status_code}, {len(resp.content)} bytes")
-                if resp.status_code == 200 and len(resp.content) > 10000:
-                    return resp.text
-            except:
-                pass
         return None
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp = requests.get(url, headers=HEADERS, timeout=10)
         log(f"  [requests] HTTP {resp.status_code}, {len(resp.content)} bytes")
         return resp.text
     except Exception as e:
@@ -171,7 +153,7 @@ def extract_price(url, nombre_producto=""):
     if not url:
         return None
     try:
-        html = fetch_page(url, nombre_producto)
+        html = fetch_page(url)
         if html is None:
             return None
         if "amazon" in url:
