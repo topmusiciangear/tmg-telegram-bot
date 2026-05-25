@@ -25,16 +25,18 @@
       }
     },
 {
-      "nombre": "Audio-Technica ATH-M50x",
+      "nombre": "AKG K371",
       "categoria": "auriculares",
-      "precio_base": 169,
+      "precio_base": 149,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B00HVLUR86?tag=topmusicg-20",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M50X/art-REC0011129-000?sv1=affiliate&sv_campaign_id=2891111",
+        "amazon": "https://www.amazon.co.uk/dp/B07T78PX8X?tag=topmusicg-20",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/AKG-K361/art-REC0014405-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
         "gear4music": ""
       }
+    }
+    }
     }
     },
 {
@@ -292,6 +294,90 @@
       "tiendas": {
         "amazon": "",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-490-Pro/art-REC0016604-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Nord Stage 4 88",
+      "categoria": "teclados",
+      "precio_base": 4999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Clavia-Nord-Stage-4-88/art-KEY0005756-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Roland TR-8S",
+      "categoria": "bateria",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Roland-TR-8S/art-SYN0006408-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Fender Blues Junior IV",
+      "categoria": "guitarras",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-Blues-Junior-IV-Black-/art-GIT0044445-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Boss Katana 100 Gen 3",
+      "categoria": "guitarras",
+      "precio_base": 349,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Boss-Katana-100-Gen-3-Combo/art-GIT0061744-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Vox AC30S1",
+      "categoria": "guitarras",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/VOX-AC30S1/art-GIT0046620-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Marshall DSL40CR",
+      "categoria": "guitarras",
+      "precio_base": 899,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Marshall-DSL40CR-2-Channel-Valve-Combo-40W-Black-/art-GIT0043112-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "",
+        "gear4music": ""
+      }
+    },
+    {
+      "nombre": "Ampeg SVT-410 HLF",
+      "categoria": "guitarras",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Ampeg-SVT-410-HLF-Cabinet-400-Watt-4-Ohm/art-BAS0001030-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
         "gear4music": ""
       }
