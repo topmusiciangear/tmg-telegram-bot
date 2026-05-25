@@ -60,13 +60,19 @@ def find_price_in_html(html, patterns):
     for p in patterns:
         m = re.search(p, html, re.DOTALL)
         if m:
-            val = m.group(1).replace(",", ".").replace(" ", "").replace("€", "").replace("$", "").replace("£", "")
+            val = m.group(1).replace(" ", "").replace("\u20ac", "").replace("$", "").replace("\u00a3", "")
             try:
                 f = float(val)
                 if f > 0:
                     return f
             except:
-                continue
+                pass
+            try:
+                f = float(val.replace(",", ""))
+                if f > 0:
+                    return f
+            except:
+                pass
     return None
 
 def extract_price_amazon(html):
@@ -116,10 +122,10 @@ def extract_price_gear4music(html):
 
 def extract_price_pluginboutique(html):
     patterns = [
-        r'"price":\s*"(\d+\.?\d*)"',
         r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
-        r'class="price"[^>]*>.*?\$(\d+\.?\d*)',
-        r'\$(\d+\.?\d*)\s*</span>',
+        r'"price":\s*"(\d+\.?\d*)"',
+        r'class="[^"]*price[^"]*"[^>]*>[^<]*[€$]\s*(\d+[.,]?\d*)',
+        r'[€$]\s*(\d+[.,]?\d*)',
     ]
     return find_price_in_html(html, patterns)
 
