@@ -129,7 +129,7 @@ def extract_price_pluginboutique(html):
     ]
     return find_price_in_html(html, patterns)
 
-IMPERSONATES = ["chrome124", "safari17_0"]
+IMPERSONATES = ["chrome124", "chrome110", "safari17_0", "edge99"]
 
 def fetch_page(url):
     for store in BLOCKED_STORES:
@@ -265,6 +265,13 @@ def main():
     log(f"CWD: {_os.getcwd()}")
     log(f"productos.json exists: {_os.path.exists('productos.json')}")
     log(f"Files in CWD: {[f for f in _os.listdir('.') if f.endswith('.json')]}")
+
+    if HAS_CURL:
+        try:
+            curl_requests.get("https://www.amazon.co.uk", headers=HEADERS, timeout=8, impersonate="chrome124")
+            log("Warmed Amazon session")
+        except:
+            pass
 
     data = load_json("productos.json")
     productos = data.get("productos", [])
