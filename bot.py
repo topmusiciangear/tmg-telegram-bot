@@ -123,16 +123,42 @@ def extract_price_pluginboutique(html):
     ]
     return find_price_in_html(html, patterns)
 
-def fetch_page(url):
+IMPERSONATES = ["chrome124", "chrome110", "safari17_0", "edge99"]
+
+def fetch_page(url, nombre_producto=""):
     for store in BLOCKED_STORES:
-        if store in url and HAS_CURL:
+        if store not in url:
+            continue
+        if not HAS_CURL:
+            break
+        if store == "musicstore":
             try:
-                resp = curl_requests.get(url, headers=HEADERS, timeout=15, impersonate="chrome124")
-                log(f"  [{store}] curl_cffi: HTTP {resp.status_code}, {len(resp.content)} bytes")
-                return resp.text
+                resp = requests.get(url, headers=HEADERS, timeout=15)
+                log(f"  [musicstore] requests: HTTP {resp.status_code}, {len(resp.content)} bytes")
+                if resp.status_code == 200 and len(resp.content) > 10000:
+                    return resp.text
+            except:
+                pass
+        for imp in IMPERSONATES:
+            try:
+                resp = curl_requests.get(url, headers=HEADERS, timeout=15, impersonate=imp)
+                log(f"  [{store}] curl_cffi/{imp}: HTTP {resp.status_code}, {len(resp.content)} bytes")
+                if resp.status_code == 200 and len(resp.content) > 10000:
+                    return resp.text
             except Exception as e:
-                log(f"  [{store}] curl_cffi failed: {e}, falling back to requests")
-                break
+                log(f"  [{store}] curl_cffi/{imp} error: {e}")
+                continue
+        if store == "musicstore" and nombre_producto:
+            try:
+                q = f"{nombre_producto} site:musicstore.com buy".replace(" ", "+")
+                gurl = f"https://www.google.com/search?q={q}&tbm=shop"
+                resp = curl_requests.get(gurl, headers=HEADERS, timeout=15, impersonate="chrome124")
+                log(f"  [musicstore] google shopping: HTTP {resp.status_code}, {len(resp.content)} bytes")
+                if resp.status_code == 200 and len(resp.content) > 10000:
+                    return resp.text
+            except:
+                pass
+        return None
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         log(f"  [requests] HTTP {resp.status_code}, {len(resp.content)} bytes")
@@ -141,11 +167,11 @@ def fetch_page(url):
         log(f"  [requests] failed: {e}")
         return None
 
-def extract_price(url):
+def extract_price(url, nombre_producto=""):
     if not url:
         return None
     try:
-        html = fetch_page(url)
+        html = fetch_page(url, nombre_producto)
         if html is None:
             return None
         if "amazon" in url:
@@ -228,7 +254,7 @@ def main():
             if not url or precio_base <= 0:
                 continue
             log(f"Checking {nombre} @ {tienda_key}...")
-            precio_actual = extract_price(url)
+            precio_actual = extract_price(url, nombre)
             if precio_actual is None:
                 log(f"  Could not get price")
                 continue
