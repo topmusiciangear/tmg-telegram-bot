@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 import requests
 from datetime import datetime
 
@@ -126,7 +127,7 @@ def main():
             diff_pct = round((1 - precio_actual / precio_base) * 100)
             print(f"  Base: {precio_base} Current: {precio_actual} Diff: {diff_pct}%")
 
-            if diff_pct >= descuento_min:
+            if diff_pct >= descuento_min and precio_actual > precio_base * 0.3:
                 cambios.append({
                     "producto": prod,
                     "tienda": tienda_key,
@@ -135,7 +136,9 @@ def main():
                     "url": url,
                 })
 
-    for c in cambios:
+    for i, c in enumerate(cambios):
+        if i > 0:
+            time.sleep(3)
         msg = formatear_oferta(
             c["producto"], c["tienda"],
             c["precio_base"], c["precio_actual"], c["url"]
