@@ -26,7 +26,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.5",
 }
 
-BLOCKED_STORES = ["amazon", "musicstore", "andertons"]
+BLOCKED_STORES = ["amazon", "musicstore", "andertons", "pluginboutique"]
 
 PRICE_CATEGORIES = {
     "auriculares": "🎧",
