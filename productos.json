@@ -21,7 +21,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B0002E4Z8M?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-SM7B/art-REC0000211-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
 {
@@ -87,7 +87,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B0000AQRST?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-SM-57-LCE-dynamic-Microphone/art-PAH0000162-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -99,7 +99,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B000CZ0R42?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Shure-SM-58-SE-with-Switch-dynamic-Microphone/art-PAH0000164-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-Dynamic-Cardioid-Vocal-Microphone/4ZW?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -111,7 +111,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B0CKVD62NX?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Rode-NT1-AI1-Complete-Studio-Kit/art-REC0013538-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
 {
@@ -185,7 +185,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B006VSM8WS?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/AKG-C-414-XL-II/art-REC0007446-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
     {
@@ -197,7 +197,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B0C1TLLLDT?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Neumann-U87-Ai-Studio-Set/art-REC0009533-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
 {
@@ -234,7 +234,7 @@
         "amazon": "https://www.amazon.co.uk/dp/B08P7QTZM5?tag=topmusicg-20",
         "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Voice-RE-20-Black/art-REC0016738-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-RE20-Dynamic-Cardioid-Microphone-Black/3NIC?sv1=affiliate&sv_campaign_id=2891111"
       }
     },
 {
@@ -289,17 +289,18 @@
         "gear4music": ""
       }
     },
-    {
-      "nombre": "Sennheiser HD 490 Pro",
-      "categoria": "auriculares",
-      "precio_base": 299,
+{
+      "nombre": "Sennheiser MD 421-II",
+      "categoria": "microfonos",
+      "precio_base": 349,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-HD-490-Pro/art-REC0016604-000?sv1=affiliate&sv_campaign_id=2891111",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Sennheiser-MD-421-II-/art-REC0000298-000?sv1=affiliate&sv_campaign_id=2891111",
         "andertons": "",
-        "gear4music": ""
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-MD-421-Kompakt-Dynamic-Instrument-Microphone/6LA6?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     },
     {
       "nombre": "Nord Stage 4 88",
@@ -510,17 +511,42 @@
       }
     },
     {
+      "nombre": "Fender Player Stratocaster HSS",
+      "categoria": "guitarras",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Stratocaster-HSS-MN-Black/2H4V?sv1=affiliate&sv_campaign_id=2891111"
+      }
+    },
+    {
+      "nombre": "Fender Player Precision Bass",
+      "categoria": "guitarras",
+      "precio_base": 799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "",
+        "musicstore": "",
+        "andertons": "",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-MN-Black/2H6E?sv1=affiliate&sv_campaign_id=2891111"
+      }
+    },
+    {
       "nombre": "Fender Player Jazzmaster",
       "categoria": "guitarras",
       "precio_base": 899,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0D2LNZ9F7?tag=topmusicg-20",
+        "amazon": "https://www.amazon.co.uk/dp/B07CTVBN3M?tag=topmusicg-20",
         "musicstore": "",
         "andertons": "",
-        "gear4music": "",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-PF-3-Tone-Sunburst/2H6X?sv1=affiliate&sv_campaign_id=2891111",
         "pluginboutique": ""
       }
+    }
     }
   ],
   "config": {
