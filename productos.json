@@ -25,16 +25,17 @@
       }
     },
 {
-      "nombre": "Akai MPC One",
-      "categoria": "teclados",
-      "precio_base": 499,
+      "nombre": "Dunlop GCB95 Crybaby Wah",
+      "categoria": "guitarras",
+      "precio_base": 99,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0C3RN1RTS?tag=topmusicg-20",
+        "amazon": "https://www.amazon.co.uk/dp/B0002CZVK0?tag=topmusicg-20",
         "musicstore": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP?sv1=affiliate&sv_campaign_id=2891111"
+        "andertons": "https://www.andertons.co.uk/jim-dunlop-original-gcb95-cry-baby-wah-pedal/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Dunlop-GCB95-CryBaby-Wah-Pedal/2UV?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     }
     }
     }
@@ -312,17 +313,18 @@
       }
     }
     },
-    {
-      "nombre": "Nord Stage 4 88",
-      "categoria": "teclados",
-      "precio_base": 4999,
+{
+      "nombre": "EHX Small Stone Nano",
+      "categoria": "guitarras",
+      "precio_base": 79,
       "moneda": "£",
       "tiendas": {
         "amazon": "",
-        "musicstore": "https://www.musicstore.com/en_OE/EUR/Clavia-Nord-Stage-4-88/art-KEY0005756-000?sv1=affiliate&sv_campaign_id=2891111",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3?sv1=affiliate&sv_campaign_id=2891111"
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Electro-Harmonix-Small-Stone-Nano-Chassis/art-GIT0009646-000?sv1=affiliate&sv_campaign_id=2891111",
+        "andertons": "https://www.andertons.co.uk/electro-harmonix-nano-small-stone-phaser-pedal/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Analog-Phase-Shifter/8WV?sv1=affiliate&sv_campaign_id=2891111"
       }
+    }
     },
 {
       "nombre": "Yamaha DXR12 mkII",
