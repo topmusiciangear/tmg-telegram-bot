@@ -150,10 +150,49 @@ def fetch_page(url):
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
         log(f"  [requests] HTTP {resp.status_code}, {len(resp.content)} bytes")
-        return resp.text
+        if resp.status_code == 200 and len(resp.content) > 10000:
+            return resp.text
+        return None
     except Exception as e:
         log(f"  [requests] failed: {e}")
         return None
+
+GS_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+def gs_search_price(nombre_producto, sitio):
+    q = f"{nombre_producto} site:{sitio}.com".replace(" ", "+")
+    url = f"https://www.google.com/search?q={q}&tbm=shop"
+    try:
+        if HAS_CURL:
+            resp = curl_requests.get(url, headers=GS_HEADERS, timeout=8, impersonate="chrome124")
+        else:
+            resp = requests.get(url, headers=GS_HEADERS, timeout=8)
+        log(f"  [google] HTTP {resp.status_code}, {len(resp.content)} bytes")
+        if resp.status_code != 200 or len(resp.content) < 5000:
+            return None
+        patterns = [
+            r'class="a-row"[^>]*>\s*[£$€]\s*(\d+[.,]?\d*)',
+            r'[£$€]\s*(\d+[.,]?\d*)[^<]*</span></div></div>',
+            r'<span[^>]*class="[^"]*price[^"]*"[^>]*>[^<]*[£$€]\s*(\d+[.,]?\d*)',
+            r'[£$€]\s*(\d+[.,]?\d*)',
+        ]
+        for pat in patterns:
+            m = re.search(pat, resp.text, re.DOTALL)
+            if m:
+                val = m.group(1).replace(" ", "").replace(",", "")
+                try:
+                    f = float(val)
+                    if f > 0:
+                        return f
+                except:
+                    continue
+    except:
+        pass
+    return None
 
 def extract_price(url, nombre_producto=""):
     if not url:
@@ -161,6 +200,9 @@ def extract_price(url, nombre_producto=""):
     try:
         html = fetch_page(url)
         if html is None:
+            if "musicstore" in url and nombre_producto:
+                log(f"  Trying Google Shopping fallback...")
+                return gs_search_price(nombre_producto, "musicstore")
             return None
         if "amazon" in url:
             return extract_price_amazon(html)
