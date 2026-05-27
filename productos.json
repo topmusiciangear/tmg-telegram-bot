@@ -141,7 +141,6 @@
         "amazon": "https://www.amazon.co.uk/dp/B0C5JRTS3Y?tag=topmusicg-20",
         "andertons": "https://www.andertons.co.uk/ssl-2-v2-recording-pack-with-mic-headphones--pop-filter/?irgwc=1&irpid=7292297",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "",
         "reverb": "https://reverb.com/marketplace?query=SSL+2++MKII&sv_campaign_id=2891111"
       }
     },
@@ -250,7 +249,6 @@
         "amazon": "",
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Image-Line-FL-Studio-Producer-Edition/3NL2?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "",
         "reverb": "https://reverb.com/marketplace?query=FL+Studio+Producer+Edition&sv_campaign_id=2891111"
       }
     },
@@ -395,7 +393,6 @@
         "amazon": "",
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Suite/6A98?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "",
         "reverb": "https://reverb.com/marketplace?query=Ableton+Live+12+Suite&sv_campaign_id=2891111"
       }
     },
@@ -408,7 +405,7 @@
         "amazon": "",
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Pro-Tools-Ultimate-Annual-Subscription-Renewal/5XJE?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "",
+        "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12146-Pro-Tools-Studio-Perpetual-License?a_aid=6a01e859cbe1a",
         "reverb": "https://reverb.com/marketplace?query=Pro+Tools+Studio+Perpetual&sv_campaign_id=2891111"
       }
     },
@@ -421,7 +418,7 @@
         "amazon": "",
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Cubase-Pro-15/7MM7?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "",
+        "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/16169-Cubase-Pro-15?a_aid=6a01e859cbe1a",
         "reverb": "https://reverb.com/marketplace?query=Steinberg+Cubase+Pro+15&sv_campaign_id=2891111"
       }
     },
@@ -434,7 +431,6 @@
         "amazon": "",
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Recording-and-Computers/Reason-13/6HCX?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "",
         "reverb": "https://reverb.com/marketplace?query=Reason+13&sv_campaign_id=2891111"
       }
     },
@@ -656,7 +652,6 @@
         "amazon": "https://www.amazon.co.uk/dp/B07CTVBN3M?tag=topmusicg-20",
         "andertons": "",
         "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-PF-3-Tone-Sunburst/2H6X?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "",
         "reverb": "https://reverb.com/marketplace?query=Fender+Player+Jazzmaster&sv_campaign_id=2891111"
       }
     }

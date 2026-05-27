@@ -123,9 +123,11 @@ def extract_price_gear4music(html):
 def extract_price_pluginboutique(html):
     patterns = [
         r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
+        r'"price"\s*:\s*([\d.]+)',
+        r'&quot;price&quot;\s*:\s*([\d.]+)',
         r'"price":\s*"(\d+\.?\d*)"',
+        r'class="[^"]*text-gray-800[^"]*"[^>]*>\s*[€$£]\s*(\d+[.,]?\d*)',
         r'class="[^"]*price[^"]*"[^>]*>[^<]*[€$]\s*(\d+[.,]?\d*)',
-        r'[€$]\s*(\d+[.,]?\d*)',
     ]
     return find_price_in_html(html, patterns)
 
