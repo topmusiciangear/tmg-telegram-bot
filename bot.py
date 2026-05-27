@@ -46,7 +46,7 @@ TIENDA_NOMBRES = {
     "musicstore": "🇩🇪 Music Store",
     "andertons": "🇬🇧 Andertons",
     "gear4music": "🇪🇺 Gear4Music",
-    "pluginboutique": "🔌 Plugin Boutique",
+    "reverb": "🇺🇸 Reverb",
 }
 
 def load_json(path):
@@ -129,6 +129,25 @@ def extract_price_pluginboutique(html):
     ]
     return find_price_in_html(html, patterns)
 
+def extract_price_reverb(url, nombre_producto):
+    query = nombre_producto.replace(" ", "+")
+    api_url = f"https://reverb.com/api/listings?query={query}&condition=Brand+New&per_page=1"
+    try:
+        r = requests.get(api_url, headers=HEADERS, timeout=10)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        listings = data.get("listings", [])
+        if not listings:
+            return None
+        price_str = listings[0].get("price", {}).get("amount", "0")
+        price = float(price_str)
+        if price > 0:
+            return price
+    except:
+        pass
+    return None
+
 IMPERSONATES = ["chrome124", "chrome110", "safari17_0", "edge99"]
 
 def fetch_page(url):
@@ -198,6 +217,8 @@ def extract_price(url, nombre_producto=""):
     if not url:
         return None
     try:
+        if "reverb" in url:
+            return extract_price_reverb(url, nombre_producto)
         html = fetch_page(url)
         if html is None:
             if "musicstore" in url and nombre_producto:
