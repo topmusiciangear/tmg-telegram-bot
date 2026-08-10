@@ -46,7 +46,6 @@ TIENDA_NOMBRES = {
     "musicstore": "🇩🇪 Music Store",
     "andertons": "🇬🇧 Andertons",
     "gear4music": "🇪🇺 Gear4Music",
-    "reverb": "🇺🇸 Reverb",
     "pluginboutique": "🔌 Plugin Boutique",
 }
 
@@ -210,28 +209,7 @@ def extract_price_pluginboutique(html):
     was = find_was_price(html)
     return current, was
 
-# ---------- Reverb (API) ----------
-def extract_price_reverb(nombre_producto):
-    query = nombre_producto.replace(" ", "+")
-    api_url = f"https://reverb.com/api/listings?query={query}&condition=Brand+New&per_page=1"
-    try:
-        r = requests.get(api_url, headers=HEADERS, timeout=10)
-        if r.status_code != 200:
-            return None, None
-        data = r.json()
-        listings = data.get("listings", [])
-        if not listings:
-            return None, None
-        lst = listings[0]
-        cur = lst.get("price", {})
-        current = parse_num(cur.get("amount"))
-        was = None
-        orig = lst.get("original_price")
-        if orig and orig.get("amount"):
-            was = parse_num(orig.get("amount"))
-        return current, was
-    except:
-        return None, None
+# ---------- Plugin Boutique ----------
 
 IMPERSONATES = ["chrome124", "chrome110", "safari15_5", "safari17_0", "edge99"]
 
@@ -261,7 +239,39 @@ def fetch_page(url):
         log(f"  [requests] failed: {e}")
         return None
 
-def detect_moneda(url):
+CURRENCY_SYMBOLS = {
+    "EUR": "€", "GBP": "£", "USD": "$", "RON": "lei", "CAD": "C$", "AUD": "A$",
+}
+
+def detect_moneda(url, html=""):
+    # Prefer the page's own currency (meta og:price:currency / JSON-LD priceCurrency)
+    if html:
+        m = re.search(r'<meta property="og:price:currency"[^>]*content="([A-Z]{3})"', html)
+        if not m:
+            m = re.search(r'"priceCurrency"\s*:\s*"([A-Z]{3})"', html)
+        if m:
+            iso = m.group(1).upper()
+            return CURRENCY_SYMBOLS.get(iso, iso)
+        # Plugin Boutique: currency sits right before the price in the otpPrice block,
+        # often as \ufffd (undecodable euro) — treat that as EUR.
+        if "pluginboutique" in url:
+            m = re.search(r'otpPrice[^>]*>\s*<div class="flex">[^€£$]*?([€£$\ufffd])\s*[\d.,]+', html)
+            if m:
+                sym = m.group(1)
+                return "€" if sym == "\ufffd" else sym
+        # Amazon encodes currency as a prefix like "RON953.25" or "$953.25"
+        m = re.search(r'class="a-price-symbol"[^>]*>\s*([A-Z$£€]{1,4})', html)
+        if not m:
+            m = re.search(r'class="a-offscreen">\s*([A-Z$£€]{1,4})\s*[\d.,]+', html)
+        if m:
+            sym = m.group(1).strip()
+            if sym in ("$", "£", "€"):
+                return sym
+            return CURRENCY_SYMBOLS.get(sym.upper(), sym)
+        # Generic: what symbol appears right before a price in the page
+        m = re.search(r'[£€$]\s*[\d.,]+', html)
+        if m:
+            return m.group(0)[0]
     if "amazon.co.uk" in url:
         return "£"
     if "amazon.de" in url:
@@ -274,24 +284,16 @@ def detect_moneda(url):
         return "£"
     if "gear4music" in url:
         return "£"
-    if "reverb" in url:
-        return "$"
-    if "pluginboutique" in url:
-        return "$"
     return "$"
 
 def extract_price(url, nombre_producto=""):
     if not url:
         return None
     try:
-        if "reverb" in url:
-            current, was = extract_price_reverb(nombre_producto)
-            moneda = detect_moneda(url)
-            return (current, was, moneda) if current else None
         html = fetch_page(url)
         if html is None:
             return None
-        moneda = detect_moneda(url)
+        moneda = detect_moneda(url, html)
         if "amazon" in url:
             current, was = extract_price_amazon(html)
         elif "musicstore" in url:
