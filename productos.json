@@ -1,183 +1,15 @@
 {
   "productos": [
     {
-      "nombre": "Focusrite Scarlett 2i2 4th Gen",
-      "categoria": "interfaces",
-      "precio_base": 199,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0C5JRTS3Y?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/focusrite-scarlett-2i2-4th-gen/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/focusrite-scarlett-2i2-4th-gen-usb-audio-interface?sv_campaign_id=2891111"
-      }
-    },
-    {
       "nombre": "Shure SM7B",
       "categoria": "microfonos",
       "precio_base": 399,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0002E4Z8M?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/shure-sm7b-dynamic-vocal-mic/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/shure-sm7b?sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Dunlop GCB95 Crybaby Wah",
-      "categoria": "guitarras",
-      "precio_base": 99,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0002CZVK0?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/jim-dunlop-original-gcb95-cry-baby-wah-pedal/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Dunlop-GCB95-CryBaby-Wah-Pedal/2UV?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Dunlop+GCB95+Crybaby+Wah&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Genelec 8040B",
-      "categoria": "monitores",
-      "precio_base": 799,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B00HUOKDSI?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/genelec-8040b-two-way-active-studio-monitor-single-unit/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Genelec+8040B&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Yamaha HS8",
-      "categoria": "monitores",
-      "precio_base": 349,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B00CHZG75S?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/yamaha-hs8-monitor-bundle-with-vibro-pads-and-cables/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor-Pair/6V1J?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Yamaha+HS8&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Audio-Technica ATH-M50x",
-      "categoria": "auriculares",
-      "precio_base": 169,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B00HVLUR86?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/audio-technica-ath-m50x-studio-monitor-professional-headphones/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Audio-Technica+ATH-M50x&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Shure SM57",
-      "categoria": "microfonos",
-      "precio_base": 99,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0000AQRST?tag=topmusicg-20",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/shure-sm57?sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Shure SM58",
-      "categoria": "microfonos",
-      "precio_base": 99,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B000CZ0R42?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/shure-sm58-vocal-microphone-bundle-w-stand-and-xlr-cable/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-Dynamic-Cardioid-Vocal-Microphone/4ZW?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/shure-sm58?sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Rode NT1-A",
-      "categoria": "microfonos",
-      "precio_base": 269,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0CKVD62NX?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/rode-nt1-5th-generation-with-sm6-shockmount-pop-filter-silver/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/G4M/Rode-NT1A-Studio-Condenser-Secondhand/7XKK?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/rode-nt1-a?sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Kali Audio LP-6 V2",
-      "categoria": "monitores",
-      "precio_base": 199,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07KMKWMMV?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/kali-audio-lp-6-v2-studio-monitor-bundle-w-foam-pads-and-cables/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-LP-6-2nd-Wave-Studio-Monitor-Single/434C?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Kali+Audio+LP-6+V2&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "KRK Rokit 7 G5",
-      "categoria": "monitores",
-      "precio_base": 249,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B09D3S9X3R?tag=topmusicg-20",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Pair/68YW?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=KRK+Rokit+7+G5&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "SSL 2+ MKII",
-      "categoria": "interfaces",
-      "precio_base": 299,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0C5JRTS3Y?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/ssl-2-v2-recording-pack-with-mic-headphones--pop-filter/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=SSL+2++MKII&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Universal Audio Apollo Twin X",
-      "categoria": "interfaces",
-      "precio_base": 899,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/apollo-twin-x-duo-gen-2-ess/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-Twin-X-DUO-USB-HE-Desktop-WIN/5X6U?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Universal+Audio+Apollo+Twin+X&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "RME Babyface Pro FS",
-      "categoria": "interfaces",
-      "precio_base": 949,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B00XU0DYLE?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/rme-babyface-pro-fs-24-channel-192-khz-bus-powered-pro-usb-20-audio-interface/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=RME+Babyface+Pro+FS&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "AKG C414 XLII",
-      "categoria": "microfonos",
-      "precio_base": 1100,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B006VSM8WS?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/akg-c414-xlii-large-diaphragm-condenser-microphone/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=AKG+C414+XLII&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.co.uk/dp/B0002E4Z8M",
+        "andertons": "https://www.andertons.co.uk/shure-sm7b-dynamic-vocal-mic/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM7B-Dynamic-Studio-Microphone/G6X",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FShure-SM7B%2Fart-REC0000211-000"
       }
     },
     {
@@ -186,336 +18,224 @@
       "precio_base": 3599,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0C1TLLLDT?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/neumann-u87-microphone-nickel-finish-w-ea87-shockmount/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/neumann-u-87-ai?sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B0016ZSIP2",
+        "andertons": "https://www.andertons.co.uk/neumann-u87-ai-microphone-set-black-finish-w-ea87-shockmount/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-U87-AI-Studio-Microphone-Set-Nickel/6ED",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNeumann-U87-Ai-Studio-Set%2Fart-REC0009533-000"
       }
     },
     {
-      "nombre": "JBL 305P MkII",
-      "categoria": "monitores",
-      "precio_base": 199,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B088VSBV65?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/jbl-305p-mkii-5-studio-monitor/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/JBL-305P-MKII-Studio-Monitor-Pair/3CFL?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=JBL+305P+MkII&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Universal Audio Volt 2",
-      "categoria": "interfaces",
-      "precio_base": 189,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B09J1W1TYN?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/universal-audio-volt-2-2-in-2-out-usb-20-audio-interface/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Volt-2-USB-Audio-Interface/43TH?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Universal+Audio+Volt+2&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Electro-Voice RE20",
+      "nombre": "Rode NT1 5th Generation",
       "categoria": "microfonos",
-      "precio_base": 449,
+      "precio_base": 269,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B08P7QTZM5?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/electro-voice-re20-broadcast-announcer-cardioid-microphone-w-variable-d/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-RE20-Dynamic-Cardioid-Microphone-Black/3NIC?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/electro-voice-re20?sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.co.uk/R%C3%98DE-NT1-5th-Generation-Large-diaphragm/dp/B0BQH4KNBR",
+        "andertons": "https://www.andertons.co.uk/rode-nt1-5th-generation-with-sm6-shockmount-pop-filter-silver/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Rode-NT1-5th-Gen-XLR-and-USB-C-Studio-Microphone-Black/5CEO",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Rode-NT1-5th-Generation/art-REC0016331-000"
       }
     },
     {
-      "nombre": "Beyerdynamic DT 990 Pro",
-      "categoria": "auriculares",
-      "precio_base": 169,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B0011UB9CQ?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/beyerdynamic-dt-990-pro-x-openback-studio-headphones-48-ohm/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/7AE?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Beyerdynamic+DT+990+Pro&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "FL Studio Producer Edition",
-      "categoria": "plugins",
-      "precio_base": 199,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Image-Line-FL-Studio-Producer-Edition/3NL2?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=FL+Studio+Producer+Edition&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Audient iD14 MKII",
-      "categoria": "interfaces",
-      "precio_base": 199,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B08SJD466P?tag=topmusicg-20",
-        "andertons": "https://www.andertons.co.uk/audient-id14-mkii-10-in-4-out-high-performance-usb-interface-with-scroll-control/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audient-iD14-10in-6out-Audio-Interface/3PJV?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Audient+iD14+MKII&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "MOTU M2",
-      "categoria": "interfaces",
-      "precio_base": 199,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/motu-m2-2-in-2-out-usb-c-audio-interface/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/MOTU-M2-2-Channel-Audio-Interface/3N7M?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=MOTU+M2&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Sennheiser MD 421-II",
+      "nombre": "AKG C414 XLII",
       "categoria": "microfonos",
-      "precio_base": 349,
+      "precio_base": 1099,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/sennheiser-md421-kompakt--drum-clamp/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-MD-421-Kompakt-Dynamic-Instrument-Microphone/6LA6?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Sennheiser+MD+421-II&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B006VSM8WS",
+        "andertons": "https://www.andertons.co.uk/akg-c414-xlii-large-diaphragm-condenser-microphone/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-C414XL-II-Condenser-Microphone/1ZV",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAKG-C414-XLII-Multipattern-Grossmembran-Kondensatormikrofon%2Fart-REC0007446-000"
       }
     },
     {
-      "nombre": "EHX Small Stone Nano",
-      "categoria": "guitarras",
-      "precio_base": 79,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/electro-harmonix-nano-small-stone-phaser-pedal/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Analog-Phase-Shifter/8WV?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=EHX+Small+Stone+Nano&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Yamaha DXR12 mkII",
-      "categoria": "pa",
-      "precio_base": 799,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DXR12mkII-12-Active-PA-Speaker/2XUJ?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Yamaha+DXR12+mkII&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Fender Blues Junior IV",
-      "categoria": "guitarras",
-      "precio_base": 699,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/fender-blues-junior-iv-blk/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-1x12-15W-Valve-Combo/28KX?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Fender+Blues+Junior+IV&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Boss DD-8 Digital Delay",
-      "categoria": "guitarras",
-      "precio_base": 149,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07YDG7RLC?tag=topmusicg-20",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/34Y8?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/boss-dd-8-digital-delay?sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Sony MDR-7506",
-      "categoria": "auriculares",
+      "nombre": "Shure SM57",
+      "categoria": "microfonos",
       "precio_base": 99,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Sony+MDR-7506&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B0000AQRST",
+        "andertons": "https://www.andertons.co.uk/shure-sm57-dynamic-instrument-microphone/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Shure-SM57-Dynamic-Instrument-Microphone/4ZV",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FShure-SM57-LCE-Mikrofon-dynamisch%2Fart-PAH0000162-000"
       }
     },
     {
-      "nombre": "Marshall DSL40CR",
+      "nombre": "Fender American Professional II Stratocaster",
       "categoria": "guitarras",
+      "precio_base": 1799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CV1J1KLW",
+        "andertons": "https://www.andertons.co.uk/fender-american-professional-ii-stratocaster-3-tone-sunburst-maple-fingerboard/",
+        "gear4music": "https://www.gear4music.com/G4M/Fender-American-Professional-II-Stratocaster-2021-Mercury-Secondhand/7AQW",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Professional-II-Stratocaster-RW-3-Color-Sunburst%2Fart-GIT0054130-000"
+      }
+    },
+    {
+      "nombre": "Gibson Les Paul Standard '60s",
+      "categoria": "guitarras",
+      "precio_base": 2699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B07W7WD3DW",
+        "andertons": "https://www.andertons.co.uk/gibson-les-paul-standard-60s-electric-guitar-bourbon-burst/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Gibson-Les-Paul-Standard-60s-Double-Trouble-Vintage-Tobacco-Burst-Gloss-219150043/6Y3C",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FGibson-Les-Paul-Standard-60s-Unburst%2Fart-GIT0049496-000"
+      }
+    },
+    {
+      "nombre": "Taylor 314ce",
+      "categoria": "guitarras",
+      "precio_base": 1899,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CVW4MNJF",
+        "andertons": "https://www.andertons.co.uk/taylor-314ce-studio-natural-acoustic-guitar/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Taylor-314ce-Natural/2KX6",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FTaylor-314ce%2Fart-GIT0046627-000"
+      }
+    },
+    {
+      "nombre": "Ibanez RG550 Genesis",
+      "categoria": "guitarras",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0DR697QYH",
+        "andertons": "https://www.andertons.co.uk/ibanez-genesis-collection-rg-ultra-thin-super-wizard-neck-edge-trem-black/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-RG550-Genesis-Purple-Neon/28PZ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FIbanez-Genesis-RG550-DY-Desert-Sun-Yellow%2Fart-GIT0044595-000"
+      }
+    },
+    {
+      "nombre": "PRS McCarty 594",
+      "categoria": "guitarras",
+      "precio_base": 5499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0BZBD176X",
+        "andertons": "https://www.andertons.co.uk/prs-mccarty-594-vintage-tuners-mccarty-sunburst/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/PRS-McCarty-594-10-Top-Quilt-Dark-Cherry-Burst-0332245-2021/4KBQ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FPRS-McCarty-594-Dark-Cherry-Sunburst%2Fart-GIT0063401-007"
+      }
+    },
+    {
+      "nombre": "Nord Stage 4 88",
+      "categoria": "teclados",
+      "precio_base": 4999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0C4FM4MJK",
+        "andertons": "https://www.andertons.co.uk/nord-stage-4-88-ha/",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Nord-Stage-4-88-88-Key-Digital-Stage-Piano/5ET3",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FClavia-Nord-Stage-4-88%2Fart-KEY0005756-000"
+      }
+    },
+    {
+      "nombre": "Yamaha Montage M8x",
+      "categoria": "teclados",
+      "precio_base": 4699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CFBC7MNY",
+        "andertons": "https://www.andertons.co.uk/yamaha-montage-m8x-synthesizer/",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-Montage-M8X-Synthesizer/7H6C",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-Montage-M8x%2Fart-SYN0008831-000"
+      }
+    },
+    {
+      "nombre": "Arturia KeyLab Essential 61 MkIII",
+      "categoria": "teclados",
+      "precio_base": 299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0C4G6PCQ1",
+        "andertons": "https://www.andertons.co.uk/arturia-keylab-essential-61-mk3-aquamarine/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Arturia-KeyLab-Essential-61-MK3-Aqumarine/7SGI",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FArturia-KeyLab-Essential-61-Mk3-Black%2Fart-SYN0008709-000"
+      }
+    },
+    {
+      "nombre": "Native Instruments Komplete Kontrol S61",
+      "categoria": "teclados",
+      "precio_base": 599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CH3XCMB7",
+        "andertons": "https://www.andertons.co.uk/native-instruments-kontrol-s61-mk3/",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNative-Instruments-KONTROL-S61-MK3%2Fart-SYN0008775-000"
+      }
+    },
+    {
+      "nombre": "Focusrite Scarlett 2i2 4th Gen",
+      "categoria": "interfaces",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0C5JRTS3Y",
+        "andertons": "https://www.andertons.co.uk/focusrite-scarlett-2i2-4th-gen/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focusrite-Scarlett-2i2-4th-Gen-Audio-Interface/5O8G",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFocusrite-Scarlett-2i2-4th-Gen%2Fart-PCM0017719-000"
+      }
+    },
+    {
+      "nombre": "Universal Audio Apollo Twin X",
+      "categoria": "interfaces",
       "precio_base": 899,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/marshall-dsl40cr-40w-valve-combo/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40W-1x12-Valve-Combo-w--Reverb/26GY?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Marshall+DSL40CR&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B0DC1277WG",
+        "andertons": "https://www.andertons.co.uk/apollo-twin-x-duo-gen-2-ess/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-Twin-X-DUO-USB-HE-Desktop-WIN/5X6U",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FUniversal-Audio-Apollo-Twin-X-DUO-Gen2-Essential-%2Fart-PCM0018199-000"
       }
     },
     {
-      "nombre": "Vox AC30",
-      "categoria": "guitarras",
-      "precio_base": 699,
+      "nombre": "RME Babyface Pro FS",
+      "categoria": "interfaces",
+      "precio_base": 949,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/vox-ac30-custom-with-celestion-greenback-speakers/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-AC30C2/CE8?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Vox+AC30&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.co.uk/RME-BABYFACEPRO-Audio-Interface/dp/B00XU0DYLE",
+        "andertons": "https://www.andertons.co.uk/rme-babyface-pro-fs-24-channel-192-khz-bus-powered-pro-usb-20-audio-interface/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Babyface-Pro-FS/37CM",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRME-Babyface-Pro-FS%2Fart-PCM0016147-000"
       }
     },
     {
-      "nombre": "Fender Rumble 500 V3",
-      "categoria": "guitarras",
-      "precio_base": 649,
+      "nombre": "SSL 2+ MKII",
+      "categoria": "interfaces",
+      "precio_base": 299,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/fender-rumble-500-v3-bass-amp/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-2x10-Bass-Combo/X0R?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Fender+Rumble+500+V3&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.co.uk/Solid-State-Logic-Audio-Interface/dp/B0DJRC6SCC",
+        "andertons": "https://www.andertons.co.uk/ssl-2-v2-recording-pack-with-mic-headphones--pop-filter/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/SSL-2and-MKII-2-Channel-USB-Audio-Interface/6OZA",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSSL-Solid-State-Logic-SSL2-MKII%2Fart-PCM0018224-000"
       }
     },
     {
-      "nombre": "Ableton Live 12 Suite",
-      "categoria": "plugins",
-      "precio_base": 599,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Suite/6A98?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Ableton+Live+12+Suite&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Pro Tools Studio Perpetual",
-      "categoria": "plugins",
-      "precio_base": 999,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Pro-Tools-Ultimate-Annual-Subscription-Renewal/5XJE?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12146-Pro-Tools-Studio-Perpetual-License?a_aid=6a01e859cbe1a",
-        "reverb": "https://reverb.com/marketplace?query=Pro+Tools+Studio+Perpetual&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Steinberg Cubase Pro 15",
-      "categoria": "plugins",
-      "precio_base": 599,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Cubase-Pro-15/7MM7?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/16169-Cubase-Pro-15?a_aid=6a01e859cbe1a",
-        "reverb": "https://reverb.com/marketplace?query=Steinberg+Cubase+Pro+15&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Reason 13",
-      "categoria": "plugins",
+      "nombre": "Yamaha HS8",
+      "categoria": "monitores",
       "precio_base": 399,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Reason-13/6HCX?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Reason+13&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B00DCYMVB2",
+        "andertons": "https://www.andertons.co.uk/yamaha-hs8-active-studio-monitor-single-unit/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8-Active-Studio-Monitor/QT5",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-HS-8%2Fart-REC0010559-000"
       }
     },
     {
-      "nombre": "EV ZLX-12P G2",
-      "categoria": "pa",
-      "precio_base": 399,
+      "nombre": "KRK Rokit 7 G5",
+      "categoria": "monitores",
+      "precio_base": 269,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/Electro-Voice-ZLX12PG2-Powered-Active-Loudspeaker/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ZLX-12P-G2-12-Active-PA-Speaker/66EZ?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=EV+ZLX-12P+G2&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "QSC K12.2",
-      "categoria": "pa",
-      "precio_base": 999,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B06Y477LND?tag=topmusicg-20",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/QSC-K122-12-Active-PA-Speaker/1XWB?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=QSC+K12.2&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "JBL PRX ONE",
-      "categoria": "pa",
-      "precio_base": 1599,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/jbl-prx-one-column-pa-system-with-7-channel-digital-mixer-dsp-fx-bluetooth-2kw-peak/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/3ZPI?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=JBL+PRX+ONE&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Ibanez TS9 Tubescreamer",
-      "categoria": "guitarras",
-      "precio_base": 149,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/ibanez-ts9-tube-screamer-overdrive-pedal/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-TS9-Tube-Screamer/6RI?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/ibanez-ts9-tubescreamer?sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "TC Electronic Hall of Fame 2",
-      "categoria": "guitarras",
-      "precio_base": 149,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07NP75923?tag=topmusicg-20",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Hall-Of-Fame-2-Reverb-Pedal/1ZGY?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/tc-electronic-hall-of-fame-2?sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Fender Player Stratocaster HSS",
-      "categoria": "guitarras",
-      "precio_base": 699,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Stratocaster-HSS-MN-Black/2H4V?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Fender+Player+Stratocaster+HSS&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Fender Player Precision Bass",
-      "categoria": "guitarras",
-      "precio_base": 799,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-MN-Black/2H6E?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/fender-player-precision-bass?sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.co.uk/KRK-Rokit-RP7-G5-Piece/dp/B0CW3VY48H",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-ROKIT-RP7-G5-Studio-Monitor-Single/674T",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKRK-Rokit-RP7-G5%2Fart-REC0016600-000"
       }
     },
     {
@@ -524,87 +244,530 @@
       "precio_base": 799,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/adam-a7v-studio-monitor-bundle-w-speaker-stands-cable/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Adam+Audio+A7V&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B09XD6RKGS",
+        "andertons": "https://www.andertons.co.uk/adam-audio-a7v-active-nearfield-monitor/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-A7V-Active-Studio-Monitor-Single/4QAJ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAdam-Audio-A7V%2Fart-REC0015972-000"
+      }
+    },
+    {
+      "nombre": "Genelec 8040B",
+      "categoria": "monitores",
+      "precio_base": 1198,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B00HUOKDSI",
+        "andertons": "https://www.andertons.co.uk/genelec-8040b-two-way-active-studio-monitor-single-unit/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Genelec-8040B-Bi-Amped-Studio-Monitor-Dark-Grey-Single/V2L",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FGenelec-8040-BMM%2Fart-REC0016882-000"
+      }
+    },
+    {
+      "nombre": "Beyerdynamic DT 770 Pro",
+      "categoria": "auriculares",
+      "precio_base": 159,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0016MNAAI",
+        "andertons": "https://www.andertons.co.uk/beyerdynamic-dt770-pro-closed-back-headphones-80-ohms/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-770-Pro-Headphones-250-Ohm/8GU",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2Fbeyerdynamic-DT-770-PRO-250-Ohm%2Fart-REC0000949-000"
+      }
+    },
+    {
+      "nombre": "Sennheiser HD 600",
+      "categoria": "auriculares",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00004SY4H",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-HD-600-Avantgarde-Headphones/4TH",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSennheiser-HD-600%2Fart-REC0014524-000"
+      }
+    },
+    {
+      "nombre": "Audio-Technica ATH-M50x",
+      "categoria": "auriculares",
+      "precio_base": 169,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00HVLUR86",
+        "andertons": "https://www.andertons.co.uk/audio-technica-ath-m50x-studio-monitor-professional-headphones/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M50x-Headphones-Black/X9G",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-ATH-M50X/art-REC0011129-000"
+      }
+    },
+    {
+      "nombre": "Sony MDR-7506",
+      "categoria": "auriculares",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B000AJIF4E",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sony-MDR-7506-1-Professional-Stereo-Headphones/26Z8",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSony-MDR-7506%2Fart-REC0000388-000"
+      }
+    },
+    {
+      "nombre": "Native Instruments Kontakt 8",
+      "categoria": "plugins",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Native+Instruments+Kontakt+8&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Kontakt-8/6NPI",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Native+Instruments+Kontakt+8&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNative-Instruments-Kontakt-8%2Fart-PCM0018134-000"
       }
     },
     {
       "nombre": "FabFilter Total Bundle",
       "categoria": "plugins",
-      "precio_base": 1199,
+      "precio_base": 1069,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle?a_aid=6a01e859cbe1a",
-        "reverb": "https://reverb.com/marketplace?query=FabFilter+Total+Bundle&sv_campaign_id=2891111"
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=FabFilter+Total+Bundle&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/FabFilter-Total-Bundle/3NUP",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=FabFilter+Total+Bundle&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFabfilter-FabFilter-Total-Bundle%2Fart-PCM0014088-000"
       }
     },
     {
       "nombre": "iZotope Ozone 12 Advanced",
       "categoria": "plugins",
-      "precio_base": 399,
+      "precio_base": 499,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15503-Ozone-12-Advanced?a_aid=6a01e859cbe1a",
-        "reverb": "https://reverb.com/marketplace?query=iZotope+Ozone+12+Advanced&sv_campaign_id=2891111"
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=iZotope+Ozone+12+Advanced&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/iZotope-Ozone-12-Advanced/7IC5",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=iZotope+Ozone+12+Advanced&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FiZotope-Ozone-12-Standard-Update-from-any-pevious-Version-of-Ozone-Standard-License-Code%2Fart-PCM0018597-000"
       }
     },
     {
-      "nombre": "Soundtoys 5.5",
+      "nombre": "Soundtoys 5.5 Bundle",
       "categoria": "plugins",
-      "precio_base": 299,
+      "precio_base": 599,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5?a_aid=6a01e859cbe1a",
-        "reverb": "https://reverb.com/marketplace?query=Soundtoys+5.5&sv_campaign_id=2891111"
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Soundtoys+5.5+Bundle&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Soundtoys-55/7F1S",
+        "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/89-Complete-Collection/15254-Soundtoys-5-5?a_aid=6a01e859cbe1a"
       }
     },
     {
-      "nombre": "Melodyne 5 Essential",
-      "categoria": "plugins",
+      "nombre": "Roland TR-8S",
+      "categoria": "bateria",
+      "precio_base": 749,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07B8ZGXTS",
+        "andertons": "https://www.andertons.co.uk/roland-tr-8s-rhythm-performer/",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Roland-TR-8S-Rhythm-Performer/2D82",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRoland-TR-8S%2Fart-SYN0006408-000"
+      }
+    },
+    {
+      "nombre": "Akai MPC One+",
+      "categoria": "bateria",
+      "precio_base": 499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0C3RN1RTS",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Akai-Professional-MPC-One-Plus-Standalone-Music-Production-Centre/5MUP",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAKAI-Professional-MPC-One-%2Fart-SYN0008706-000"
+      }
+    },
+    {
+      "nombre": "Aston Microphones Shield GN Pop Filter",
+      "categoria": "accesorios",
+      "precio_base": 49,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B079GXTKN3?tag=topmusicg-20",
+        "andertons": "https://www.andertons.co.uk/aston-shield-gn-gooseneck-pop-filter/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Aston-Microphones-Shield-GN-Pop-Filter/2AX0",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_GB%2FGBP%2FAston-Microphones-Shield-GN-Pop-Filter%2Fart-REC0013559-000"
+      }
+    },
+    {
+      "nombre": "Gator Cases 61-Key Keyboard Case",
+      "categoria": "accesorios",
+      "precio_base": 429,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B01BLQJP98",
+        "andertons": "https://www.andertons.co.uk/gator-ata-molded-pe-case-w-tsa-latches-61-note-keyboard-case",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Gator-GTSA-KEY61-ATA-TSA-61-Note-Keyboard-Case-50-x-22-x-9/2AJ6",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FGator-TSA-ATA-Molded-Case-61-Tasten%2Fart-KEY0006190-000"
+      }
+    },
+    {
+      "nombre": "SSL UF8 DAW Controller",
+      "categoria": "accesorios",
+      "precio_base": 1199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08W322L96",
+        "andertons": "https://www.andertons.co.uk/ssl-uf8-advanced-daw-controller/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/SSL-UF8-Advanced-DAW-Controller/3QTK",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSSL-Solid-State-Logic-UF8%2Fart-PCM0016763-000"
+      }
+    },
+    {
+      "nombre": "Shure SM58",
+      "categoria": "microfonos",
       "precio_base": 99,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Celemony-Melodyne-5-Essential/3NGH?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/6446-Melodyne-5-Essential?a_aid=6a01e859cbe1a",
-        "reverb": "https://reverb.com/marketplace?query=Melodyne+5+Essential&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B000CZ0R42",
+        "andertons": "https://www.andertons.co.uk/shure-sm58-microphone/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-SM58-Dynamic-Cardioid-Vocal-Microphone/4ZW",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FShure-SM-58-SE-with-Switch-dynamic-Microphone%2Fart-PAH0000164-000"
       }
     },
     {
-      "nombre": "Komplete 26 Ultimate",
+      "nombre": "Sennheiser MD 421",
+      "categoria": "microfonos",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0DCLGBBLR",
+        "andertons": "https://www.andertons.co.uk/sennheiser-md-421-ii-large-diaphragm-dynamic-microphone/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-MD-421-Kompakt-Dynamic-Instrument-Microphone/6LA6",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSennheiser-MD-421-II%2Fart-REC0000298-000"
+      }
+    },
+    {
+      "nombre": "Electro-Voice RE20",
+      "categoria": "microfonos",
+      "precio_base": 449,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08P7QTZM5",
+        "andertons": "https://www.andertons.co.uk/electro-voice-re20-broadcast-announcer-cardioid-microphone-w-variable-d/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-RE20-Dynamic-Cardioid-Microphone-Black/3NIC",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FElectro-Voice-RE-20-Black%2Fart-REC0016738-000"
+      }
+    },
+    {
+      "nombre": "Audient iD14 MkII",
+      "categoria": "interfaces",
+      "precio_base": 299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08SJD466P",
+        "andertons": "https://www.andertons.co.uk/audient-id14-mkii-10-in-4-out-high-performance-usb-interface-with-scroll-control/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audient-iD14-10in-6out-Audio-Interface/3PJV",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAudient-iD14-MkII-Mixing-Set%2Fart-REC231"
+      }
+    },
+    {
+      "nombre": "MOTU M2",
+      "categoria": "interfaces",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0812B26TN",
+        "andertons": "https://www.andertons.co.uk/motu-m2-2-in-2-out-usb-c-audio-interface/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/MOTU-M2-2-Channel-Audio-Interface/3N7M",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMOTU-M2%2Fart-PCM0016100-000"
+      }
+    },
+    {
+      "nombre": "Universal Audio Volt 2",
+      "categoria": "interfaces",
+      "precio_base": 189,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B09J1W1TYN",
+        "andertons": "https://www.andertons.co.uk/universal-audio-volt-2-2-in-2-out-usb-20-audio-interface/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Volt-2-USB-Audio-Interface/43TH",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FUniversal-Audio-VOLT-2%2Fart-PCM0017063-000"
+      }
+    },
+    {
+      "nombre": "Beyerdynamic DT 990 Pro",
+      "categoria": "auriculares",
+      "precio_base": 169,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0011UB9CQ",
+        "andertons": "https://www.andertons.co.uk/beyerdynamic-dt990-pro-headphones/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/beyerdynamic-DT-990-Pro-Headphones-250-Ohm/7AE",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2Fbeyerdynamic-DT-990-Pro-X%2Fart-REC0016961-000"
+      }
+    },
+    {
+      "nombre": "AKG K371",
+      "categoria": "auriculares",
+      "precio_base": 155,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07WZH7WM9",
+        "andertons": "https://www.andertons.co.uk/akg-k371-closed-back-studio-headphones/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-K371-Closed-Back-Headphones/3277",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAKG-K-371-Studio-Headphones-Black-%2Fart-REC0014403-000"
+      }
+    },
+    {
+      "nombre": "K&M 210/2 Mic Stand",
+      "categoria": "accesorios",
+      "precio_base": 49,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0006PQOF4",
+        "andertons": "https://www.andertons.co.uk/km-2102-classic-industry-standard-boom-mic-stand-in-black",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/KandM-210-2-Boom-Microphone-Stand-Black/1Z4Y?_gl=1*12f5x52*_up*MQ..*_ga*NzcwMDQ5OTA3LjE3ODQ1NzM3ODE.*_ga_0WF1R5QW3K*czE3ODQ1NzM3ODEkbzEkZzEkdDE3ODQ1NzM3OTAkajUxJGwwJGgxMzAzNjA4MzU0",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKoenig-Meyer-210-2-Mikrofonstativ%2Fart-PAH0015387-000"
+      }
+    },
+    {
+      "nombre": "K&M Monitor Stands (Pair)",
+      "categoria": "accesorios",
+      "precio_base": 89,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0BYZD4VPJ",
+        "andertons": "https://www.andertons.co.uk/km-26720-steel-monitor-stand-with-3-leg-base-black/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/KandM-26722-Monitor-Stand/5EY5",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Koenig-Meyer-26722-Monitor-stand/art-REC0016508-000",
+        "reverb": "https://reverb.com/en-ro/item/59522048-k-m-26720-studio-monitor-stand-black"
+      }
+    },
+    {
+      "nombre": "UA 1176 Classic Limiter Collection",
       "categoria": "plugins",
+      "precio_base": 149,
+      "moneda": "£",
+      "tiendas": {
+        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/9-Limiter/10153-1176-Classic-Limiter-Collection?a_aid=6a01e859cbe1a"
+      }
+    },
+    {
+      "nombre": "TDR Kotelnikov GE",
+      "categoria": "plugins",
+      "precio_base": 50,
+      "moneda": "£",
+      "tiendas": {
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/TDR-Kotelnikov-GE/4P6R",
+        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/4657-TDR-Kotelnikov-GE?a_aid=6a01e859cbe1a"
+      }
+    },
+    {
+      "nombre": "FabFilter Pro-Q 4",
+      "categoria": "plugins",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/FabFilter-Pro-Q-4/6VSY",
+        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/16-EQ/14125-FabFilter-Pro-Q-4?a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Fabfilter-Pro-Q-4-License-Code/art-PCM0018303-000"
+      }
+    },
+    {
+      "nombre": "FabFilter Pro-C 3",
+      "categoria": "plugins",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/FabFilter-Pro-C-3/41UU",
+        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16644-Pro-C-3?a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Fabfilter-Pro-C3-License-Code/art-PCM0018751-000"
+      }
+    },
+    {
+      "nombre": "Fender American Ultra Stratocaster",
+      "categoria": "guitarras",
+      "precio_base": 2299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07T3ZGSCS",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-Stratocaster-HSS-MN-Ultraburst/32KR",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Ultra-II-Stratocaster-EB-Ultraburst%2Fart-GIT0061889-001"
+      }
+    },
+    {
+      "nombre": "Fender Player II Jazzmaster",
+      "categoria": "guitarras",
+      "precio_base": 949,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07W4BRPV1",
+        "andertons": "https://www.andertons.co.uk/fender-player-ii-jazzmaster-rosewood-fingerboard-rallye-orange/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Jazzmaster-RW-3-Color-Sunburst/6HT9",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Player-II-Jazzmaster-RW-3-Color-Sunburst%2Fart-GIT0061908-001"
+      }
+    },
+    {
+      "nombre": "Fender Player Precision Bass",
+      "categoria": "guitarras",
+      "precio_base": 899,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Fender-Player-Precision-Electric-Guitar/dp/B07CTYSTZN?tag=topmusicg-20",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Precision-Bass-MN-Black/2H6E",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Player-II-Modified-Precision-Bass-MN-Sunshine-Yellow%2Fart-BAS0012911-005"
+      }
+    },
+    {
+      "nombre": "Fender Player Jazz Bass",
+      "categoria": "guitarras",
+      "precio_base": 899,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07CTYNK83",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-PF-3-Tone-Sunburst/2H6X",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/search?SearchTerm=Fender+Player+Jazz+Bass"
+      }
+    },
+    {
+      "nombre": "Fender CD-60S Acoustic",
+      "categoria": "guitarras",
+      "precio_base": 219,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07FYKJ6J2",
+        "andertons": "https://www.andertons.co.uk/fender-cd60s-solid-top-dreadnought-guitar-natural-with-walnut-fingerboard/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-CD-60S-Acoustic-Natural/2TTY",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2Fsearch%2F%3Fq%3DFender%2BCD-60S"
+      }
+    },
+    {
+      "nombre": "Fender Blues Junior IV",
+      "categoria": "guitarras",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0798438SZ",
+        "andertons": "https://www.andertons.co.uk/fender-blues-junior-iv-blk/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Blues-Junior-IV-1x12-15W-Valve-Combo/28KX",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Blues-Junior-IV%2Fart-GIT0044445-000"
+      }
+    },
+    {
+      "nombre": "Boss Katana 50 MkII",
+      "categoria": "guitarras",
+      "precio_base": 259,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07YVP6K7N",
+        "gear4music": "https://www.gear4music.com/G4M/Boss-Katana-50-MKII-1x12-Combo/6OAD",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-KATANA-50-MKII%2Fart-GIT0051377-000"
+      }
+    },
+    {
+      "nombre": "Vox AC30",
+      "categoria": "guitarras",
+      "precio_base": 1099,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00382OE7W",
+        "andertons": "https://www.andertons.co.uk/vox-ac30-custom-with-celestion-blue-speakers/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Vox-AC30-Custom-AC30C2/CE8",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FVOX-AC30-C2%2Fart-GIT0018374-000"
+      }
+    },
+    {
+      "nombre": "Marshall DSL40CR",
+      "categoria": "guitarras",
       "precio_base": 999,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Komplete-26-Ultimate/82LX?sv1=affiliate&sv_campaign_id=2891111",
-        "pluginboutique": "https://www.pluginboutique.com/product/81-Bundles/97-Various-Category/17259-Komplete-26-Ultimate?a_aid=6a01e859cbe1a",
-        "reverb": "https://reverb.com/marketplace?query=Komplete+26+Ultimate&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B0BKFGG8VH",
+        "andertons": "https://www.andertons.co.uk/marshall-dsl40cr-40w-valve-combo/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Marshall-DSL40CR-40W-1x12-Valve-Combo-w--Reverb/26GY",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMarshall-DSL40CR%2Fart-GIT0043112-000"
       }
     },
     {
-      "nombre": "Boss Katana 50 Gen 3",
+      "nombre": "Ampeg PF-500 Portaflex",
       "categoria": "guitarras",
-      "precio_base": 229,
+      "precio_base": 649,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/boss-katana-50-gen-3-50w-guitar-amp-combo/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/G4M/Boss-Katana-50-MKII-1x12-Combo/6OAD?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Boss+Katana+50+Gen+3&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B0064BJQG8",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ampeg-PF-500-Portaflex-500W-Bass-Amp-Head/4GKK",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAmpeg-PF-500-Bass-Guitar-Amp-Head-%2Fart-BAS0005453-000"
+      }
+    },
+    {
+      "nombre": "Fender Rumble 500 V3",
+      "categoria": "guitarras",
+      "precio_base": 799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00HWINPLO",
+        "andertons": "https://www.andertons.co.uk/fender-rumble-500-v3-bass-amp/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Rumble-500-V3-2x10-Bass-Combo/X0R",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Rumble-500-V3-Combo%2Fart-BAS0007196-000"
+      }
+    },
+    {
+      "nombre": "Shure BLX288/PG58",
+      "categoria": "microfonos",
+      "precio_base": 599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B016APL8RC",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-BLX288-PG58-K3E-Dual-Handheld-Wireless-Microphone-System/TU2",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FShure-BLX288E-PG58-S8-823-832MHz-Dual-Handsenderfunkanlage%2Fart-PAH0014213-000"
+      }
+    },
+    {
+      "nombre": "Sennheiser EW 100 G4-935",
+      "categoria": "microfonos",
+      "precio_base": 849,
+      "moneda": "£",
+      "tiendas": {
+        "gear4music": "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/Sennheiser-EW-100-G4-Wireless-Microphone-System-with-935-S-E-Band-Nearly-New/2TLB",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_US%2FUSD%2FSennheiser-ew-100-G4-935-S-A1-Vocal-Set%2Fart-PAH0019852-000"
+      }
+    },
+    {
+      "nombre": "Sennheiser EW-D Dual Wireless System",
+      "categoria": "microfonos",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B09422877Z",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-EW-D-Dual-Wireless-System-with-ME2-and-835-S-U1-5-Band/3URI",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2Fsearch%2F%3Fq%3DSennheiser%2BEW-D%2BDual"
+      }
+    },
+    {
+      "nombre": "AKG WMS420 Vocal Set",
+      "categoria": "microfonos",
+      "precio_base": 499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/AKG-Pro-Audio-Wireless-Microphone/dp/B00JC5Y1E0?th=1",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-WMS420-Wireless-Vocal-System-Band-D/395T",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAKG-WMS-420-BD-Vocal-Set-D5-863-865-MHz%2Fart-PAH0015577-000"
+      }
+    },
+    {
+      "nombre": "Ibanez TS9 Tube Screamer",
+      "categoria": "guitarras",
+      "precio_base": 149,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B000T4PJC6",
+        "andertons": "https://www.andertons.co.uk/ibanez-ts9-tube-screamer-overdrive-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-TS9-Tube-Screamer/6RI",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FIbanez-TS9-Classic-Tubescreamer%2Fart-GIT0000149-000"
+      }
+    },
+    {
+      "nombre": "Boss DD-8 Digital Delay",
+      "categoria": "guitarras",
+      "precio_base": 179,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07YDG7RLC",
+        "andertons": "https://www.andertons.co.uk/boss-dd-8-digital-delay-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-DD-8-Digital-Delay-Pedal/34Y8",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-DD-8-Digital-Delay%2Fart-GIT0051369-000"
       }
     },
     {
@@ -613,52 +776,1573 @@
       "precio_base": 99,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/boss-tu-3-compact-chromatic-tuner/?irgwc=1&irpid=7292297",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Pedal-Chromatic-Tuner/C7M?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/p/boss-tu-3-chromatic-tuner?sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.co.uk/dp/B004D8KX7K",
+        "andertons": "https://www.andertons.co.uk/boss-tu-3-compact-chromatic-tuner/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-TU-3-Pedal-Chromatic-Tuner/C7M",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2Fsearch%2F%3Fq%3DBoss%2BTU-3"
       }
     },
     {
-      "nombre": "QSC KW152",
-      "categoria": "pa",
-      "precio_base": 1199,
-      "moneda": "£",
-      "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/qsc-kw152-15-active-pa-loudspeaker/?irgwc=1&irpid=7292297",
-        "gear4music": "",
-        "reverb": "https://reverb.com/marketplace?query=QSC+KW152&sv_campaign_id=2891111"
-      }
-    },
-    {
-      "nombre": "Boss DD-3T Digital Delay",
+      "nombre": "Dunlop GCB95 Crybaby Wah",
       "categoria": "guitarras",
       "precio_base": 129,
       "moneda": "£",
       "tiendas": {
-        "amazon": "",
-        "andertons": "https://www.andertons.co.uk/boss-dd-3t-digital-delay-pedal-tap-tempo/?irgwc=1&irpid=7292297",
-        "gear4music": "",
-        "reverb": "https://reverb.com/marketplace?query=Boss+DD-3T+Digital+Delay&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B0002CZVK0",
+        "andertons": "https://www.andertons.co.uk/jim-dunlop-original-gcb95-cry-baby-wah-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Dunlop-GCB95-CryBaby-Wah-Pedal/2UV",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FDunlop-Cry-Baby-GCB95F-Classic-Wah%2Fart-GIT0012057-000"
       }
     },
     {
-      "nombre": "Fender Player Jazzmaster",
+      "nombre": "TC Electronic Hall of Fame 2",
       "categoria": "guitarras",
+      "precio_base": 169,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B06XF9BNHN",
+        "andertons": "https://www.andertons.co.uk/tc-electronic-hall-of-fame-2-reverb-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Hall-Of-Fame-2-Reverb-Pedal/1ZGY",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FTC-Electronic-Hall-of-Fame-2-Reverb%2Fart-GIT0042338-000"
+      }
+    },
+    {
+      "nombre": "Electro-Harmonix Small Stone",
+      "categoria": "guitarras",
+      "precio_base": 89,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B000PHPJMM",
+        "andertons": "https://www.andertons.co.uk/electro-harmonix-nano-small-stone-phaser-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Electro-Harmonix-Small-Stone-Analog-Phase-Shifter/8WV",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FElectro-Harmonix-Nano-Small-Stone%2Fart-GIT0009646-000"
+      }
+    },
+    {
+      "nombre": "Yamaha FG800 Acoustic",
+      "categoria": "guitarras",
+      "precio_base": 229,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B01C92QHLC",
+        "andertons": "https://www.andertons.co.uk/yamaha-fg800-acoustic-guitar-in-natural/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-FG800M-II-Acoustic-Matt-Natural/1GOQ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-FG-800-BS-Brown-Sunburst%2Fart-GIT0050330-000"
+      }
+    },
+    {
+      "nombre": "Yamaha Pacifica 112V",
+      "categoria": "guitarras",
+      "precio_base": 349,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0010X7LF8",
+        "andertons": "https://www.andertons.co.uk/yamaha-pacifica-112v-mx-in-yellow-natural-satin-with-remote-lesson/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-Pacifica-112-V-Black/842",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-Pacifica-112V-RL-Black%2Fart-GIT0056349-000"
+      }
+    },
+    {
+      "nombre": "Martin D-28 Dreadnought",
+      "categoria": "guitarras",
+      "precio_base": 2999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07629J68X",
+        "andertons": "https://www.andertons.co.uk/martin-d-28-acoustic-guitar-pmd-28snt-1/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Martin-D-28/26U7",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMartin-Guitars-D-28-Satin-New%2Fart-GIT0062673-000"
+      }
+    },
+    {
+      "nombre": "EV ZLX-12P Powered Speaker",
+      "categoria": "pa",
+      "precio_base": 599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CWLT3TRV",
+        "andertons": "https://www.andertons.co.uk/Electro-Voice-ZLX12PG2-Powered-Active-Loudspeaker",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ZLX-12P-G2-12-Active-PA-Speaker/66EZ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fde_DE%2FEUR%2FElectro-Voice-ZLX-12P-G2%2Fart-PAH0023717-002"
+      }
+    },
+    {
+      "nombre": "QSC K12.2 Powered Speaker",
+      "categoria": "pa",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B06Y477LND",
+        "andertons": "https://www.andertons.co.uk/qsc-audio-k122-2000w-powered-12-active-pa-speaker-each/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/QSC-K122-12-Active-PA-Speaker/1XWB",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FQSC-K12-2%2Fart-PAH0019051-000"
+      }
+    },
+    {
+      "nombre": "Yamaha DXR12mkII",
+      "categoria": "pa",
       "precio_base": 899,
       "moneda": "£",
       "tiendas": {
-        "amazon": "https://www.amazon.co.uk/dp/B07CTVBN3M?tag=topmusicg-20",
-        "andertons": "",
-        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Jazz-Bass-PF-3-Tone-Sunburst/2H6X?sv1=affiliate&sv_campaign_id=2891111",
-        "reverb": "https://reverb.com/marketplace?query=Fender+Player+Jazzmaster&sv_campaign_id=2891111"
+        "amazon": "https://www.amazon.com/dp/B07VMBM6V9",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DXR12mkII-12-Active-PA-Speaker/2XUJ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-DXR12mkII-12-LF-1-75-VC-HF-1100W%2Fart-PAH0021280-000"
+      }
+    },
+    {
+      "nombre": "JBL PRX ONE",
+      "categoria": "pa",
+      "precio_base": 1499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08VCGCB6Y",
+        "andertons": "https://www.andertons.co.uk/jbl-prx-one-column-pa-system-with-7-channel-digital-mixer-dsp-fx-bluetooth-2kw-peak",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX-ONE-Column-PA-System/3ZPI",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FJBL-PRX-ONE%2Fart-PAH0022538-000"
+      }
+    },
+    {
+      "nombre": "Ableton Live 12 Suite",
+      "categoria": "plugins",
+      "precio_base": 799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Ableton-Live-Suite-Edition/dp/B0CQXNY528?th=1",
+        "andertons": "https://www.andertons.co.uk/ableton-live-12-suite-esd/?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Ableton-Live-12-Suite/6A98",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Ableton+Live+12+Suite&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAbleton-Live-12-Suite-License-Code%2Fart-PCM0018000-000",
+        "reverb": "https://reverb.com/marketplace?query=Ableton%20Live%2012%20Suite"
+      }
+    },
+    {
+      "nombre": "FL Studio Producer Edition",
+      "categoria": "plugins",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07C895FTM",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Image-Line-FL-Studio-Producer-Edition/3NL2",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=FL+Studio+Producer+Edition&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FImageline-FL-Studio-Producer-Edition-License-Code%2Fart-PCM0015006-000",
+        "reverb": "https://reverb.com/item/85294728-fl-studio-producer-edition-21-2-daw-software-download"
+      }
+    },
+    {
+      "nombre": "Avid Pro Tools Studio",
+      "categoria": "plugins",
+      "precio_base": 599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Avid-Pro-Tools-Production-Software/dp/B08KSRDGWV",
+        "andertons": "https://www.andertons.co.uk/avid-pro-tools-perpetual-license-w-1-year-of-upgrades-support-renewable-annually-esd/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Pro-Tools-Studio-Perpetual/3TEH",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Pro+Tools+Studio&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAvid-Pro-Tools-Studio-Perpetual-License-Code%2Fart-PCM0015649-000",
+        "reverb": "https://reverb.com/item/86118309-avid-pro-tools-studio-annual-subscription-daw-software"
+      }
+    },
+    {
+      "nombre": "Steinberg Cubase Pro 15",
+      "categoria": "plugins",
+      "precio_base": 579,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Steinberg-Cubase-Pro-Download-Card/dp/B0DMTW1QWN",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Cubase-Pro-15/7MM7",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Cubase+Pro+15&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSteinberg-Cubase-Pro-15%2Fart-PCM0018659-000",
+        "reverb": "https://reverb.com/item/85760285-steinberg-cubase-pro-15-daw-software-download"
+      }
+    },
+    {
+      "nombre": "Reason Studios Reason 14",
+      "categoria": "plugins",
+      "precio_base": 300,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/reason-14-daw/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Reason-14/85V1",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Reason+14&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Reason-Studios-Reason-14-License-Code/art-PCM0018102-000",
+        "reverb": "https://reverb.com/item/127647130-reason-14-daw-software-download"
+      }
+    },
+    {
+      "nombre": "JBL 305P MkII",
+      "categoria": "monitores",
+      "precio_base": 149,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B077N2GQXC",
+        "andertons": "https://www.andertons.co.uk/jbl-305p-mkii-5-studio-monitor/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/JBL-305P-MKII-Studio-Monitor/29WJ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FJBL-305P-MKII%2Fart-REC0013911-000"
+      }
+    },
+    {
+      "nombre": "Kali Audio LP-6 V2",
+      "categoria": "monitores",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B09MLT8C45",
+        "andertons": "https://www.andertons.co.uk/kali-audio-lp6-6-monitor-speaker-v2/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-LP-6-2nd-Wave-Studio-Monitor-Single/434C",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKali-Audio-LP-6-2nd-Wave%2Fart-REC0015716-000"
+      }
+    },
+    {
+      "nombre": "Waves Mercury Bundle",
+      "categoria": "plugins",
+      "precio_base": 1499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07XYZ9012",
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+Mercury",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Waves-Mercury-Bundle/7F1S",
+        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/99-Bundle/1893-Waves-Mercury-Bundle?a_aid=6a01e859cbe1a"
+      }
+    },
+    {
+      "nombre": "Waves SSL G-Master Buss Compressor",
+      "categoria": "plugins",
+      "precio_base": 39,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Waves+SSL+G-Master+Buss+Compressor&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/search/?q=Waves+SSL+G+Master+Buss+Compressor",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Waves+SSL+G-Master+Buss+Compressor&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FWaves--Studio-Classics-Collection-DOWNLOAD-%2Fart-PCM0007709-000"
+      }
+    },
+    {
+      "nombre": "Celemony Melodyne 5",
+      "categoria": "plugins",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Celemony+Melodyne+5&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Celemony-Melodyne-5-Essential/3NGH",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Celemony+Melodyne+5&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FCelemony-Software-Melodyne-5-Assistant-Upgrade-from-5-Essential%2Fart-PCM0016506-000"
+      }
+    },
+    {
+      "nombre": "Universal Audio UAD Ultimate 14",
+      "categoria": "plugins",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=UAD+Ultimate+14&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/search/?q=UAD+Ultimate+14",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=UAD+Ultimate+14&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FUniversal-Audio-UAD-2-OCTO-Ultimate-3-Einzelstueck-%2Fart-PCM0013386-000"
+      }
+    },
+    {
+      "nombre": "iZotope RX 11 Advanced",
+      "categoria": "plugins",
+      "precio_base": 1199,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=iZotope+RX+11+Advanced&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/iZotope-RX-11-Advanced/6ET4",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=iZotope+RX+11+Advanced&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FiZotope-RX-12-Advanced-Update-from-RX-11-Advanced%2Fart-PCM0018860-000"
+      }
+    },
+    {
+      "nombre": "Native Instruments Komplete 26 Ultimate",
+      "categoria": "plugins",
+      "precio_base": 1199,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Komplete+26+Ultimate&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Native-Instruments-Komplete-26-Ultimate/82LX",
+        "pluginboutique": "https://www.pluginboutique.com/search?q=Komplete+26+Ultimate&a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNative-Instruments-Komplete-26-Ultimate-Update-for-Ultimate-14%2Fart-PCM0018831-000"
+      }
+    },
+    {
+      "nombre": "Fender Player II Stratocaster HSS",
+      "categoria": "guitarras",
+      "precio_base": 849,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0D2LQ6NTT",
+        "andertons": "https://www.andertons.co.uk/fender-player-ii-modified-stratocaster-hss-mn-dusk/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-II-Stratocaster-HSS-MN-Black/6HUD",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Player-II-Stratocaster-HSS-MN-Black%2Fart-GIT0061903-000"
+      }
+    },
+    {
+      "nombre": "Fender Player Telecaster",
+      "categoria": "guitarras",
+      "precio_base": 849,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07CXGQKVH",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Player-Telecaster-MN-Butterscotch-Blonde/2H5G",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Limited-Edition-Player-Telecaster-PF-Daphne-Blue%2Fart-GIT0054055-000"
+      }
+    },
+    {
+      "nombre": "Fender American Professional II Telecaster",
+      "categoria": "guitarras",
+      "precio_base": 1799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CV1FR1PY",
+        "andertons": "https://www.andertons.co.uk/fender-american-professional-ii-telecaster-dark-night/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Telecaster-MN-Butterscotch-Blonde/3IYI",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-American-Professional-II-Telecaster-RW-Dark-Night%2Fart-GIT0054159-000"
+      }
+    },
+    {
+      "nombre": "Elektron Digitakt II",
+      "categoria": "bateria",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0D1SZP1D2",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Elektron-Digitakt-2-Drum-Computer-and-Sampler/6DFZ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FElektron-Digitakt-II%2Fart-SYN0008985-000"
+      }
+    },
+    {
+      "nombre": "Roland TR-6S",
+      "categoria": "bateria",
+      "precio_base": 449,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08J8G38GM",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Roland-TR-6S-Rhythm-Composer/3LM5",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRoland-TR-6S%2Fart-SYN0007670-000"
+      }
+    },
+    {
+      "nombre": "Novation Circuit Tracks",
+      "categoria": "bateria",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08NZ1W6NN",
+        "andertons": "https://www.andertons.co.uk/novation-circuit-tracks/",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Novation-Circuit-Tracks/3QIP",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNovation-Circuit-Tracks%2Fart-SYN0007807-000"
+      }
+    },
+    {
+      "nombre": "Fender Champion II 25",
+      "categoria": "guitarras",
+      "precio_base": 129,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0D73Z9Z4K",
+        "andertons": "https://www.andertons.co.uk/fender-champion-ii-25-230v-uk/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-Champion-II-25-Guitar-Amplifier-Combo-with-Effects/6I1K",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FFender-Champion-II-25%2Fart-GIT0061978-000"
+      }
+    },
+    {
+      "nombre": "Orange Crush 35RT",
+      "categoria": "guitarras",
+      "precio_base": 229,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00SG4JESQ",
+        "andertons": "https://www.andertons.co.uk/orange-crush-35rt-guitar-amplifier-combo-black/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Orange-Crush-35RT-Combo/168L",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FOrange-Crush-35RT%2Fart-GIT0034364-000"
+      }
+    },
+    {
+      "nombre": "Markbass Mini CMD 121P V",
+      "categoria": "guitarras",
+      "precio_base": 949,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/markbass-mini-cmd-121-p-v-500w-bass-combo/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Markbass-Mini-CMD-121P-V/67HX",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMarkbass-Combo-Mini-CMD-121P-V%2Fart-BAS0012638-000"
+      }
+    },
+    {
+      "nombre": "Boss BD-2 Blues Driver",
+      "categoria": "guitarras",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0002CZV6E",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-BD-2-Blues-Driver/7OQ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-BD-2-Blues-Driver%2Fart-GIT0000567-000"
+      }
+    },
+    {
+      "nombre": "ProCo RAT 2",
+      "categoria": "guitarras",
+      "precio_base": 79,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0002MSQVQ",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Pro-Co-RAT-2-Distortion/CDA",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FProCo-RAT-2-Distortion%2Fart-GIT0002314-000"
+      }
+    },
+    {
+      "nombre": "Strymon BigSky MX",
+      "categoria": "guitarras",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/Strymon-Big-Sky-MX-Guitars-Blue/dp/B0CZTY4XZ4",
+        "andertons": "https://www.andertons.co.uk/strymon-big-sky-mx-multi-reverb-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Strymon-Big-Sky-MX-Reverb-Pedal/6E9T",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FStrymon-Big-Sky-MX%2Fart-GIT0061754-000"
+      }
+    },
+    {
+      "nombre": "MXR Phase 95",
+      "categoria": "guitarras",
+      "precio_base": 129,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B01LZ7UR8K",
+        "andertons": "https://www.andertons.co.uk/mxr-phase-95-mini-phaser/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/MXR-Phase-95-Mini-Phaser-Pedal/1PK7",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMXR-Phase-95%2Fart-GIT0039853-000"
+      }
+    },
+    {
+      "nombre": "Yamaha MG10XU",
+      "categoria": "pa",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00IBIVL42",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-MG10XU-10-Channel-Mixer/XBN",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-MG10XU%2Fart-PAH0015349-000"
+      }
+    },
+    {
+      "nombre": "Behringer X32 Compact",
+      "categoria": "pa",
+      "precio_base": 1999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B00E1CABMU",
+        "andertons": "https://www.andertons.co.uk/behringer-x32-compact-digital-mixing-console/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-X32-Compact-Digital-Mixer/PNM",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBehringer-X32-Compact%2Fart-REC0010350-000"
+      }
+    },
+    {
+      "nombre": "Allen & Heath SQ-5",
+      "categoria": "pa",
+      "precio_base": 2199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0789XWVSH",
+        "andertons": "https://www.andertons.co.uk/allen-heath-sq-5-digital-mixer/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Allen-and-Heath-SQ-5-Digital-Mixer/26QX",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAllen-Heath-SQ-5%2Fart-PAH0019577-000"
+      }
+    },
+    {
+      "nombre": "Yamaha P-225",
+      "categoria": "teclados",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CBN7HYKB",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Yamaha-P225-Digital-Piano-Black/5REN",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-P-225-BK%2Fart-KEY0005823-000"
+      }
+    },
+    {
+      "nombre": "Roland FP-30X",
+      "categoria": "teclados",
+      "precio_base": 799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08SW1RCR2",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Roland-FP-30X-Digital-Piano/3PR4",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRoland-FP-30X%2Fart-KEY0005379-000"
+      }
+    },
+    {
+      "nombre": "Korg Minilogue XD",
+      "categoria": "teclados",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07MWRPQPP",
+        "andertons": "https://www.andertons.co.uk/korg-minilogue-xd-polyphonic-analogue-synthesizer-with-multi-engine-digital-effects-and-step-sequencer",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Korg-Minilogue-XD-Analogue-Synthesizer/2TGY",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKorg-Minilogue-XD%2Fart-SYN0006843-000"
+      }
+    },
+    {
+      "nombre": "Moog Subsequent 37",
+      "categoria": "teclados",
+      "precio_base": 1499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B074KCBLQ8",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Moog-Subsequent-37-Analogue-Synthesizer/23TG",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMoog-Subsequent-37%2Fart-SYN0006043-000"
+      }
+    },
+    {
+      "nombre": "Elektron Model:Cycles",
+      "categoria": "bateria",
+      "precio_base": 349,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0856WMS3W",
+        "andertons": "https://www.andertons.co.uk/elektron-model-cycles-6-track-fm-synth-and-groovebox/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Elektron-ModelCycles/3D25",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FElektron-Model-Cycles%2Fart-SYN0007419-000"
+      }
+    },
+    {
+      "nombre": "Behringer X Air XR18",
+      "categoria": "pa",
+      "precio_base": 739,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B0H82SSQ2S",
+        "andertons": "https://www.andertons.co.uk/behringer-x-air-xr18-18-channel-12-bus-digital-mixer-for-ipad-android-tablets/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-X-Air-XR18-Digital-Mixer/VSJ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBehringer-X-Air-XR18%2Fart-PAH0013453-000"
+      }
+    },
+    {
+      "nombre": "Mackie ProFX12v3",
+      "categoria": "pa",
+      "precio_base": 379,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B081WR2KJH",
+        "andertons": "https://www.andertons.co.uk/mackie-profx12-v3-mixer-w-digital-fx/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-ProFX12v3-Mixer/T5C",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMackie-ProFX12v3%2Fart-PAH0018286-000"
+      }
+    },
+    {
+      "nombre": "Allen & Heath CQ-18T",
+      "categoria": "pa",
+      "precio_base": 1199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CBHC8VSX",
+        "andertons": "https://www.andertons.co.uk/allen-heath-CQ18T/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Allen-and-Heath-CQ18T-18-Channel-Digital-Mixer/5X94",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAllen-Heath-CQ18T%2Fart-PAH0019849-000"
+      }
+    },
+    {
+      "nombre": "Midas M32R LIVE",
+      "categoria": "pa",
+      "precio_base": 2799,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07VMGPVT3",
+        "andertons": "https://www.andertons.co.uk/midas-m32r-live-digital-mixer/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Midas-M32R-LIVE-Digital-Mixing-Console/3R06",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FMidas-M32R-LIVE%2Fart-PAH0018953-000"
+      }
+    },
+    {
+      "nombre": "Yamaha MG16XU",
+      "categoria": "pa",
+      "precio_base": 519,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00I0Q8LIO",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-MG16XU-Analog-USB-Mixer/XBS",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FYamaha-MG16XU%2Fart-PAH0015351-000"
+      }
+    },
+    {
+      "nombre": "Behringer Xenyx X1222USB",
+      "categoria": "pa",
+      "precio_base": 249,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0036ECH1M",
+        "andertons": "https://www.andertons.co.uk/behringer-xenyx-x1222usb-mixer-w-6-mic-inputs-effects-eq/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Behringer-XENYX-X1222USB-12-Channel-Analog-Mixer/DCR",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBehringer-XENYX-X1222USB%2Fart-PAH0009509-000"
+      }
+    },
+    {
+      "nombre": "Mackie Thump215XT",
+      "categoria": "pa",
+      "precio_base": 375,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0B5KJMTPV",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Mackie-Thump215XT-15-Enhanced-Active-PA-Speaker/4ZOI",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fde_DE%2FEUR%2FMackie-Thump215XT%2Fart-PAH0023129-000"
+      }
+    },
+    {
+      "nombre": "Yamaha Stagepas 1K MKII",
+      "categoria": "pa",
+      "precio_base": 1232,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0B99XPV2B",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-Stagepas-1K-MK2-Column-PA-System/534A",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fde_DE%2FEUR%2FYamaha-STAGEPAS-1K-mkII%2Fart-PAH0023076-000"
+      }
+    },
+    {
+      "nombre": "Alto Professional TS412",
+      "categoria": "pa",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0BBRXNN9V",
+        "andertons": "https://www.andertons.co.uk/alto-ts412-active-12-pa-speaker-2000w-peak-with-dsp-bluetooth-each/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Alto-Professional-TS412-12-Active-PA-Speaker/52XA",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fde_DE%2FEUR%2FALTO-TS412%2Fart-PAH0023061-000"
+      }
+    },
+    {
+      "nombre": "Yamaha DBR12",
+      "categoria": "pa",
+      "precio_base": 459,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00NIS8IZ0",
+        "andertons": "https://www.andertons.co.uk/yamaha-dbr12-1000w-active-1x12-pa-speaker",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DBR12-12-Active-PA-Speaker/1387",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fde_DE%2FEUR%2FYamaha-DBR12-%2Fart-PAH0016124-000"
+      }
+    },
+    {
+      "nombre": "Fender American Professional II Precision Bass",
+      "categoria": "guitarras",
+      "precio_base": 1599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08L3412P2?tag=topmusicg-20",
+        "andertons": "https://www.andertons.co.uk/fender-american-professional-ii-precision-bass-rosewood-neck-dark-night/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Precision-Bass-MN-Olympic-White/3IZF",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FFender-American-Professional-II-Precision-Bass-V-MN-Miami-Blue%2Fart-BAS0011252-000"
+      }
+    },
+    {
+      "nombre": "Fender American Professional II Jazz Bass",
+      "categoria": "guitarras",
+      "precio_base": 1599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08L34LNCS?tag=topmusicg-20",
+        "andertons": "https://www.andertons.co.uk/fender-american-professional-II-jazz-bass-v-in-3-colour-sunburst-with-rosewood-fingerboard/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Professional-II-Jazz-Bass-RW-3-Tone-Sunburst/3IZQ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.de%2Fde_DE%2FEUR%2FFender-American-Professional-II-Jazz-Bass-V-MN-Roasted-Pine%2Fart-BAS0011257-000"
+      }
+    },
+    {
+      "nombre": "Squier Classic Vibe '60s Jazz Bass",
+      "categoria": "guitarras",
+      "precio_base": 450,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07N28Z5BN",
+        "andertons": "https://www.andertons.co.uk/squier-classic-vibe-60s-jazz-bass-fretless-laurel-fingerboard-3-color-sunburst",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Squier-Classic-Vibe-60s-Jazz-Bass-LRL-3-Tone-Sunburst/2U5G",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Squier-Classic-Vibe-60s-FL-Jazz-Bass-3-Colour-Sunburst-/art-BAS0010203-000"
+      }
+    },
+    {
+      "nombre": "Squier Affinity Series Precision Bass PJ",
+      "categoria": "guitarras",
+      "precio_base": 280,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B091BJYLB3",
+        "andertons": "https://www.andertons.co.uk/squier-affinity-precision-bass-pj-in-black-maple-fingerboard",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Squier-Affinity-Precision-Bass-PJ-MN-Black/3T04",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Squier-Affinity-Series-Precision-Bass-PJ-MN-Black/art-BAS0011646-000"
+      }
+    },
+    {
+      "nombre": "Yamaha TRBX304",
+      "categoria": "guitarras",
+      "precio_base": 380,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00CINAYPI",
+        "andertons": "https://www.andertons.co.uk/yamaha-trbx304-4-string-bass-guitar-candy-apple-red",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Yamaha-TRBX304-Bass-Candy-Apple-Red/QTG",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Yamaha-TRBX-304-RW-BL-Black/art-BAS0006683-000"
+      }
+    },
+    {
+      "nombre": "Ibanez SR300E",
+      "categoria": "guitarras",
+      "precio_base": 350,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0BLCZ8BJX",
+        "andertons": "https://www.andertons.co.uk/ibanez-sr300edot-sr-series-4-string-bass-deep-ocean-metallic",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Ibanez-SR300E-Bass-Iron-Pewter/2975",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Ibanez-Standard-SR300EB-WK-Weathered-Black/art-BAS0008299-000"
+      }
+    },
+    {
+      "nombre": "Sterling by Music Man StingRay Ray4",
+      "categoria": "guitarras",
+      "precio_base": 350,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B079PQQS8Q",
+        "andertons": "https://www.andertons.co.uk/sterling-music-man-sub-ray-4-bass-in-vintage-cream-rosewood-neck",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Sterling-Stingray-Ray4-Bass-Black/3582"
+      }
+    },
+    {
+      "nombre": "Epiphone Thunderbird '60s Bass",
+      "categoria": "guitarras",
+      "precio_base": 350,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0B1VC4QK3",
+        "andertons": "https://www.andertons.co.uk/epiphone-thunderbird-60s-bass-ebony",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Epiphone-Thunderbird-60s-Bass-Ebony-Gear4music-Exclusive/1MMJ"
+      }
+    },
+    {
+      "nombre": "Sire Marcus Miller V5 4-String Bass",
+      "categoria": "guitarras",
+      "precio_base": 499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07XYZ5678",
+        "andertons": "https://www.andertons.co.uk/sire-marcus-miller-v5-4-string-bass/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Sire-Marcus-Miller-V5-4-String-Bass-Guitar-Natural/3BN5"
+      }
+    },
+    {
+      "nombre": "Schecter Stiletto Stealth 4 Bass",
+      "categoria": "guitarras",
+      "precio_base": 499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00SGSI1TK",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Schecter-Stiletto-Stealth-4-Bass-Guitar-Satin-Black/16JJ"
+      }
+    },
+    {
+      "nombre": "ESP LTD B-204SM Bass Guitar",
+      "categoria": "guitarras",
+      "precio_base": 499,
+      "moneda": "£",
+      "tiendas": {
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/ESP-LTD-B-204-SM-Fretless-Bass-Natural-Satin/2S3X"
+      }
+    },
+    {
+      "nombre": "Hofner Ignition Violin Bass (Beatle Bass)",
+      "categoria": "guitarras",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/hofner-ignition-violin-bass-black",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Hofner-Ignition-Violin-Bass-Limited-Edition-Sunburst/3TSA",
+        "musicstore": "https://www.musicstore.com/en_US/USD/Hoefner-HI-BB-SE-SB-Violin-Bass-Ignition-SE-Sunburst-/art-BAS0010987-000"
+      }
+    },
+    {
+      "nombre": "Mogami Gold Studio XLR Cable",
+      "categoria": "accesorios",
+      "precio_base": 53,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B001LNN2EQ",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Mogami-XLRF-XLRM-Mic-Cable-3m/2L91",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Mogami-MICSTU0100BL/art-REC0015225-000"
+      }
+    },
+    {
+      "nombre": "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)",
+      "categoria": "accesorios",
+      "precio_base": 79,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/TroyStudio-Broadband-Absorbing-Soundproof-Decorative/dp/B0FT7D92DQ/ref=sr_1_4?crid=3KAN70XGIECJM&dib=eyJ2IjoiMSJ9.GR8kOuR_gyj92h96YfbOfRtuavYARTgXp9EsmNExgzVXzykUDgigyUW6VbyJN6n2iGYxhwkv-LV5aZlsPr2AzgCxAaXkwRIVN79yDFBaGpuDJ_eFKdFOYqFz_f8MZiXc-0hKIXqgEcKvEcY-Z3WHAFUeyJlALB0ARtG0Qm9Ng78J9NAwmsUcKcWOLQcVZH0GgzOXT6Z2C4V0-w6N6Nr7LldljkKjvC0VEuOFGhA0QJGmEX5Eb58ogp75l-doekyCo8A5TdHUzkzd3P0tpXieAdXzw3FpiVayRObDa2gMLyQ.4gZm67-fsJSIXQnudp6TqkNYQYSWCqvlcVdvaZnNj-o&dib_tag=se&keywords=acoustic+panels+4set&qid=1784649871&sprefix=acoustic+panels+4set%2Caps%2C338&sr=8-4&th=1",
+        "andertons": "https://www.andertons.co.uk/universal-acoustics-pluto-kits-24-x-mw300-50-1-x-space-mist/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/G4M-Acoustics-Squarewave-4-Pack/5KYU?_gl=1*tsqp2j*_up*MQ..*_ga*Nzg2ODcwOTcyLjE3ODQ2NDk5OTQ.*_ga_0WF1R5QW3K*czE3ODQ2NDk5OTQkbzEkZzEkdDE3ODQ2NTAwMjckajI3JGwwJGg0OTk2NTYyNTAkZDZUcXNnUnIwd1VTZ00zXzBwOTNXMWlITWpIVTJMalRVVlE"
+      }
+    },
+    {
+      "nombre": "AcouFoam 6 Monitor Isolation Pads, Pair",
+      "categoria": "accesorios",
+      "precio_base": 29,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0002E4Z8M",
+        "andertons": "https://www.andertons.co.uk/Adam-Hall-PAD-ECO-2--Isolation-Pad-for-Studio-Monitors-265-x-330-mm-Pair/?search_query=AcouFoam%206%20Monitor%20Isolation%20Pads%2C%20Pair",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/AcouFoam-6-Studio-Monitor-Isolation-Pads-by-Gear4music-Pair/2853",
+        "musicstore": "https://www.musicstore.com/en_OT/EUR/MUSIC-STORE-Speaker-Pad-Set-L-320x250x50-mm/art-REC0011213-000"
+      }
+    },
+    {
+      "nombre": "Sequential OB-6 Keyboard",
+      "categoria": "teclados",
+      "precio_base": 3499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B01BPSB626",
+        "andertons": "https://www.andertons.co.uk/dave-smith-ob6-keyboard-6-voice-synthesizer",
+        "gear4music": "https://www.gear4music.com/us/en/Keyboards-and-Pianos/Oberheim-OB-6-6-Voice-Polyphonic-Analog-Synthesizer/1GWT",
+        "musicstore": "https://www.musicstore.com/en_LU/EUR/Sequential-OB-6/art-SYN0005026-000"
+      }
+    },
+    {
+      "nombre": "Sequential Prophet-10",
+      "categoria": "teclados",
+      "precio_base": 4399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08KMXHG65?tag=topmusicg-20",
+        "andertons": "https://www.andertons.co.uk/sequential-prophet-10-synth?irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Keyboards-and-Pianos/Sequential-Prophet-10/3LJ4",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_US%2FUSD%2FSequential-Prophet-10%2Fart-SYN0007662-000"
+      }
+    },
+    {
+      "nombre": "Moog One 16-Voice",
+      "categoria": "teclados",
+      "precio_base": 9999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07JWHCQPQ?tag=topmusicg-20",
+        "gear4music": "https://www.gear4music.com/us/en/Keyboards-and-Pianos/Moog-ONE-Polyphonic-Analog-Synthesizer-16-Voice/2P8X"
+      }
+    },
+    {
+      "nombre": "Audeze LCD-MX4",
+      "categoria": "plugins",
+      "precio_base": 3320,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Audeze-Open-Back-Circumaural-Headphones-Carrying/dp/B0CV1FJH1W",
+        "gear4music": "https://www.gear4music.com/us/en/Recording-and-Computers/Audeze-LCD-MX4-Open-Back-Headphones-with-Case-Leather/6A1K"
+      }
+    },
+    {
+      "nombre": "Audeze LCD-X",
+      "categoria": "plugins",
+      "precio_base": 1236,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Audeze-Headphone-Version-Creator-Package/dp/B08ZR34S9T",
+        "gear4music": "https://www.gear4music.com/us/en/Headphones/Audeze-LCD-X-Open-Back-Headphones-with-Case-Leather/4WLA",
+        "musicstore": "https://www.musicstore.com/en_US/USD/Audeze-LCD-X-Creator-Edition-Leather/art-REC0014929-000"
+      }
+    },
+    {
+      "nombre": "ADAM Audio S3H",
+      "categoria": "plugins",
+      "precio_base": 3999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Adam-Audio-S3H-Midfield-Monitor/dp/B06Y1C35TJ",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-S3H-Midfield-Monitor/1TY3",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Adam-Audio-S3H/art-REC0012917-000",
+        "reverb": "https://reverb.com/p/adam-audio-s3h"
+      }
+    },
+    {
+      "nombre": "Focal Trio11 Be",
+      "categoria": "plugins",
+      "precio_base": 4199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Focal-Trio11-Inches-Powered-Monitor/dp/B07SGZXZC3",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focal-Trio11-BE-3-way-Active-Studio-Monitor/2V8C",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Focal-Trio11-BE-Single-/art-REC0014181-000",
+        "reverb": "https://reverb.com/p/focal-trio11-be"
+      }
+    },
+    {
+      "nombre": "Universal Audio Apollo x16 Gen 2",
+      "categoria": "plugins",
+      "precio_base": 3999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0DJSFGTBZ",
+        "andertons": "https://www.andertons.co.uk/apollo-x16-gen-2-ult/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Universal-Audio-Apollo-x16-Gen-2-Ultimate-and-Edition/6P0N",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Universal-Audio-Apollo-x16-with-UAD-Analog-Classics/art-PCM0018211-000"
+      }
+    },
+    {
+      "nombre": "RME Fireface UFX III",
+      "categoria": "plugins",
+      "precio_base": 3199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0C2JCN5JM",
+        "andertons": "https://www.andertons.co.uk/rme-fireface-ufx-iii/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/RME-Fireface-UFX-III-Audio-Interface/5F7W",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/RME-Fireface-UFX-III-Audio-Interface/art-PCM0017614-000"
+      }
+    },
+    {
+      "nombre": "Fender American Ultra II Stratocaster",
+      "categoria": "plugins",
+      "precio_base": 2299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0D821RNZ1",
+        "andertons": "https://www.andertons.co.uk/fender-american-ultra-ii-stratocaster-hss-ebony-fingerboard-ultraburst/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-II-Stratocaster-HSS-MN-Ultraburst/32KR",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-American-Ultra-II-Stratocaster/art-GIT0061889-001"
+      }
+    },
+    {
+      "nombre": "Fender American Ultra II Precision Bass",
+      "categoria": "plugins",
+      "precio_base": 2199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0D87LM1KX",
+        "andertons": "https://www.andertons.co.uk/fender-american-ultra-ii-precision-bass-maple-fingerboard-ultraburst",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Fender-American-Ultra-II-Precision-Bass-EB-Texas-Tea/6HRN",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Fender-American-Ultra-II-Precision-Bass-MN-Ultraburst/art-BAS0012728-001"
+      }
+    },
+    {
+      "nombre": "Music Man StingRay Special",
+      "categoria": "plugins",
+      "precio_base": 2199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CSKPW5NM",
+        "andertons": "https://www.andertons.co.uk/music-man-stingray-special-black-roasted-maple-maple-black-pg-chrome",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Music-Man-StingRay-Special-Classic-Natural/7QXU",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Music-Man-StingRay-Special-MN-Frost-Green-Pearl-G93350/art-BAS0012115-000"
+      }
+    },
+    {
+      "nombre": "Lewitt LCT1040 Ultimate Microphone System",
+      "categoria": "microfonos",
+      "precio_base": 3499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B09Q6LSYTX",
+        "andertons": "https://www.andertons.co.uk/lewitt-lct1040-microphone-system/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Lewitt-LCT1040-Ultimate-Microphone-System/4MJK",
+        "musicstore": "https://www.musicstore.com/en_US/USD/Lewitt-LCT-1040/art-REC0015900-000?srsltid=AfmBOordmoJdsIXSFAIv2xQijlgIhsCBxkpazC5tk0Py5D8JUiZQMRgR&appgw_azwaf_jsc=k2TlPdktQOTYrwHCvR_OF7XSwhrbXROU2YIIhSA5TEzvrY4pSv6f9pXJh4qH2_IfOsBgAQJM7rat2d7k2LxOEhh7I2EgcIch9YrBoMof55iqpNk86JcZqb_co7K6vH59Qmn-IhxSLGgEi8nlOZsTHkyYPQAQaD8xGWMGazmbMEFnpq00AG_LtlEUa2wqGa-xuIZoaJzVO0tccMU738YsQj2mrM563gPiQyPS_ZIdkrIqfa3gDmyvp5r_8k4JDv8N1SUV1iRFP_gcHeNgWp6JSZSUsDryHPTptnAmSf_Qb9GOhs9h0yvylQgwXKi_ynJajMKyKKwlICPgblQ1NyIRwA"
+      }
+    },
+    {
+      "nombre": "Akai MPC Live III",
+      "categoria": "plugins",
+      "precio_base": 1399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Akai-Professional-Standalone-Production-Touchscreen/dp/B0FQJXMMMT/ref=sr_1_1?dib=eyJ2IjoiMSJ9.aPGT9WffjWhv7rjD7Cyzew5bu7Q1AMHEuENfs7tytd1joIjc7ya39MlQDSA2K9nC25iAIzd8YEfOR23OSKAJ-zZG2NE6Fcp1hFqEEe2t5FJtABuu3iLB1uKmCeBqg-nmE1pJaMwrG1Y5Jb1H_nWOAXHEPwOqXbu2ubMleEezdlyMzYADgphghT-lpoNv_vxWCQT2CWiyz2N12Q7KrAhRVchZFfpnMUujhEUEuidjClvDf_j57CZWpkQfZNSO3ARVmTuNbjeWisWGEy-xtPNb5q2QdEuZvtA-I-nl7FTz2u0.op3RL7sKvhOo0vi71SRCf6QMmSZywb928O4pi4Max5s&dib_tag=se&keywords=Akai%2BMPC%2BLive%2BIII&qid=1784652986&sr=8-1&th=1",
+        "andertons": "https://www.andertons.co.uk/akai-mpc-live-3/?search_query=Akai%20MPC%20Live%20III",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Akai-MPC-Live-III-Standalone-Music-Production-System/7I5F",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/AKAI-Professional-MPC-Live-III-Retro/art-SYN0009363-001"
+      }
+    },
+    {
+      "nombre": "EVH 5150III 100W Head",
+      "categoria": "plugins",
+      "precio_base": 1649,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B01A6L7J3C",
+        "andertons": "https://www.andertons.co.uk/evh-5150iii-100-watt-head-black/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/EVH-5150III-100W-Head-Black/18A8",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/EVH-5150III-100W-Head/art-GIT0032423-000"
+      }
+    },
+    {
+      "nombre": "Orange Rockerverb 100 MKIII Head",
+      "categoria": "plugins",
+      "precio_base": 1899,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07T1RJ5XJ",
+        "andertons": "https://www.andertons.co.uk/orange-rockerverb-100-mkiii-head/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Orange-Rockerverb-100-MKIII-Head/18V8",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Orange-Rockerverb-100-MKIII/art-GIT0055037-000"
+      }
+    },
+    {
+      "nombre": "KRK S10.4",
+      "categoria": "monitores",
+      "precio_base": 479,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/KRK-Generation-Powered-Studio-Subwoofer/dp/B0939QW7DL",
+        "andertons": "https://www.andertons.co.uk/krk-s104-powered-studio-subwoofer",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/KRK-S104-Active-Subwoofer/3N6T",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/KRK-S10G4/art-REC0015526-000"
+      }
+    },
+    {
+      "nombre": "Yamaha HS8S",
+      "categoria": "monitores",
+      "precio_base": 499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/Yamaha-HS8S-HS-8S/dp/B00CDJ8H3S",
+        "andertons": "https://www.andertons.co.uk/yamaha-hs8s-active-sub-woofer/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Yamaha-HS8S-Active-Subwoofer/QT6",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Yamaha-HS-8S/art-REC0010560-000"
+      }
+    },
+    {
+      "nombre": "Adam T10S",
+      "categoria": "monitores",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07V5XH8X6",
+        "andertons": "https://www.andertons.co.uk/adam-t-series-t10s-active-subwoofer/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/ADAM-Audio-T10S-Sub/2V18",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Adam-Audio-T10S-Subwoofer/art-REC0014166-000"
+      }
+    },
+    {
+      "nombre": "Shure MV7+",
+      "categoria": "microfonos",
+      "precio_base": 299,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/Shure-MV7-Microphone-Podcasting-Streaming/dp/B0CTJ7PVN1",
+        "andertons": "https://www.andertons.co.uk/shure-motiv-mv7plus-k-dynamic-podcast-microphone/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-MV7and-USB-XLR-Podcast-Microphone-Black/6B8P",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_EE%2FEUR%2FShure-MV7-Schwarz%2Fart-PAH0023760-000"
+      }
+    },
+    {
+      "nombre": "Elgato Wave:3",
+      "categoria": "microfonos",
+      "precio_base": 150,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/dp/B088HHWC47",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Elgato-WAVE3-Microphone/43BD",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_EE%2FEUR%2FElgato-Wave-3%2Fart-REC0014956-000"
+      }
+    },
+    {
+      "nombre": "Audio-Technica AT2020",
+      "categoria": "microfonos",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0006H92QK",
+        "andertons": "https://www.andertons.co.uk/audio-technica-at2020-condenser-mic/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-AT2020-Cardioid-Condenser-Microphone/6JL",
+        "musicstore": "https://www.musicstore.com/en_OE/EUR/Audio-Technica-AT2020-Condenser-Microphone-Black-/art-REC0003504-000"
+      }
+    },
+    {
+      "nombre": "Rode PodMic",
+      "categoria": "microfonos",
+      "precio_base": 109,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07MV5LFNG",
+        "andertons": "https://www.andertons.co.uk/rode-podmic-dynamic-podcast-microphone/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Rode-PodMic-Dynamic-Podcasting-Microphone/2RK9",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_EE%2FEUR%2FRode-PodMic-Schwarz%2Fart-MIC0007412-000"
+      }
+    },
+    {
+      "nombre": "Audio-Technica ATH-M40x",
+      "categoria": "auriculares",
+      "precio_base": 109,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00HVLUR54",
+        "andertons": "https://www.andertons.co.uk/audio-technica-ath-m40x-pro-studio-monitor-headphones/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audio-Technica-ATH-M40x-Professional-Monitor-Headphones/X9F",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAudio-Technica-ATH-M40X%2Fart-REC0011128-000"
+      }
+    },
+    {
+      "nombre": "Kali Audio IN-8 V2",
+      "categoria": "monitores",
+      "precio_base": 429,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0993GXV54",
+        "andertons": "https://www.andertons.co.uk/kali-audio-in8-8-3-way-monitor-speaker-v2/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Kali-Audio-IN-8-2nd-Wave-Black/6SIQ",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FKali-Audio-IN-8-2nd-Wave%2Fart-REC0015547-000"
+      }
+    },
+    {
+      "nombre": "Boss RC-5 Loop Station",
+      "categoria": "guitarras",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B08KG4QVCT",
+        "andertons": "https://www.andertons.co.uk/boss-rc-5-loop-station-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-RC-5-Loop-Station-Guitar-Loop-Pedal/3LJT",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-RC-5-Loop-Station%2Fart-GIT0054642-000"
+      }
+    },
+    {
+      "nombre": "TC Electronic Ditto Looper",
+      "categoria": "guitarras",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00AZUAORE",
+        "andertons": "https://www.andertons.co.uk/tc-electronic-ditto-loop-pedal/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-Ditto-Looper/P83",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FTC-Electronic-Ditto-Looper-Pedal-%2Fart-GIT0026393-000"
+      }
+    },
+    {
+      "nombre": "Line 6 Helix HX Stomp",
+      "categoria": "guitarras",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07J2LV1N1",
+        "andertons": "https://www.andertons.co.uk/line-6-hx-stomp-multi-effects-processor/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Line-6-Helix-HX-Stomp-Multi-Effects-Pedal/40YR",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FLine-6-HX-Stomp-Black-%2Fart-GIT0047214-000"
+      }
+    },
+    {
+      "nombre": "Boss GT-1",
+      "categoria": "guitarras",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B01M03W1HD",
+        "andertons": "https://www.andertons.co.uk/boss-gt1-multi-effects-processor/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-GT-1-Guitar-Effects-Processor/1PAV",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-GT-1%2Fart-GIT0039825-000"
+      }
+    },
+    {
+      "nombre": "Boss ME-90",
+      "categoria": "guitarras",
+      "precio_base": 349,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CB95FW31",
+        "andertons": "https://www.andertons.co.uk/boss-me-90-guitar-multi-fx-processor/",
+        "gear4music": "https://www.gear4music.com/Guitar-and-Bass/Boss-ME-90-Guitar-Multi-Effects-Unit/5PGP",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FBoss-ME-90%2Fart-GIT0060744-000"
+      }
+    },
+    {
+      "nombre": "HeadRush MX5",
+      "categoria": "guitarras",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B09BZZJ9FY",
+        "gear4music": "https://www.gear4music.com/us/en/Guitar-and-Bass/HeadRush-MX5-Multi-Effects-Processor/405F",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FHeadRush-MX5%2Fart-GIT0057350-000"
+      }
+    },
+    {
+      "nombre": "Royer R-121",
+      "categoria": "microfonos",
+      "precio_base": 1499,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00328HPIM",
+        "andertons": "https://www.andertons.co.uk/royer-r121-ribbon-mic/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Royer-R-121-Studio-Ribbon-Microphone/2LPR",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FRoyer-R-121-Dull-Satin-Nickel-%2Fart-REC0004307-000"
+      }
+    },
+    {
+      "nombre": "Coles 4038",
+      "categoria": "microfonos",
+      "precio_base": 1099,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00D3AIJMU",
+        "andertons": "https://www.andertons.co.uk/coles-4038-studio-ribbon-microphone/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Coles-4038-Studio-Ribbon-Microphone/2LA5",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FColes-4038%2Fart-REC0015620-000"
+      }
+    },
+    {
+      "nombre": "Neumann KM 184",
+      "categoria": "microfonos",
+      "precio_base": 849,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B000G0GX5K",
+        "andertons": "https://www.andertons.co.uk/neumann-km184-cardioid-condenser-mic-in-black/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-KM-184-MT-Cardioid-Compact-Condenser-Mic-Black/T18",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FNeumann-KM-184-Black-%2Fart-REC0000310-000"
+      }
+    },
+    {
+      "nombre": "Austrian Audio OC818",
+      "categoria": "microfonos",
+      "precio_base": 1399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B087PNNBND",
+        "andertons": "https://www.andertons.co.uk/austrian-audio-oc818-black-studio-set-with-spider-mount-suspension-foam-windshield-mic-clip-protective-carry-case/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Austrian-Audio-OC818-Studio-Set-Black/89BT",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAustrian-Audio-OC818-Studio-Set%2Fart-REC0014389-000"
+      }
+    },
+    {
+      "nombre": "Sennheiser e906",
+      "categoria": "microfonos",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B000AQHJQ2",
+        "andertons": "https://www.andertons.co.uk/sennheiser-e906-dynamic-instrument-mic/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-e906-Dynamic-Instrument-Microphone/RUI",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSennheiser-E906-Evolution-Dynamic-Microphone%2Fart-PAH0003306-000"
+      }
+    },
+    {
+      "nombre": "Beyerdynamic M 201",
+      "categoria": "microfonos",
+      "precio_base": 399,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0CF5W8FYB",
+        "andertons": "https://www.andertons.co.uk/beyer-m201tg-microphone/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/beyerdynamic-M-201-Dynamic-Instrument-Microphone/K2R",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2Fbeyerdynamic-M-201%2Fart-REC0001253-001"
+      }
+    },
+    {
+      "nombre": "Shure Beta 52A",
+      "categoria": "microfonos",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0002BACAA",
+        "andertons": "https://www.andertons.co.uk/shure-beta-52a-dynamic-bass-drum-microphone/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-Beta-52A-Bass-Drum-Microphone/1UT",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FShure-Beta-52A-dynamic-Microphone%2Fart-PAH0000166-000"
+      }
+    },
+    {
+      "nombre": "Audix D6",
+      "categoria": "microfonos",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0002MJCLO",
+        "andertons": "https://www.andertons.co.uk/audix-d6-kick-drum-mic/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Audix-D6-Kick-Drum-Dynamic-Microphone/OIR",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FAudix-D6-Kick-Drum-Microphone-%2Fart-REC0004300-000"
+      }
+    },
+    {
+      "nombre": "Sennheiser e604 3-Pack",
+      "categoria": "microfonos",
+      "precio_base": 489,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B006IT9OH2",
+        "andertons": "https://www.andertons.co.uk/sennheiser-e604-drum-mic-three-pack/",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Sennheiser-e604-Drum-Microphone/4RY",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_OE%2FEUR%2FSennheiser-3PACK-e604-3x-e604%2Fart-PAH0019440-000"
+      }
+    },
+    {
+      "nombre": "DPA 4099 CORE",
+      "categoria": "microfonos",
+      "precio_base": 699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0FCT3WJHK",
+        "andertons": "https://www.andertons.co.uk/dpa-4099-core-mic-extreme-spl/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/DPA-COREand-4099-Instrument-Microphone-Violin/78VG",
+        "musicstore": "https://www.awin1.com/cread.php?awinmid=63816&awinaffid=2891111&ued=https%3A%2F%2Fwww.musicstore.com%2Fen_GB%2FGBP%2FDPA-4099-Core-Rock-Touring-Kit-4M%2Fart-PAH0018639-000"
+      }
+    },
+    {
+      "nombre": "RCF NX 912-SMA",
+      "categoria": "pa",
+      "precio_base": 1699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/RCF-912-SMA-Professional-Active-Monitor/dp/B0CLHBZV1Z/",
+        "andertons": "https://www.andertons.co.uk/rcf-nx-912-sma-active-high-output-multipurpose-stage-monitor-12-175-vc-2100-wpeak/",
+        "gear4music": "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/RCF-NX-912-SMA-Professional-Active-Stage-Monitor/5KJZ",
+        "musicstore": "https://www.musicstore.com/en_OT/EUR/RCF-NX-912-SMA/art-PAH0023342-000"
+      }
+    },
+    {
+      "nombre": "Electro-Voice PXM-12MP",
+      "categoria": "pa",
+      "precio_base": 949,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Electro-Voice-Powered-Coaxial-Monitor-PXM-12MP/dp/B0842BZB3H/",
+        "andertons": "https://www.andertons.co.uk/ElectroVoice-PXM12MP-Active-700W-Coaxial-Floor-Monitor-EACH/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-PXM-12MP-12-Powered-Coaxial-Floor-Monitor/3B58",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Electro-Voice-PXM-12MP/art-PAH0021587-000"
+      }
+    },
+    {
+      "nombre": "LD Systems MON 12 A G3",
+      "categoria": "pa",
+      "precio_base": 590,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/LD-Systems-MON-12-G3/dp/B0CJ5V522Z/",
+        "andertons": "https://www.andertons.co.uk/ld-systems-mon-12-a-g3-12-active-stage-monitor/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/LD-Systems-MON-12A-G3-12-Active-Floor-Monitor/5S95",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/LD-Systems-MON-12-A-G3/art-PAH0023525-000"
+      }
+    },
+    {
+      "nombre": "Yamaha DHR12M",
+      "categoria": "pa",
+      "precio_base": 697,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Powered-Speaker-1000W-Compression-Driver/dp/B09DK95Q5G/",
+        "andertons": "https://www.andertons.co.uk/yamaha-dhr12m-powered-loudspeaker/",
+        "gear4music": "https://www.gear4music.com/us/en/PA-DJ-and-Lighting/Yamaha-DHR12M-12-Active-Floor-Monitor/42CS",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Yamaha-DHR12M/art-PAH0022598-000"
+      }
+    },
+    {
+      "nombre": "Neumann KH 120-II",
+      "categoria": "monitores",
+      "precio_base": 949,
+      "moneda": "£",
+      "tiendas": {
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Neumann-KH-120-II-Active-Studio-Monitor-Black/5DHM"
+      }
+    },
+    {
+      "nombre": "Dynaudio Core 7",
+      "categoria": "monitores",
+      "precio_base": 1699,
+      "moneda": "£",
+      "tiendas": {
+        "musicstore": "https://www.musicstore.com/en-US/USD/Dynaudio-Core-7/art-REC0014168-000"
+      }
+    },
+    {
+      "nombre": "ATC SCM25A Pro Mk2",
+      "categoria": "monitores",
+      "precio_base": 4399,
+      "moneda": "£",
+      "tiendas": {
+        "reverb": "https://reverb.com/marketplace?query=ATC%20SCM25A%20Pro%20Mk2"
+      }
+    },
+    {
+      "nombre": "Focal Trio6 Be",
+      "categoria": "monitores",
+      "precio_base": 3499,
+      "moneda": "£",
+      "tiendas": {
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Focal-Trio6-BE-2-in-1-Monitoring-System-Red-Single/1JUJ"
+      }
+    },
+    {
+      "nombre": "d&b audiotechnik M4",
+      "categoria": "monitores",
+      "precio_base": 3395,
+      "moneda": "£",
+      "tiendas": {
+        "reverb": "https://reverb.com/marketplace?query=d%26b%20audiotechnik%20M4"
+      }
+    },
+    {
+      "nombre": "RCF ART 710-A MK5",
+      "categoria": "monitores",
+      "precio_base": 549,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0DDV4P55Q",
+        "andertons": "https://www.andertons.co.uk/rcf-art-710-a-mk5-digital-active-speaker-system-10-175-vc-700wrms-1400w-peak/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/RCF-ART-710-A-MK5-10-Active-PA-Speaker/651K",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/RCF-ART-710-A-MK5/art-PAH0023641-002"
+      }
+    },
+    {
+      "nombre": "Shure Beta 58A",
+      "categoria": "microfonos",
+      "precio_base": 169,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0002BACB4",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Shure-Beta-58A-Dynamic-Microphone/1UW",
+        "musicstore": "https://www.musicstore.com/en_US/USD/Shure-Beta-58-A-dynamic-Microphone/art-PAH0000169-000"
+      }
+    },
+    {
+      "nombre": "Sennheiser e935",
+      "categoria": "microfonos",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B000N94RP2",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-e935-Dynamic-Vocal-Microphone/RRY"
+      }
+    },
+    {
+      "nombre": "Sennheiser e945",
+      "categoria": "microfonos",
+      "precio_base": 199,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B00O1BX3IA",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Sennheiser-e945-Dynamic-Vocal-Microphone/RS0"
+      }
+    },
+    {
+      "nombre": "Telefunken M80",
+      "categoria": "microfonos",
+      "precio_base": 249,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0064RN4FG",
+        "musicstore": "https://www.musicstore.com/en_OT/EUR/Telefunken-M80-Dynamic-Handheld-Vocal-Mic-Black/art-REC0009434-000"
+      }
+    },
+    {
+      "nombre": "AKG D5",
+      "categoria": "microfonos",
+      "precio_base": 139,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B000S5JKRQ",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/AKG-D5-Dynamic-Vocal-Microphone/808"
+      }
+    },
+    {
+      "nombre": "Audix OM7",
+      "categoria": "microfonos",
+      "precio_base": 259,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0002H0M7W",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Audix-OM7-Premium-Dynamic-Vocal-Microphone/OIA"
+      }
+    },
+    {
+      "nombre": "Electro-Voice ND86",
+      "categoria": "microfonos",
+      "precio_base": 169,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B01E0MGWPU",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Electro-Voice-ND86-Dynamic-Supercardioid-Vocal-Microphone/2JWA"
+      }
+    },
+    {
+      "nombre": "QSC KS118 Powered Subwoofer",
+      "categoria": "pa",
+      "precio_base": 1999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B07WHKCZJR?lv=shuf&channelId=500&plpRedirect=mhFallback",
+        "andertons": "https://www.andertons.co.uk/qsc-audio-ks118-active-subwoofer/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/QSC-KS118-18-Active-PA-Subwoofer/33PM",
+        "musicstore": "https://www.musicstore.com/en_US/USD/QSC-KS118/art-PAH0021363-000"
+      }
+    },
+    {
+      "nombre": "RCF SUB 8004-AS",
+      "categoria": "pa",
+      "precio_base": 3599,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.co.uk/RCF-SUB-8004-AS-Active-PA-Speakers/dp/B00EFOYSW8/ref=sr_1_1?ar_srct=T1&ar_su=https%3A%2F%2Fa.co%2Fd%2F09YnJTAN&creatorsDisableRedirect=true&dib=eyJ2IjoiMSJ9.T4Ot1u476CNinvzLfYg2OAkWUWRJ7OiC0VOlTxFxdEPK1EXDLoO4qRDOB6kNo1BB7zQWYHNm-7abky8Wz8i52E8XdZeP-V4lRXczJC1SM0sZ2guCARIba-3RwI5Y2Wv3Q3PPENMIGKYHjQmH_3qTleE0jszeM__AZsB3Lpad06ommRw9Xk37FsE8L_e4882bI6kI0I34btFWdbp84YJDy5Z2gpY8-g8REzucGEDj8ysTYHdTT2jKmsiu4EpJjETawWKbR3YwGqNAg24Y9CfBNqdJu-9Io_o1Sf4WmFMoplc.NkBqIcM45cb-zIGL_ExIRfFSAIYHabGBWSgy8D2iQd4&dib_tag=se&keywords=RCF-USA+Sub+8004-AS+Active+High+Power+Subwoofer&linkCode=gt3&qid=1786140329&sr=8-1",
+        "andertons": "https://www.andertons.co.uk/rcf-sub-8004-as-18-bass-reflex-active-sub-1250w-rms/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/RCF-SUB-8003-AS-MK3-18-Active-PA-Subwoofer/5ZGF#6f3a/embedded/m=or&q=RCF+SUB+8003-AS+MK3+18%22+Active+PA+Subwoofer",
+        "musicstore": "https://www.musicstore.com/en_US/USD/RCF-SUB-8004-AS-18-/art-PAH0014398-000"
+      }
+    },
+    {
+      "nombre": "Electro-Voice ELX200-18SP",
+      "categoria": "pa",
+      "precio_base": 999,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Electro-Voice-ELX200-18SP-1200-Powered-Subwoofer/dp/B0751KXMFF",
+        "andertons": "https://www.andertons.co.uk/electro-voice-elx200-18sp-18-powered-subwoofer/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Electro-Voice-ELX200-18SP-18-Active-PA-Subwoofer/23EE",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Electro-Voice-ELX200-18SP/art-PAH0019327-000"
+      }
+    },
+    {
+      "nombre": "JBL PRX918XLF",
+      "categoria": "pa",
+      "precio_base": 1449,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/dp/B0BGJJZWD8?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1",
+        "andertons": "https://www.andertons.co.uk/jbl-prx918xlf-professional-powered-18-inch-subwoofer/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/JBL-PRX918XLF-18-Active-PA-Subwoofer/5EJQ",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/JBL-PRX918XLF/art-PAH0023190-000"
+      }
+    },
+    {
+      "nombre": "Yamaha DXS18XLF",
+      "categoria": "pa",
+      "precio_base": 1699,
+      "moneda": "£",
+      "tiendas": {
+        "amazon": "https://www.amazon.com/Yamaha-DXS18XLF-1600W-Powered-Subwoofer/dp/B07MPF2NZS",
+        "andertons": "https://www.andertons.co.uk/yamaha-dxs18xlf-active-1600w-18-sub/",
+        "gear4music": "https://www.gear4music.com/PA-DJ-and-Lighting/Yamaha-DXS18XLF-18-Active-PA-Subwoofer/2FPS",
+        "musicstore": "https://www.musicstore.com/en_OT/EUR/Yamaha-DXS18XLF/art-PAH0020122-000"
+      }
+    },
+    {
+      "nombre": "Eventide Blackhole",
+      "categoria": "plugins",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Eventide+Blackhole&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/Recording-and-Computers/Eventide-Blackhole/41ES",
+        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/17-Reverb/2855-Blackhole?a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.musicstore.com/en_GB/GBP/Eventide-BlackHole-Reverb-Licence-/art-PCM0011998-000",
+        "reverb": "https://reverb.com/marketplace?query=Eventide%20Blackhole"
+      }
+    },
+    {
+      "nombre": "Wavesfactory Spectre",
+      "categoria": "plugins",
+      "precio_base": 99,
+      "moneda": "£",
+      "tiendas": {
+        "andertons": "https://www.andertons.co.uk/search.php?search_query=Wavesfactory+Spectre&irgwc=1&irpid=7292297",
+        "gear4music": "https://www.gear4music.com/search?q=Wavesfactory+Spectre",
+        "pluginboutique": "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/4801-Spectre?a_aid=6a01e859cbe1a",
+        "musicstore": "https://www.musicstore.com/en_GB/search?SearchText=Wavesfactory+Spectre",
+        "reverb": "https://reverb.com/marketplace?query=Wavesfactory%20Spectre"
       }
     }
   ],
   "config": {
     "canal_id": "@topmusiciangear",
     "descuento_minimo": 5,
-    "intervalo_horas": 4
+    "intervalo_horas": 1
   }
 }

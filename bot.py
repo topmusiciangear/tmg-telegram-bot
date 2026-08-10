@@ -5,7 +5,7 @@ import socket
 import sys
 import time
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 
 socket.setdefaulttimeout(15)
 
@@ -244,7 +244,7 @@ def extract_price(url, nombre_producto=""):
 def enviar_telegram(mensaje):
     if not TELEGRAM_TOKEN:
         log("No TELEGRAM_TOKEN set")
-        return
+        return False
     data = load_json("productos.json")
     canal = data.get("config", {}).get("canal_id", "@topmusiciangear")
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
@@ -257,10 +257,12 @@ def enviar_telegram(mensaje):
     try:
         resp = requests.post(url, json=payload, timeout=15)
         log(f"Telegram status: {resp.status_code}")
-        if resp.status_code != 200:
-            log(f"Telegram response: {resp.text[:200]}")
+        if resp.status_code == 200:
+            return True
+        log(f"Telegram response: {resp.text[:200]}")
     except Exception as e:
         log(f"Telegram error: {e}")
+    return False
 
 def formatear_oferta(prod, tienda_key, precio_base, precio_actual, url):
     icono = PRICE_CATEGORIES.get(prod.get("categoria", ""), "🛒")
@@ -283,6 +285,36 @@ def precio_es_realista(precio, base):
     ratio = precio / base
     return 0.4 <= ratio <= 2.0
 
+ESTADO_FILE = "estado.json"
+
+def load_estado():
+    try:
+        with open(ESTADO_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return {}
+
+def save_estado(estado):
+    try:
+        with open(ESTADO_FILE, "w", encoding="utf-8") as f:
+            json.dump(estado, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        log(f"Could not save estado.json: {e}")
+
+def ya_publicado(estado, nombre, tienda, precio_actual):
+    key = f"{nombre}|{tienda}"
+    entry = estado.get(key)
+    if not entry:
+        return False
+    last_price = entry.get("precio_actual")
+    last_time = entry.get("ts", 0)
+    # Repost the same deal only if price dropped further, or if last post is stale (>= 24h)
+    if precio_actual < last_price - 0.01:
+        return False
+    if time.time() - last_time >= 86400:
+        return False
+    return True
+
 def main():
     import os as _os
     log(f"CWD: {_os.getcwd()}")
@@ -300,6 +332,8 @@ def main():
     productos = data.get("productos", [])
     config = data.get("config", {})
     descuento_min = config.get("descuento_minimo", 5)
+
+    estado = load_estado()
 
     log(f"Loaded {len(productos)} products, min discount: {descuento_min}%")
 
@@ -326,7 +360,7 @@ def main():
             diff_pct = round((1 - precio_actual / precio_base) * 100)
             log(f"  Base: {precio_base} Current: {precio_actual} Diff: {diff_pct}%")
 
-            if diff_pct >= descuento_min:
+            if diff_pct >= descuento_min and not ya_publicado(estado, nombre, tienda_key, precio_actual):
                 cambios.append({
                     "producto": prod,
                     "tienda": tienda_key,
@@ -343,7 +377,16 @@ def main():
             c["precio_base"], c["precio_actual"], c["url"]
         )
         log(f"DEAL: {c['producto']['nombre']} @ {c['tienda']} - {c['precio_base']} -> {c['precio_actual']}")
-        enviar_telegram(msg)
+        ok = enviar_telegram(msg)
+        if ok:
+            key = f"{c['producto']['nombre']}|{c['tienda']}"
+            estado[key] = {
+                "precio_actual": c["precio_actual"],
+                "precio_base": c["precio_base"],
+                "ts": int(time.time()),
+            }
+
+    save_estado(estado)
 
     if not cambios:
         log(f"No deals found. ({datetime.now().isoformat()})")
