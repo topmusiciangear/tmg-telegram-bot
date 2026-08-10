@@ -20,13 +20,27 @@ def log(msg):
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 
+# Amazon Product Advertising API (PA-API) credentials — set as GitHub secrets
+PAAPI_KEY = os.environ.get("PAAPI_ACCESS_KEY", "")
+PAAPI_SECRET = os.environ.get("PAAPI_SECRET_KEY", "")
+PAAPI_TAG = os.environ.get("PAAPI_PARTNER_TAG", "")
+
+PAAPI_COUNTRY = {
+    "amazon.co.uk": "GB",
+    "amazon.de": "DE",
+    "amazon.com": "US",
+    "amazon.it": "IT",
+    "amazon.fr": "FR",
+    "amazon.es": "ES",
+}
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.5",
 }
 
-BLOCKED_STORES = ["amazon", "musicstore", "andertons", "pluginboutique", "gear4music"]
+BLOCKED_STORES = ["amazon", "andertons", "pluginboutique", "gear4music"]
 
 PRICE_CATEGORIES = {
     "auriculares": "🎧",
@@ -43,7 +57,6 @@ PRICE_CATEGORIES = {
 
 TIENDA_NOMBRES = {
     "amazon": "🇪🇸 Amazon",
-    "musicstore": "🇩🇪 Music Store",
     "andertons": "🇬🇧 Andertons",
     "gear4music": "🇪🇺 Gear4Music",
     "pluginboutique": "🔌 Plugin Boutique",
@@ -137,35 +150,61 @@ def extract_price_amazon(html):
         ])
     return current, was
 
-# ---------- Music Store ----------
-def extract_price_musicstore(html):
-    # Music Store embeds the main product price in JS like:
-    #   listPrices['REC0016331-000'] = 199.00;  salePrices['REC0016331-000'] = 149.00;
-    # The "salePriceTransfer"/"listPriceTransfer" divs belong to related products,
-    # so we must use the main product's own JS prices.
-    current = None
-    was = None
-    m = re.search(r"listPrices\['([^']+)'\]\s*=\s*([\d.]+)\s*;", html)
-    sale = re.search(r"salePrices\['([^']+)'\]\s*=\s*([\d.]+)\s*;", html)
-    if m:
-        current = parse_num(m.group(2))
-        # if a sale price exists for the same product, use it as current
-        if sale and sale.group(1) == m.group(1):
-            current = parse_num(sale.group(2))
-    if current is None:
-        current = find_price_in_html(html, [
-            r'<meta property="og:price:amount"[^>]*content="([\d.,]+)"',
-            r'<meta itemprop="price"[^>]*content="([\d.,]+)"',
-            r'product-sale-price-value[^>]*>\s*([^<]+)',
-        ])
-    if m:
-        # List price is the "was" reference for this product
-        was = parse_num(m.group(2))
-        if sale and sale.group(1) == m.group(1):
-            sale_v = parse_num(sale.group(2))
-            if sale_v and sale_v < was:
-                current = sale_v
-    return current, was
+def extract_price_amazon_paapi(url):
+    # Amazon Product Advertising API — official, never blocked. Returns (current, was).
+    if not (PAAPI_KEY and PAAPI_SECRET and PAAPI_TAG):
+        return None, None
+    m = re.search(r'/(?:dp|gp/product|gp/aw/d)/([A-Z0-9]{10})', url)
+    if not m:
+        return None, None
+    asin = m.group(1)
+    country = None
+    for dom, cc in PAAPI_COUNTRY.items():
+        if dom in url:
+            country = cc
+            break
+    if not country:
+        return None, None
+    try:
+        from amazon_paapi import AmazonApi
+        api = AmazonApi(PAAPI_KEY, PAAPI_SECRET, PAAPI_TAG, country=country)
+        items = api.get_items(
+            items=asin,
+            resources=[
+                "Offers.Listings.Price",
+                "Offers.Listings.SavingBasis",
+                "Offers.Summaries.LowestPrice",
+                "Offers.Summaries.ListPrice",
+                "Offers.Listings.Price.SavingBasis",
+            ],
+            condition="New",
+        )
+        if not items:
+            return None, None
+        item = items[0]
+        current = None
+        was = None
+        try:
+            offers = item.offers
+            if offers and offers.listings:
+                listing = offers.listings[0]
+                if listing.price and listing.price.amount:
+                    current = float(listing.price.amount)
+                # SavingBasis is the pre-discount price (the "was" price)
+                if listing.saving_basis and listing.saving_basis.amount and current:
+                    was = current + float(listing.saving_basis.amount)
+            if (current is None or was is None) and offers and offers.summaries:
+                s = offers.summaries
+                if (s.lowest_price and s.lowest_price.amount and
+                        s.list_price and s.list_price.amount):
+                    current = float(s.lowest_price.amount)
+                    was = float(s.list_price.amount)
+        except Exception:
+            pass
+        return current, was
+    except Exception as e:
+        log(f"  [amazon PA-API] error: {e}")
+        return None, None
 
 # ---------- Andertons ----------
 def extract_price_andertons(html):
@@ -265,6 +304,10 @@ CURRENCY_SYMBOLS = {
 }
 
 def detect_moneda(url, html=""):
+    # Plugin Boutique is a European store; its price is served in the visitor's
+    # geo-currency (EUR in EU, USD in US). Always show EUR so the user sees real prices.
+    if "pluginboutique" in url:
+        return "€"
     # Prefer the page's own currency (meta og:price:currency / JSON-LD priceCurrency)
     if html:
         m = re.search(r'<meta property="og:price:currency"[^>]*content="([A-Z]{3})"', html)
@@ -273,13 +316,6 @@ def detect_moneda(url, html=""):
         if m:
             iso = m.group(1).upper()
             return CURRENCY_SYMBOLS.get(iso, iso)
-        # Plugin Boutique: currency sits right before the price in the otpPrice block,
-        # often as \ufffd (undecodable euro) — treat that as EUR.
-        if "pluginboutique" in url:
-            m = re.search(r'otpPrice[^>]*>\s*<div class="flex">[^€£$]*?([€£$\ufffd])\s*[\d.,]+', html)
-            if m:
-                sym = m.group(1)
-                return "€" if sym == "\ufffd" else sym
         # Amazon encodes currency as a prefix like "RON953.25" or "$953.25"
         m = re.search(r'class="a-price-symbol"[^>]*>\s*([A-Z$£€]{1,4})', html)
         if not m:
@@ -299,8 +335,6 @@ def detect_moneda(url, html=""):
         return "€"
     if "amazon" in url:
         return "$"
-    if "musicstore" in url:
-        return "€"
     if "andertons" in url:
         return "£"
     if "gear4music" in url:
@@ -311,14 +345,18 @@ def extract_price(url, nombre_producto=""):
     if not url:
         return None
     try:
+        # Amazon: use the official PA-API first (never blocked). Fall back to HTML scraping.
+        if "amazon" in url:
+            current, was = extract_price_amazon_paapi(url)
+            if current:
+                moneda = detect_moneda(url)
+                return (current, was, moneda)
         html = fetch_page(url)
         if html is None:
             return None
         moneda = detect_moneda(url, html)
         if "amazon" in url:
             current, was = extract_price_amazon(html)
-        elif "musicstore" in url:
-            current, was = extract_price_musicstore(html)
         elif "andertons" in url:
             current, was = extract_price_andertons(html)
         elif "gear4music" in url:

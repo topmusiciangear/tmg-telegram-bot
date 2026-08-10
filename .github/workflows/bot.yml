@@ -18,10 +18,13 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: |
-          python -m pip install requests beautifulsoup4 lxml curl_cffi
+          python -m pip install requests beautifulsoup4 lxml curl_cffi python-amazon-paapi
       - name: Run price bot
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          PAAPI_ACCESS_KEY: ${{ secrets.PAAPI_ACCESS_KEY }}
+          PAAPI_SECRET_KEY: ${{ secrets.PAAPI_SECRET_KEY }}
+          PAAPI_PARTNER_TAG: ${{ secrets.PAAPI_PARTNER_TAG }}
         run: python bot.py
       - name: Keep-alive commit (prevents GitHub auto-disable after 60 days of inactivity)
         run: |
