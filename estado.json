@@ -608,5 +608,20 @@
     "precio_actual": 599.99,
     "precio_base": 699,
     "ts": 1786350803
+  },
+  "TDR Kotelnikov GE|pluginboutique": {
+    "precio_actual": 19.0,
+    "precio_base": 50.0,
+    "ts": 1786357447
+  },
+  "ATC SCM25A Pro Mk2|reverb": {
+    "precio_actual": 9289.62,
+    "precio_base": 11943.8,
+    "ts": 1786357451
+  },
+  "d&b audiotechnik M4|reverb": {
+    "precio_actual": 32.89,
+    "precio_base": 41.64,
+    "ts": 1786357455
   }
 }
