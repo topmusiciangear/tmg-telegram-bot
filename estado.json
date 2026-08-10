@@ -573,5 +573,40 @@
     "precio_actual": 1452.0,
     "precio_base": 1699,
     "ts": 1786343179
+  },
+  "Yamaha HS8|amazon": {
+    "precio_actual": 339.14,
+    "precio_base": 399,
+    "ts": 1786350782
+  },
+  "Fender Player Precision Bass|amazon": {
+    "precio_actual": 849.99,
+    "precio_base": 899,
+    "ts": 1786350786
+  },
+  "QSC K12.2 Powered Speaker|amazon": {
+    "precio_actual": 899.99,
+    "precio_base": 999,
+    "ts": 1786350789
+  },
+  "Roland FP-30X|amazon": {
+    "precio_actual": 649.99,
+    "precio_base": 799,
+    "ts": 1786350793
+  },
+  "Mogami Gold Studio XLR Cable|amazon": {
+    "precio_actual": 29.98,
+    "precio_base": 53,
+    "ts": 1786350796
+  },
+  "G4M Acoustics Squarewave Acoustic Treatment Panels (4-Pack)|amazon": {
+    "precio_actual": 56.99,
+    "precio_base": 79,
+    "ts": 1786350799
+  },
+  "Line 6 Helix HX Stomp|amazon": {
+    "precio_actual": 599.99,
+    "precio_base": 699,
+    "ts": 1786350803
   }
 }
