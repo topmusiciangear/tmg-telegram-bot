@@ -213,15 +213,36 @@ def extract_price_pluginboutique(html):
 
 IMPERSONATES = ["chrome124", "chrome110", "safari15_5", "safari17_0", "edge99"]
 
+def amazon_currency_cookie(url):
+    # Amazon shows prices in the visitor's local currency (geo-based). Force the
+    # store's native currency via the i18n-prefs cookie so prices are stable.
+    if "amazon.co.uk" in url:
+        return "GBP"
+    if "amazon.de" in url:
+        return "EUR"
+    if "amazon.it" in url:
+        return "EUR"
+    if "amazon.fr" in url:
+        return "EUR"
+    if "amazon.es" in url:
+        return "EUR"
+    if "amazon.com" in url:
+        return "USD"
+    return None
+
 def fetch_page(url):
     for store in BLOCKED_STORES:
         if store not in url:
             continue
         if not HAS_CURL:
             break
+        headers = dict(HEADERS)
+        amz = amazon_currency_cookie(url)
+        if amz:
+            headers["Cookie"] = f"i18n-prefs={amz}"
         for imp in IMPERSONATES:
             try:
-                resp = curl_requests.get(url, headers=HEADERS, timeout=10, impersonate=imp, allow_redirects=True)
+                resp = curl_requests.get(url, headers=headers, timeout=10, impersonate=imp, allow_redirects=True)
                 log(f"  [{store}] curl_cffi/{imp}: HTTP {resp.status_code}, {len(resp.content)} bytes")
                 if resp.status_code == 200 and len(resp.content) > 10000:
                     return resp.text
