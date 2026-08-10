@@ -26,7 +26,7 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.5",
 }
 
-BLOCKED_STORES = ["amazon", "musicstore", "andertons", "pluginboutique"]
+BLOCKED_STORES = ["amazon", "musicstore", "andertons", "pluginboutique", "gear4music"]
 
 PRICE_CATEGORIES = {
     "auriculares": "🎧",
@@ -47,6 +47,7 @@ TIENDA_NOMBRES = {
     "andertons": "🇬🇧 Andertons",
     "gear4music": "🇪🇺 Gear4Music",
     "reverb": "🇺🇸 Reverb",
+    "pluginboutique": "🔌 Plugin Boutique",
 }
 
 def load_json(path):
@@ -56,101 +57,183 @@ def load_json(path):
     except:
         return {}
 
+def parse_num(s):
+    if s is None:
+        return None
+    s = str(s).strip()
+    s = s.replace("\u00a0", " ").replace("\u20ac", "").replace("\u00a3", "").replace("$", "").replace("\ufffd", "").replace("EUR", "").replace("GBP", "").replace("USD", "").replace("RON", "").replace("&euro;", "").replace("&amp;", "")
+    s = s.replace(",", "").replace(" ", "")
+    try:
+        f = float(s)
+        return f if f > 0 else None
+    except:
+        return None
+
 def find_price_in_html(html, patterns):
     for p in patterns:
         m = re.search(p, html, re.DOTALL)
         if m:
-            val = m.group(1).replace(" ", "").replace("\u20ac", "").replace("$", "").replace("\u00a3", "")
-            try:
-                f = float(val)
-                if f > 0:
-                    return f
-            except:
-                pass
-            try:
-                f = float(val.replace(",", ""))
-                if f > 0:
-                    return f
-            except:
-                pass
+            v = parse_num(m.group(1))
+            if v:
+                return v
     return None
 
+# Generic "was / compare-at / RRP" price detection used by stores that don't
+# expose it in JSON-LD. Returns the reference price or None.
+WAS_PATTERNS = [
+    r'was-price[^>]*>\s*[£€$]?\s*([\d.,\s]+)',
+    r'wasPrice"\s*:\s*"?([\d.,]+)',
+    r'"was_price"\s*:\s*"?([\d.,]+)',
+    r'data-was-price[^>]*>\s*[£€$]?\s*([\d.,\s]+)',
+    r'Was:\s*[£€$]\s*([\d.,]+)',
+    r'RRP:\s*[£€$]\s*([\d.,]+)',
+    r'List Price[^<]{0,20}[£€$]\s*([\d.,]+)',
+    r'"originalPrice"\s*:\s*"?([\d.,]+)',
+    r'"compareAtPrice"\s*:\s*"?([\d.,]+)',
+    r'<s[^>]*>\s*[£€$]\s*([\d.,]+)\s*</s>',
+    r'<del[^>]*>\s*[£€$]\s*([\d.,]+)\s*</del>',
+    r'line-through[^>]*>\s*[£€$]?\s*([\d.,]+)',
+    r'text-decoration:line-through[^>]*>[^<]*[£€$]\s*([\d.,]+)',
+]
+
+def find_was_price(html):
+    for p in WAS_PATTERNS:
+        m = re.search(p, html, re.DOTALL)
+        if m:
+            v = parse_num(m.group(1))
+            if v:
+                return v
+    return None
+
+# ---------- Amazon ----------
 def extract_price_amazon(html):
-    patterns = [
-        r'"price":\s*"(\d+\.?\d*)"',
-        r'"displayAmount":\s*"(\d+\.?\d*)"',
-        r'corePrice_desktop.*?a-offscreen[^>]*>[^<]*[£$]\s*(\d+\.?\d*)',
-        r'data-a-size="xl"[^>]*>.*?a-offscreen[^>]*>[^<]*[£$]\s*(\d+\.?\d*)',
-        r'a-offscreen[^>]*>[^<]*[£$]\s*(\d+\.?\d*)',
-    ]
-    return find_price_in_html(html, patterns)
+    # Only look at the buybox region: cut off before "related products" start,
+    # otherwise we match prices of other products on the page.
+    cut = html.find("pd_rd_i=")
+    if cut > 0:
+        html = html[:cut]
 
+    current = None
+    was = None
+    # Main price: a-price-whole + a-price-fraction
+    m = re.search(r'class="a-price-whole">\s*([\d.,]+)\s*<span class="a-price-decimal"[^>]*>[^<]*</span>\s*</span>\s*<span class="a-price-fraction">\s*(\d+)', html)
+    if m:
+        whole = parse_num(m.group(1))
+        frac = int(m.group(2))
+        if whole:
+            current = whole + frac / 100.0
+    if current is None:
+        current = find_price_in_html(html, [
+            r'class="a-offscreen">\s*[A-Z]{0,4}\s*([\d.,]+)',
+            r'"priceAmount"\s*:\s*([\d.]+)',
+        ])
+    # Was price: struck-through RRP block in the buybox
+    m = re.search(r'data-a-strike="true"[^>]*>\s*<span class="a-offscreen">\s*[A-Z]{0,4}\s*([\d.,]+)', html)
+    if m:
+        was = parse_num(m.group(1))
+    if was is None:
+        was = find_price_in_html(html, [
+            r'a-text-price[^>]*data-a-strike="true"[^>]*>\s*<span class="a-offscreen">\s*[A-Z]{0,4}\s*([\d.,]+)',
+            r'"listPrice"\s*:\s*\{[^}]*?"amount"\s*:\s*([\d.]+)',
+        ])
+    return current, was
+
+# ---------- Music Store ----------
 def extract_price_musicstore(html):
-    patterns = [
-        r'meta\.setAttribute\(.*?content.*?[€€]\s*(\d+[.,]?\d*)',
-        r'<[^>]*class="[^"]*price[^"]*"[^>]*>[^<]*[€€]\s*(\d+[.,]?\d*)',
-        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
-        r'"price":\s*"(\d+\.?\d*)"',
-        r'our-price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
-        r'<span[^>]*price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
-        r'topbar-price[^>]*>[^<]*€\s*(\d+[.,]?\d*)',
-        r'data-price[=]["\'](\d+\.?\d*)["\']',
-    ]
-    return find_price_in_html(html, patterns)
+    # Music Store embeds the main product price in JS like:
+    #   listPrices['REC0016331-000'] = 199.00;  salePrices['REC0016331-000'] = 149.00;
+    # The "salePriceTransfer"/"listPriceTransfer" divs belong to related products,
+    # so we must use the main product's own JS prices.
+    current = None
+    was = None
+    m = re.search(r"listPrices\['([^']+)'\]\s*=\s*([\d.]+)\s*;", html)
+    sale = re.search(r"salePrices\['([^']+)'\]\s*=\s*([\d.]+)\s*;", html)
+    if m:
+        current = parse_num(m.group(2))
+        # if a sale price exists for the same product, use it as current
+        if sale and sale.group(1) == m.group(1):
+            current = parse_num(sale.group(2))
+    if current is None:
+        current = find_price_in_html(html, [
+            r'<meta property="og:price:amount"[^>]*content="([\d.,]+)"',
+            r'<meta itemprop="price"[^>]*content="([\d.,]+)"',
+            r'product-sale-price-value[^>]*>\s*([^<]+)',
+        ])
+    if m:
+        # List price is the "was" reference for this product
+        was = parse_num(m.group(2))
+        if sale and sale.group(1) == m.group(1):
+            sale_v = parse_num(sale.group(2))
+            if sale_v and sale_v < was:
+                current = sale_v
+    return current, was
 
+# ---------- Andertons ----------
 def extract_price_andertons(html):
-    patterns = [
-        r'price:amount"\s*content="(\d+\.?\d*)"',
-        r'data-testid="pdp-price"[^>]*>[^<]*£\s*(\d+[.,]?\d*)',
-        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
-        r'"price":\s*"(\d+\.?\d*)"',
-        r'<span[^>]*price[^>]*>[^<]*£\s*(\d+[.,]?\d*)',
-        r'class="[^"]*price[^"]*"[^>]*>£\s*(\d+[.,]?\d*)',
-        r'data-price[=]["\'](\d+\.?\d*)["\']',
-    ]
-    return find_price_in_html(html, patterns)
+    current = find_price_in_html(html, [
+        r'data-testid="pdp-price"[^>]*>\s*£?\s*([\d.,]+)',
+        r'"price":\s*"?([\d.,]+)"?[^}]*"priceCurrency"',
+        r'<meta itemprop="price"[^>]*content="([\d.,]+)"',
+        r'data-price[=]["\']([\d.,]+)["\']',
+    ])
+    if current is None:
+        # JSON-LD Offer price
+        m = re.search(r'"offers"\s*:\s*\{[^}]*?"price"\s*:\s*"?([\d.,]+)', html)
+        if m:
+            current = parse_num(m.group(1))
+    was = find_was_price(html)
+    return current, was
 
+# ---------- Gear4Music ----------
 def extract_price_gear4music(html):
-    patterns = [
-        r'"price":\s*"(\d+\.?\d*)"',
-        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
-        r'<span[^>]*class="[^"]*price[^"]*"[^>]*>.*?[€$£]\s*(\d+[.,]?\d*)',
-        r'class="[^"]*price[^"]*"[^>]*>.*?[€$£]\s*(\d+[.,]?\d*)',
-        r'data-price[=]["\'](\d+\.?\d*)["\']',
-    ]
-    return find_price_in_html(html, patterns)
+    current = None
+    m = re.search(r'"offers"\s*:\s*\{[^}]*?"price"\s*:\s*"?([\d.,]+)', html)
+    if m:
+        current = parse_num(m.group(1))
+    if current is None:
+        current = find_price_in_html(html, [
+            r'<meta itemprop="price"[^>]*content="([\d.,]+)"',
+            r'class="[^"]*price[^"]*"[^>]*>\s*[£€$]\s*([\d.,]+)',
+            r'data-price[=]["\']([\d.,]+)["\']',
+        ])
+    was = find_was_price(html)
+    return current, was
 
+# ---------- Plugin Boutique ----------
 def extract_price_pluginboutique(html):
-    patterns = [
-        r'<meta itemprop="price"[^>]*content="(\d+\.?\d*)"',
-        r'"price"\s*:\s*([\d.]+)',
-        r'&quot;price&quot;\s*:\s*([\d.]+)',
-        r'"price":\s*"(\d+\.?\d*)"',
-        r'class="[^"]*text-gray-800[^"]*"[^>]*>\s*[€$£]\s*(\d+[.,]?\d*)',
-        r'class="[^"]*price[^"]*"[^>]*>[^<]*[€$]\s*(\d+[.,]?\d*)',
-    ]
-    return find_price_in_html(html, patterns)
+    current = find_price_in_html(html, [
+        r'data-product-purchase-options-target="otpPrice"[^>]*>\s*<div class="flex">\s*<span class="block text-gray-800[^>]*">\s*[€$£\ufffd]?\s*([\d.,]+)',
+        r'text-gray-800 text-xl font-semibold[^>]*>\s*[€$£\ufffd]?\s*([\d.,]+)',
+        r'<meta itemprop="price"[^>]*content="([\d.,]+)"',
+        r'"price"\s*:\s*"?([\d.,]+)"?',
+    ])
+    was = find_was_price(html)
+    return current, was
 
-def extract_price_reverb(url, nombre_producto):
+# ---------- Reverb (API) ----------
+def extract_price_reverb(nombre_producto):
     query = nombre_producto.replace(" ", "+")
     api_url = f"https://reverb.com/api/listings?query={query}&condition=Brand+New&per_page=1"
     try:
         r = requests.get(api_url, headers=HEADERS, timeout=10)
         if r.status_code != 200:
-            return None
+            return None, None
         data = r.json()
         listings = data.get("listings", [])
         if not listings:
-            return None
-        price_str = listings[0].get("price", {}).get("amount", "0")
-        price = float(price_str)
-        if price > 0:
-            return price
+            return None, None
+        lst = listings[0]
+        cur = lst.get("price", {})
+        current = parse_num(cur.get("amount"))
+        was = None
+        orig = lst.get("original_price")
+        if orig and orig.get("amount"):
+            was = parse_num(orig.get("amount"))
+        return current, was
     except:
-        pass
-    return None
+        return None, None
 
-IMPERSONATES = ["chrome124", "chrome110", "safari17_0", "edge99"]
+IMPERSONATES = ["chrome124", "chrome110", "safari15_5", "safari17_0", "edge99"]
 
 def fetch_page(url):
     for store in BLOCKED_STORES:
@@ -160,7 +243,7 @@ def fetch_page(url):
             break
         for imp in IMPERSONATES:
             try:
-                resp = curl_requests.get(url, headers=HEADERS, timeout=10, impersonate=imp)
+                resp = curl_requests.get(url, headers=HEADERS, timeout=10, impersonate=imp, allow_redirects=True)
                 log(f"  [{store}] curl_cffi/{imp}: HTTP {resp.status_code}, {len(resp.content)} bytes")
                 if resp.status_code == 200 and len(resp.content) > 10000:
                     return resp.text
@@ -178,66 +261,52 @@ def fetch_page(url):
         log(f"  [requests] failed: {e}")
         return None
 
-GS_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.9",
-}
-
-def gs_search_price(nombre_producto, sitio):
-    q = f"{nombre_producto} site:{sitio}.com".replace(" ", "+")
-    url = f"https://www.google.com/search?q={q}&tbm=shop"
-    try:
-        if HAS_CURL:
-            resp = curl_requests.get(url, headers=GS_HEADERS, timeout=8, impersonate="chrome124")
-        else:
-            resp = requests.get(url, headers=GS_HEADERS, timeout=8)
-        log(f"  [google] HTTP {resp.status_code}, {len(resp.content)} bytes")
-        if resp.status_code != 200 or len(resp.content) < 5000:
-            return None
-        patterns = [
-            r'class="a-row"[^>]*>\s*[£$€]\s*(\d+[.,]?\d*)',
-            r'[£$€]\s*(\d+[.,]?\d*)[^<]*</span></div></div>',
-            r'<span[^>]*class="[^"]*price[^"]*"[^>]*>[^<]*[£$€]\s*(\d+[.,]?\d*)',
-            r'[£$€]\s*(\d+[.,]?\d*)',
-        ]
-        for pat in patterns:
-            m = re.search(pat, resp.text, re.DOTALL)
-            if m:
-                val = m.group(1).replace(" ", "").replace(",", "")
-                try:
-                    f = float(val)
-                    if f > 0:
-                        return f
-                except:
-                    continue
-    except:
-        pass
-    return None
+def detect_moneda(url):
+    if "amazon.co.uk" in url:
+        return "£"
+    if "amazon.de" in url:
+        return "€"
+    if "amazon" in url:
+        return "$"
+    if "musicstore" in url:
+        return "€"
+    if "andertons" in url:
+        return "£"
+    if "gear4music" in url:
+        return "£"
+    if "reverb" in url:
+        return "$"
+    if "pluginboutique" in url:
+        return "$"
+    return "$"
 
 def extract_price(url, nombre_producto=""):
     if not url:
         return None
     try:
         if "reverb" in url:
-            return extract_price_reverb(url, nombre_producto)
+            current, was = extract_price_reverb(nombre_producto)
+            moneda = detect_moneda(url)
+            return (current, was, moneda) if current else None
         html = fetch_page(url)
         if html is None:
-            if "musicstore" in url and nombre_producto:
-                log(f"  Trying Google Shopping fallback...")
-                return gs_search_price(nombre_producto, "musicstore")
             return None
+        moneda = detect_moneda(url)
         if "amazon" in url:
-            return extract_price_amazon(html)
+            current, was = extract_price_amazon(html)
         elif "musicstore" in url:
-            return extract_price_musicstore(html)
+            current, was = extract_price_musicstore(html)
         elif "andertons" in url:
-            return extract_price_andertons(html)
+            current, was = extract_price_andertons(html)
         elif "gear4music" in url:
-            return extract_price_gear4music(html)
+            current, was = extract_price_gear4music(html)
         elif "pluginboutique" in url:
-            return extract_price_pluginboutique(html)
-        return None
+            current, was = extract_price_pluginboutique(html)
+        else:
+            return None
+        if not current:
+            return None
+        return (current, was, moneda)
     except:
         return None
 
@@ -264,12 +333,11 @@ def enviar_telegram(mensaje):
         log(f"Telegram error: {e}")
     return False
 
-def formatear_oferta(prod, tienda_key, precio_base, precio_actual, url):
+def formatear_oferta(prod, tienda_key, precio_base, precio_actual, url, moneda="£"):
     icono = PRICE_CATEGORIES.get(prod.get("categoria", ""), "🛒")
     nombre = prod["nombre"]
     tienda_nombre = TIENDA_NOMBRES.get(tienda_key, tienda_key)
     descuento = round((1 - precio_actual / precio_base) * 100)
-    moneda = prod.get("moneda", "$")
 
     msg = f"{icono} <b>{nombre}</b>\n"
     msg += f"📍 {tienda_nombre}\n"
@@ -279,11 +347,14 @@ def formatear_oferta(prod, tienda_key, precio_base, precio_actual, url):
     msg += f"🔍 topmusiciangear.com"
     return msg
 
-def precio_es_realista(precio, base):
-    if precio <= 0:
+def precio_es_plausible(current, was):
+    if not current or current <= 0 or current > 100000:
         return False
-    ratio = precio / base
-    return 0.4 <= ratio <= 2.0
+    if not was or was <= 0:
+        return False
+    ratio = current / was
+    # A real sale: current must be lower than was but not absurdly so
+    return 0.05 < ratio < 0.99
 
 ESTADO_FILE = "estado.json"
 
@@ -308,7 +379,6 @@ def ya_publicado(estado, nombre, tienda, precio_actual):
         return False
     last_price = entry.get("precio_actual")
     last_time = entry.get("ts", 0)
-    # Repost the same deal only if price dropped further, or if last post is stale (>= 24h)
     if precio_actual < last_price - 0.01:
         return False
     if time.time() - last_time >= 86400:
@@ -341,32 +411,37 @@ def main():
 
     for prod in productos:
         nombre = prod["nombre"]
-        precio_base = prod.get("precio_base", 0)
         tiendas = prod.get("tiendas", {})
 
         for tienda_key, url in tiendas.items():
-            if not url or precio_base <= 0:
+            if not url:
                 continue
             log(f"Checking {nombre} @ {tienda_key}...")
-            precio_actual = extract_price(url, nombre)
-            if precio_actual is None:
+            info = extract_price(url, nombre)
+            if info is None:
                 log(f"  Could not get price")
                 continue
+            precio_actual, precio_was, moneda = info
 
-            if not precio_es_realista(precio_actual, precio_base):
-                log(f"  Unrealistic price: {precio_actual} (base: {precio_base}) - skipped")
+            if not precio_was or precio_was <= 0:
+                log(f"  No sale/was price on page (not on sale) - skipped")
                 continue
 
-            diff_pct = round((1 - precio_actual / precio_base) * 100)
-            log(f"  Base: {precio_base} Current: {precio_actual} Diff: {diff_pct}%")
+            if not precio_es_plausible(precio_actual, precio_was):
+                log(f"  Not a plausible discount (current: {precio_actual}, was: {precio_was}) - skipped")
+                continue
+
+            diff_pct = round((1 - precio_actual / precio_was) * 100)
+            log(f"  Was: {precio_was} Current: {precio_actual} Diff: {diff_pct}%")
 
             if diff_pct >= descuento_min and not ya_publicado(estado, nombre, tienda_key, precio_actual):
                 cambios.append({
                     "producto": prod,
                     "tienda": tienda_key,
-                    "precio_base": precio_base,
+                    "precio_base": precio_was,
                     "precio_actual": precio_actual,
                     "url": url,
+                    "moneda": moneda,
                 })
 
     for i, c in enumerate(cambios):
@@ -374,7 +449,7 @@ def main():
             time.sleep(3)
         msg = formatear_oferta(
             c["producto"], c["tienda"],
-            c["precio_base"], c["precio_actual"], c["url"]
+            c["precio_base"], c["precio_actual"], c["url"], c["moneda"]
         )
         log(f"DEAL: {c['producto']['nombre']} @ {c['tienda']} - {c['precio_base']} -> {c['precio_actual']}")
         ok = enviar_telegram(msg)
