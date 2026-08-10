@@ -457,7 +457,7 @@ def main():
             diff_pct = round((1 - precio_actual / precio_was) * 100)
             log(f"  Was: {precio_was} Current: {precio_actual} Diff: {diff_pct}%")
 
-            if diff_pct >= descuento_min and not ya_publicado(estado, nombre, tienda_key, precio_actual):
+            if diff_pct >= descuento_min:
                 cambios.append({
                     "producto": prod,
                     "tienda": tienda_key,
