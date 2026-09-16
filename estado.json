@@ -72,7 +72,7 @@
   "SSL 2+ MKII|andertons": {
     "precio_actual": 227.0,
     "precio_base": 277.99,
-    "ts": 1789530898
+    "ts": 1789576246
   },
   "Yamaha HS8|andertons": {
     "precio_actual": 254.0,
@@ -137,7 +137,7 @@
   "Universal Audio Volt 2|andertons": {
     "precio_actual": 142.0,
     "precio_base": 149.0,
-    "ts": 1789530901
+    "ts": 1789576250
   },
   "Beyerdynamic DT 990 Pro|andertons": {
     "precio_actual": 149.0,
@@ -167,7 +167,7 @@
   "Fender CD-60S Acoustic|andertons": {
     "precio_actual": 179.0,
     "precio_base": 189.0,
-    "ts": 1789530908
+    "ts": 1789576257
   },
   "Marshall DSL40CR|andertons": {
     "precio_actual": 599.0,
@@ -232,7 +232,7 @@
   "EV ZLX-12P Powered Speaker|andertons": {
     "precio_actual": 436.0,
     "precio_base": 459.0,
-    "ts": 1789530911
+    "ts": 1789576260
   },
   "QSC K12.2 Powered Speaker|andertons": {
     "precio_actual": 845.0,
@@ -247,7 +247,7 @@
   "Ableton Live 12 Suite|andertons": {
     "precio_actual": 529.0,
     "precio_base": 599.0,
-    "ts": 1789530915
+    "ts": 1789576264
   },
   "Ableton Live 12 Suite|reverb": {
     "precio_actual": 649.0,
@@ -272,7 +272,7 @@
   "JBL 305P MkII|andertons": {
     "precio_actual": 112.0,
     "precio_base": 129.0,
-    "ts": 1789530918
+    "ts": 1789576268
   },
   "Kali Audio LP-6 V2|andertons": {
     "precio_actual": 169.0,
@@ -312,17 +312,17 @@
   "Elektron Model:Cycles|andertons": {
     "precio_actual": 249.0,
     "precio_base": 272.0,
-    "ts": 1789530925
+    "ts": 1789576274
   },
   "Behringer X Air XR18|andertons": {
     "precio_actual": 315.0,
     "precio_base": 540.0,
-    "ts": 1789530928
+    "ts": 1789576278
   },
   "Mackie ProFX12v3|andertons": {
     "precio_actual": 281.0,
     "precio_base": 299.0,
-    "ts": 1789530932
+    "ts": 1789576281
   },
   "Allen & Heath CQ-18T|andertons": {
     "precio_actual": 799.0,
@@ -332,12 +332,12 @@
   "Midas M32R LIVE|andertons": {
     "precio_actual": 1452.0,
     "precio_base": 1699.0,
-    "ts": 1789530935
+    "ts": 1789576285
   },
   "Behringer Xenyx X1222USB|andertons": {
     "precio_actual": 169.0,
     "precio_base": 183.0,
-    "ts": 1789530938
+    "ts": 1789576288
   },
   "Alto Professional TS412|andertons": {
     "precio_actual": 295.0,
@@ -377,7 +377,7 @@
   "Sequential OB-6 Keyboard|andertons": {
     "precio_actual": 2999.0,
     "precio_base": 3279.0,
-    "ts": 1789530945
+    "ts": 1789576295
   },
   "Sequential Prophet-10|andertons": {
     "precio_actual": 3899.0,
@@ -390,19 +390,19 @@
     "ts": 1786343046
   },
   "RME Fireface UFX III|andertons": {
-    "precio_actual": 2035.0,
+    "precio_actual": 1999.0,
     "precio_base": 2434.0,
-    "ts": 1789530948
+    "ts": 1789576299
   },
   "Fender American Ultra II Stratocaster|andertons": {
     "precio_actual": 1999.0,
     "precio_base": 2249.0,
-    "ts": 1789530952
+    "ts": 1789576302
   },
   "Fender American Ultra II Precision Bass|andertons": {
     "precio_actual": 2049.0,
     "precio_base": 2299.0,
-    "ts": 1789530955
+    "ts": 1789576306
   },
   "Lewitt LCT1040 Ultimate Microphone System|andertons": {
     "precio_actual": 2566.0,
@@ -452,7 +452,7 @@
   "Line 6 Helix HX Stomp|andertons": {
     "precio_actual": 399.0,
     "precio_base": 549.0,
-    "ts": 1789530958
+    "ts": 1789576309
   },
   "Boss GT-1|andertons": {
     "precio_actual": 179.0,
@@ -517,22 +517,22 @@
   "DPA 4099 CORE|andertons": {
     "precio_actual": 405.0,
     "precio_base": 450.0,
-    "ts": 1789530962
+    "ts": 1789576313
   },
   "RCF NX 912-SMA|andertons": {
     "precio_actual": 899.0,
     "precio_base": 1016.0,
-    "ts": 1789530965
+    "ts": 1789576316
   },
   "Electro-Voice PXM-12MP|andertons": {
     "precio_actual": 787.0,
     "precio_base": 829.0,
-    "ts": 1789530968
+    "ts": 1789576320
   },
   "LD Systems MON 12 A G3|andertons": {
     "precio_actual": 463.0,
     "precio_base": 488.0,
-    "ts": 1789530972
+    "ts": 1789576323
   },
   "Yamaha DHR12M|andertons": {
     "precio_actual": 555.0,
@@ -542,7 +542,7 @@
   "RCF ART 710-A MK5|andertons": {
     "precio_actual": 429.0,
     "precio_base": 452.0,
-    "ts": 1789530975
+    "ts": 1789576327
   },
   "AKG D5|amazon": {
     "precio_actual": 131.6,
@@ -562,7 +562,7 @@
   "Electro-Voice ELX200-18SP|andertons": {
     "precio_actual": 803.0,
     "precio_base": 892.0,
-    "ts": 1789530979
+    "ts": 1789576330
   },
   "JBL PRX918XLF|andertons": {
     "precio_actual": 1149.0,
@@ -572,7 +572,7 @@
   "Yamaha DXS18XLF|andertons": {
     "precio_actual": 1452.0,
     "precio_base": 1549.0,
-    "ts": 1789530982
+    "ts": 1789576334
   },
   "Yamaha HS8|amazon": {
     "precio_actual": 339.14,
@@ -627,7 +627,7 @@
   "Fender Champion II 25|andertons": {
     "precio_actual": 129.0,
     "precio_base": 139.0,
-    "ts": 1789530921
+    "ts": 1789576271
   },
   "Fender American Professional II Telecaster|andertons": {
     "precio_actual": 1599.0,
@@ -637,7 +637,7 @@
   "Fender American Professional II Jazz Bass|andertons": {
     "precio_actual": 1599.0,
     "precio_base": 1999.0,
-    "ts": 1789530942
+    "ts": 1789576292
   },
   "Eventide Blackhole|pluginboutique": {
     "precio_actual": 49.0,
@@ -647,6 +647,6 @@
   "UA 1176 Classic Limiter Collection|pluginboutique": {
     "precio_actual": 29.0,
     "precio_base": 199.0,
-    "ts": 1789530905
+    "ts": 1789576253
   }
 }
