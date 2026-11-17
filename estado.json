@@ -57,7 +57,7 @@
   "Focusrite Scarlett 2i2 4th Gen|andertons": {
     "precio_actual": 153.0,
     "precio_base": 189.0,
-    "ts": 1794865912
+    "ts": 1794899240
   },
   "Universal Audio Apollo Twin X|andertons": {
     "precio_actual": 849.0,
@@ -72,7 +72,7 @@
   "SSL 2+ MKII|andertons": {
     "precio_actual": 227.0,
     "precio_base": 277.99,
-    "ts": 1794865915
+    "ts": 1794899244
   },
   "Yamaha HS8|andertons": {
     "precio_actual": 254.0,
@@ -137,7 +137,7 @@
   "Universal Audio Volt 2|andertons": {
     "precio_actual": 142.0,
     "precio_base": 149.0,
-    "ts": 1794865918
+    "ts": 1794899251
   },
   "Beyerdynamic DT 990 Pro|andertons": {
     "precio_actual": 149.0,
@@ -232,7 +232,7 @@
   "EV ZLX-12P Powered Speaker|andertons": {
     "precio_actual": 436.0,
     "precio_base": 459.0,
-    "ts": 1794865939
+    "ts": 1794899272
   },
   "QSC K12.2 Powered Speaker|andertons": {
     "precio_actual": 845.0,
@@ -247,7 +247,7 @@
   "Ableton Live 12 Suite|andertons": {
     "precio_actual": 423.0,
     "precio_base": 529.0,
-    "ts": 1794865942
+    "ts": 1794899275
   },
   "Ableton Live 12 Suite|reverb": {
     "precio_actual": 649.0,
@@ -282,7 +282,7 @@
   "Novation Circuit Tracks|andertons": {
     "precio_actual": 254.0,
     "precio_base": 319.0,
-    "ts": 1794865949
+    "ts": 1794899282
   },
   "Markbass Mini CMD 121P V|andertons": {
     "precio_actual": 859.0,
@@ -317,12 +317,12 @@
   "Behringer X Air XR18|andertons": {
     "precio_actual": 309.0,
     "precio_base": 540.0,
-    "ts": 1794865952
+    "ts": 1794899286
   },
   "Mackie ProFX12v3|andertons": {
     "precio_actual": 273.0,
     "precio_base": 299.0,
-    "ts": 1794865955
+    "ts": 1794899289
   },
   "Allen & Heath CQ-18T|andertons": {
     "precio_actual": 799.0,
@@ -337,7 +337,7 @@
   "Behringer Xenyx X1222USB|andertons": {
     "precio_actual": 169.0,
     "precio_base": 183.0,
-    "ts": 1794865959
+    "ts": 1794899293
   },
   "Alto Professional TS412|andertons": {
     "precio_actual": 295.0,
@@ -377,7 +377,7 @@
   "Sequential OB-6 Keyboard|andertons": {
     "precio_actual": 2999.0,
     "precio_base": 3279.0,
-    "ts": 1794865966
+    "ts": 1794899300
   },
   "Sequential Prophet-10|andertons": {
     "precio_actual": 3899.0,
@@ -392,7 +392,7 @@
   "RME Fireface UFX III|andertons": {
     "precio_actual": 1999.0,
     "precio_base": 2434.0,
-    "ts": 1794865969
+    "ts": 1794899304
   },
   "Fender American Ultra II Stratocaster|andertons": {
     "precio_actual": 1999.0,
@@ -402,7 +402,7 @@
   "Fender American Ultra II Precision Bass|andertons": {
     "precio_actual": 2049.0,
     "precio_base": 2299.0,
-    "ts": 1794865972
+    "ts": 1794899307
   },
   "Lewitt LCT1040 Ultimate Microphone System|andertons": {
     "precio_actual": 2566.0,
@@ -412,12 +412,12 @@
   "Yamaha HS8S|andertons": {
     "precio_actual": 429.0,
     "precio_base": 461.0,
-    "ts": 1794865976
+    "ts": 1794899311
   },
   "Adam T10S|andertons": {
     "precio_actual": 288.0,
     "precio_base": 349.0,
-    "ts": 1794865979
+    "ts": 1794899314
   },
   "Shure MV7+|andertons": {
     "precio_actual": 272.0,
@@ -452,7 +452,7 @@
   "Line 6 Helix HX Stomp|andertons": {
     "precio_actual": 419.0,
     "precio_base": 519.0,
-    "ts": 1794865982
+    "ts": 1794899318
   },
   "Boss GT-1|andertons": {
     "precio_actual": 179.0,
@@ -485,14 +485,14 @@
     "ts": 1786343115
   },
   "Austrian Audio OC818|andertons": {
-    "precio_actual": 879.0,
-    "precio_base": 1399,
-    "ts": 1786343118
+    "precio_actual": 791.0,
+    "precio_base": 879.0,
+    "ts": 1794899321
   },
   "Sennheiser e906|andertons": {
     "precio_actual": 142.0,
     "precio_base": 151.0,
-    "ts": 1794865986
+    "ts": 1794899325
   },
   "Beyerdynamic M 201|andertons": {
     "precio_actual": 372.0,
@@ -512,27 +512,27 @@
   "Sennheiser e604 3-Pack|andertons": {
     "precio_actual": 279.0,
     "precio_base": 295.0,
-    "ts": 1794865989
+    "ts": 1794899329
   },
   "DPA 4099 CORE|andertons": {
     "precio_actual": 405.0,
     "precio_base": 450.0,
-    "ts": 1794865992
+    "ts": 1794899332
   },
   "RCF NX 912-SMA|andertons": {
     "precio_actual": 899.0,
     "precio_base": 1016.0,
-    "ts": 1794865996
+    "ts": 1794899336
   },
   "Electro-Voice PXM-12MP|andertons": {
     "precio_actual": 787.0,
     "precio_base": 829.0,
-    "ts": 1794865999
+    "ts": 1794899339
   },
   "LD Systems MON 12 A G3|andertons": {
     "precio_actual": 450.0,
     "precio_base": 488.0,
-    "ts": 1794866002
+    "ts": 1794899343
   },
   "Yamaha DHR12M|andertons": {
     "precio_actual": 555.0,
@@ -542,7 +542,7 @@
   "RCF ART 710-A MK5|andertons": {
     "precio_actual": 429.0,
     "precio_base": 452.0,
-    "ts": 1794866006
+    "ts": 1794899346
   },
   "AKG D5|amazon": {
     "precio_actual": 131.6,
@@ -562,7 +562,7 @@
   "Electro-Voice ELX200-18SP|andertons": {
     "precio_actual": 803.0,
     "precio_base": 892.0,
-    "ts": 1794866009
+    "ts": 1794899350
   },
   "JBL PRX918XLF|andertons": {
     "precio_actual": 1149.0,
@@ -572,7 +572,7 @@
   "Yamaha DXS18XLF|andertons": {
     "precio_actual": 1449.0,
     "precio_base": 1549.0,
-    "ts": 1794866012
+    "ts": 1794899354
   },
   "Yamaha HS8|amazon": {
     "precio_actual": 339.14,
@@ -612,7 +612,7 @@
   "TDR Kotelnikov GE|pluginboutique": {
     "precio_actual": 19.0,
     "precio_base": 50.0,
-    "ts": 1794865925
+    "ts": 1794899258
   },
   "ATC SCM25A Pro Mk2|reverb": {
     "precio_actual": 9289.62,
@@ -642,41 +642,46 @@
   "Eventide Blackhole|pluginboutique": {
     "precio_actual": 49.0,
     "precio_base": 99.0,
-    "ts": 1794866016
+    "ts": 1794899357
   },
   "UA 1176 Classic Limiter Collection|pluginboutique": {
     "precio_actual": 49.0,
     "precio_base": 199.0,
-    "ts": 1794865922
+    "ts": 1794899254
   },
   "Sterling by Music Man StingRay Ray4|andertons": {
     "precio_actual": 339.0,
     "precio_base": 419.0,
-    "ts": 1794865962
+    "ts": 1794899297
   },
   "FabFilter Pro-C 3|pluginboutique": {
     "precio_actual": 149.0,
     "precio_base": 199.0,
-    "ts": 1794865932
+    "ts": 1794899265
   },
   "Vox AC30|andertons": {
     "precio_actual": 1499.0,
     "precio_base": 1629.0,
-    "ts": 1794865935
+    "ts": 1794899268
   },
   "Reason Studios Reason 14|andertons": {
     "precio_actual": 149.0,
     "precio_base": 299.0,
-    "ts": 1794865945
+    "ts": 1794899279
   },
   "Wavesfactory Spectre|pluginboutique": {
     "precio_actual": 49.0,
     "precio_base": 99.0,
-    "ts": 1794866019
+    "ts": 1794899361
   },
   "FabFilter Pro-Q 4|pluginboutique": {
     "precio_actual": 149.0,
     "precio_base": 199.0,
-    "ts": 1794865929
+    "ts": 1794899261
+  },
+  "Electro-Voice RE20|andertons": {
+    "precio_actual": 494.0,
+    "precio_base": 549.0,
+    "ts": 1794899247
   }
 }
